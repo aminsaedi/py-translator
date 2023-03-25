@@ -38,6 +38,9 @@ def translate_enum_block(enums_list, target_lang):
     for enum_block in enums_list:
         # Extract the enum name and values
         enum_lines = enum_block.strip().split('\n')
+        raw_enum_values = [line.strip()
+                       for line in enum_lines[1:-1] if line.strip()]
+
         enum_values = [line.strip().replace('_', ' ')
                        for line in enum_lines[1:-1] if line.strip()]
 
@@ -48,12 +51,11 @@ def translate_enum_block(enums_list, target_lang):
             # use normalizer to capitalize the first letter of each word
             translations = [normalizer(value) for value in enum_values]
 
-        print(translations)
-
-        for value, translation in zip(enum_values, translations):
+        for value, translation in zip(raw_enum_values, translations):
             if value not in translated_enums:
                 translated_enums[value] = translation
 
+    print(translated_enums)
     return translated_enums
 
 
@@ -96,8 +98,13 @@ result = translate_enum_block(enums_list, target_lang)
 
 old_data = read_from_file(target_lang)
 
+with open('./input_files/legacy_messages.json') as f:
+        legacy_messages = json.load(f)
+legacy_messages = legacy_messages['fullEnums']
+
+
 # merge the old and new data
-result = {**old_data, **result}
+result = {**old_data, **legacy_messages, **result}
 
 if not os.path.exists('./dist/enums'):
     os.makedirs('./dist/enums')

@@ -1,6 +1,16 @@
 import json
 from deep_translator import GoogleTranslator
 import re
+import os
+
+
+def get_source_lang(full_lang_code):
+    """
+    Get the source language from the full language code
+    :param full_lang_code: full language code
+    :return: source language
+    """
+    return full_lang_code.split('-')[0]
 
 
 def normalizer(text):
@@ -28,13 +38,12 @@ def translate_enum_block(enums_list, target_lang):
     for enum_block in enums_list:
         # Extract the enum name and values
         enum_lines = enum_block.strip().split('\n')
-        enum_name = enum_lines[0].split(' ')[1]
         enum_values = [line.strip().replace('_', ' ')
                        for line in enum_lines[1:-1] if line.strip()]
 
-        if target_lang != 'en':
+        if target_lang != 'en-US':
             translations = GoogleTranslator(
-                source="en", target=target_lang).translate_batch(enum_values)
+                source="en", target=get_source_lang(target_lang)).translate_batch(enum_values)
         else:
             # use normalizer to capitalize the first letter of each word
             translations = [normalizer(value) for value in enum_values]
@@ -48,19 +57,49 @@ def translate_enum_block(enums_list, target_lang):
     return translated_enums
 
 
-# Read the input file containing the enums
-with open('./input_files/enums.txt', 'r') as file:
-    enums_str = file.read()
+def read_raw_file():
+    with open('./input_files/enums.txt', 'r') as file:
+        enums_str = file.read()
 
-# Split the input file into separate enum blocks
-enums_list = re.findall(r'enum\s+\w+\s*{.*?}', enums_str, re.DOTALL)
+        # Split the input file into separate enum blocks
+        enums_list = re.findall(r'enum\s+\w+\s*{.*?}', enums_str, re.DOTALL)
 
+        return enums_list
+
+
+def read_from_file(file_name):
+    """
+    Read the data from a json file
+    :param file_name: name of the file to read from
+    :return: dictionary of key value pairs
+    """
+    old_data = {}
+    try:
+        with open(f'./dist/enums/{file_name}.json') as f:
+            old_data = json.load(f)
+    except FileNotFoundError:
+        print("File not found", f'./dist/{file_name}.json')
+        pass  # create english file
+
+    return old_data
+
+
+enums_list = read_raw_file()
+
+print(enums_list[0])
 
 print("Enter the target language code (e.g. 'fr' for French):")
 target_lang = input()
 
 result = translate_enum_block(enums_list, target_lang)
 
-# Output the translated enums as a JSON file
+
+old_data = read_from_file(target_lang)
+
+# merge the old and new data
+result = {**old_data, **result}
+
+if not os.path.exists('./dist/enums'):
+    os.makedirs('./dist/enums')
 with open(f'./dist/enums/{target_lang}.json', 'w') as file:
     json.dump(result, file, indent=2, ensure_ascii=False)

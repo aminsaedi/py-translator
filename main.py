@@ -67,6 +67,11 @@ def write_to_file(data, file_name):
     :param target_lang: target language to translate to
     :return: None
     """
+
+    # create dist folder if it does not exist
+    if not os.path.exists('./dist'):
+        os.makedirs('./dist')
+
     # create english file
     with open('./dist/' + file_name + '.json', 'w') as outfile:
         json.dump(data, outfile, ensure_ascii=False, indent=4)

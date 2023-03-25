@@ -46,13 +46,25 @@ def fixer(matchobj):
     return f"formatMessage({{ defaultMessage: '{word}', description: 'auto generated {description}'}})"
 
 
-text_input = str(sys.stdin.read())
 
 
-result = re.sub('messages\.(\w|\.)+\.\w+', fixer, text_input)
-# print(result, file=sys.stdout)
 
-# remove all unprintable characters
-result = re.sub(r'[^\x20-\x7e]', r'', result)
 
-sys.stdout.write(result)
+def migrator(text_input):
+    result = re.sub('messages\.(\w|\.)+\.\w+', fixer, text_input)
+    # print(result, file=sys.stdout)
+
+    # remove all unprintable characters
+    # result = re.sub(r'[^\x20-\x7e]', r'', result)
+
+    return result
+
+if __name__ == "__main__":
+    text_input = str(sys.stdin.read())
+    result = re.sub('messages\.(\w|\.)+\.\w+', fixer, text_input)
+
+    # remove all unprintable characters
+    result = re.sub(r'[^\x20-\x7e]', r'', result)
+
+    sys.stdout.write(result)
+

@@ -24,3 +24,6 @@ def index():
         <input type=submit value=Upload>    
     </form>
     """
+
+if __name__ == "__main__":
+    app.run()

@@ -1,0 +1,3563 @@
+{
+  "++RIIs": {
+    "defaultMessage": "Review Location",
+    "description": "Location Input Label"
+  },
+  "+/Ezbk": {
+    "defaultMessage": "Duration (minutes)",
+    "description": "Duration Input Label"
+  },
+  "+1STO5": {
+    "defaultMessage": "Allow supervisor to overdraw time bank",
+    "description": "Allow supervisor to overdraw time bank"
+  },
+  "+1eWS0": {
+    "defaultMessage": "Federal",
+    "description": "Canada Federal Authority"
+  },
+  "+7VQMw": {
+    "defaultMessage": "Name pronunciation",
+    "description": "pronunciation label"
+  },
+  "+CgsmC": {
+    "defaultMessage": "Active",
+    "description": "Employee list component active filter"
+  },
+  "+HBqCW": {
+    "defaultMessage": "Organizer",
+    "description": "Organizer Input Label"
+  },
+  "+IEbSx": {
+    "defaultMessage": "Vendor",
+    "description": "asset Vendor"
+  },
+  "+LCseS": {
+    "defaultMessage": "Password Recovery",
+    "description": "Password Recovery"
+  },
+  "+Oj5xa": {
+    "defaultMessage": "Employee Code",
+    "description": "Employee list component employeeCode columns"
+  },
+  "+UJ/lW": {
+    "defaultMessage": "Unscheduled rounding rule to the nearest minute",
+    "description": "Unattendance rounding rule tooltip"
+  },
+  "+Uoyov": {
+    "defaultMessage": "Refer",
+    "description": "Refer Button"
+  },
+  "+WAxoG": {
+    "defaultMessage": "Properties",
+    "description": "Position Properties tab"
+  },
+  "+af9li": {
+    "defaultMessage": "Primary",
+    "description": "Bank account primary"
+  },
+  "+cbRbF": {
+    "defaultMessage": "Issue asset to an employee",
+    "description": "Assign asset button"
+  },
+  "+fYwFL": {
+    "defaultMessage": "Name",
+    "description": "Name"
+  },
+  "+itf/D": {
+    "defaultMessage": "Save",
+    "description": "Save button"
+  },
+  "+nnv0b": {
+    "defaultMessage": "Contact language",
+    "description": "Contact language for license and permits"
+  },
+  "+tXN2R": {
+    "defaultMessage": "Keep blank to make permanently active",
+    "description": "Keep blank to make permanently active"
+  },
+  "/92kRi": {
+    "defaultMessage": "Evaluator",
+    "description": "Evaluator Tab Title"
+  },
+  "/CMG4U": {
+    "defaultMessage": "Contact info",
+    "description": "Asset contact info tab"
+  },
+  "/DeWfB": {
+    "defaultMessage": "Worked at least"
+  },
+  "/LJ3FL": {
+    "defaultMessage": "Flex time rounding rule to the nearest minute",
+    "description": "workPlan unAttendance tooltip"
+  },
+  "/OEMDu": {
+    "defaultMessage": "Add tracking segment",
+    "description": "Tracking segment header"
+  },
+  "/QCnrk": {
+    "defaultMessage": "Or sign in with",
+    "description": "Login form SSO button title"
+  },
+  "/ZA6bC": {
+    "defaultMessage": "Save",
+    "description": "Saving applicant information"
+  },
+  "/ZFj6+": {
+    "defaultMessage": "Documents",
+    "description": "asset assignment Documents"
+  },
+  "/bhJub": {
+    "defaultMessage": "Contact email",
+    "description": "Contact email for license and permits"
+  },
+  "/c3uDz": {
+    "defaultMessage": "Add tracking item",
+    "description": "add traking item header"
+  },
+  "/gg6WH": {
+    "defaultMessage": "Assign new HR manager",
+    "description": "assign new HR manager page title"
+  },
+  "/w0Pvt": {
+    "defaultMessage": "Grade",
+    "description": "Position assign form grade label"
+  },
+  "/yyz3o": {
+    "defaultMessage": "Email",
+    "description": "Email Column"
+  },
+  "09Faln": {
+    "defaultMessage": "Save",
+    "description": "group form save button"
+  },
+  "09q75W": {
+    "defaultMessage": "Phone Number",
+    "description": "Placeholder for Phone Number"
+  },
+  "0B5C5U": {
+    "defaultMessage": "Description",
+    "description": "Button Description Text"
+  },
+  "0CvRZW": {
+    "defaultMessage": "Save",
+    "description": "Save"
+  },
+  "0D9d9j": {
+    "defaultMessage": "Block supervisor punch edits",
+    "description": "policy > expense permissions: label for isBlockSupervisorPunchEdit"
+  },
+  "0H4Xer": {
+    "defaultMessage": "Primary Supervisor",
+    "description": "Primary Supervisor badge"
+  },
+  "0JWzl+": {
+    "defaultMessage": "Audit Trail",
+    "description": "Audit Trail"
+  },
+  "0RmoYb": {
+    "defaultMessage": "Probation days",
+    "description": "benefit > properties: label for probationDays"
+  },
+  "0X+m74": {
+    "defaultMessage": "Total records: {total}",
+    "description": "employee list Total records"
+  },
+  "0aMFff": {
+    "defaultMessage": "Block access to payslips prior to pay date",
+    "description": "policy > expense permissions: label for isBlockPaySlipBeforePayDate"
+  },
+  "0c06jX": {
+    "defaultMessage": "References",
+    "description": "References"
+  },
+  "0cofrX": {
+    "defaultMessage": "Swipe & Go",
+    "description": "policies > punches: label for isSwipeGo"
+  },
+  "0hrnWf": {
+    "defaultMessage": "Create",
+    "description": "groups page header"
+  },
+  "0jfrpi": {
+    "defaultMessage": "One approval level",
+    "description": "One approval level"
+  },
+  "0ldt0q": {
+    "defaultMessage": "Tracking segments",
+    "description": "Tracking segments page header"
+  },
+  "0qAS5F": {
+    "defaultMessage": "No approval required",
+    "description": "No approval required"
+  },
+  "0qfJ55": {
+    "defaultMessage": "Sunday - Saturday"
+  },
+  "0wOWO+": {
+    "defaultMessage": "No spaces or ‘-‘s, for example: 108166950RP0001"
+  },
+  "0x584p": {
+    "defaultMessage": "Pay item",
+    "description": "time blocks Pay item"
+  },
+  "0yBm/F": {
+    "defaultMessage": "Custom groups",
+    "description": "Custom groups button text"
+  },
+  "1F5uir": {
+    "defaultMessage": "Scores",
+    "description": "Scores tab title"
+  },
+  "1FHJHj": {
+    "defaultMessage": "Account number",
+    "description": "Bank Account number"
+  },
+  "1UaP/6": {
+    "defaultMessage": "Overtime from",
+    "description": "policies > overtime rules: label for weeklyOvertimeFrom"
+  },
+  "1VY5HS": {
+    "defaultMessage": "Recovery Phone",
+    "description": "Recovery Phones"
+  },
+  "1WUZ8b": {
+    "defaultMessage": "Two approval levels",
+    "description": "Two approval levels"
+  },
+  "1aCKTa": {
+    "defaultMessage": "Privacy Policy",
+    "description": "Privacy Policy"
+  },
+  "1dbqYC": {
+    "defaultMessage": "Block employee time entry of pay items members of the ‘Paid leave’ pay item group such as vacation and holiday pay",
+    "description": "policies > time entry: tooltip for isBlockEmployeeAbsenceTime"
+  },
+  "1hQY0B": {
+    "defaultMessage": "Plan URL",
+    "description": "benefit > properties: label for planURL"
+  },
+  "1iJ8eW": {
+    "defaultMessage": "Password",
+    "description": "Login form password"
+  },
+  "1jX0Nt": {
+    "defaultMessage": "Create group type",
+    "description": "Create group type button text"
+  },
+  "1kdZiQ": {
+    "defaultMessage": "Plan URL",
+    "description": "Plan URL for benefit plan"
+  },
+  "1nO+kS": {
+    "defaultMessage": "Federal business first 9 digits must be a valid SIN"
+  },
+  "1od+ia": {
+    "defaultMessage": "Legal Name",
+    "description": "Group form name for employer"
+  },
+  "1wAMoe": {
+    "defaultMessage": "Today",
+    "description": "Today Button"
+  },
+  "1zsQCk": {
+    "defaultMessage": "Create new trade code",
+    "description": "Create new trade code button label"
+  },
+  "1zssMX": {
+    "defaultMessage": "Claim number of dependents",
+    "description": "Claim number of dependents for benefit plan tooltip"
+  },
+  "2+/pXE": {
+    "defaultMessage": "Please enter your new password",
+    "description": "Please enter your new password"
+  },
+  "20Bd7p": {
+    "defaultMessage": "Password has been changed successfully",
+    "description": "Password has been changed successfully"
+  },
+  "229AdA": {
+    "defaultMessage": "Phone",
+    "description": "Bank address phone"
+  },
+  "2B8ITv": {
+    "defaultMessage": "Repeat on",
+    "description": "Repeat on Checkbox Label"
+  },
+  "2CtPQ/": {
+    "defaultMessage": "Contact phone"
+  },
+  "2KqJm7": {
+    "defaultMessage": "General",
+    "description": "General Tab Title"
+  },
+  "2NXYYu": {
+    "defaultMessage": "Search",
+    "description": "Search"
+  },
+  "2QJzas": {
+    "defaultMessage": "Unscheduled attendance threshold (Minutes)",
+    "description": "Unscheduled attendance threshold"
+  },
+  "2UKG1i": {
+    "defaultMessage": "Group type",
+    "description": "Tracking segment form group type label"
+  },
+  "2YxC5N": {
+    "defaultMessage": "Hide",
+    "description": "documents: label for H permissions"
+  },
+  "2ZFTxu": {
+    "defaultMessage": "Contact language",
+    "description": "benefit > contact info: label for contactLanguage"
+  },
+  "2aMngm": {
+    "defaultMessage": "Social Media Accounts",
+    "description": "Social Media Accounts"
+  },
+  "2faH1J": {
+    "defaultMessage": "Create",
+    "description": "Create new day definition button"
+  },
+  "2gnKy+": {
+    "defaultMessage": "Zip code"
+  },
+  "2hLPag": {
+    "defaultMessage": "Holiday Calendars",
+    "description": "Holiday Calendar page name in the header"
+  },
+  "2kwkkX": {
+    "defaultMessage": "All work later to this time will be considered as overtime",
+    "description": "policies > overtime rules: tooltip for forceOverTimeAfter"
+  },
+  "2mFbfh": {
+    "defaultMessage": "External",
+    "description": "external posting title"
+  },
+  "2phJwp": {
+    "defaultMessage": "End",
+    "description": "End Date Input Label"
+  },
+  "2s9haV": {
+    "defaultMessage": "Status",
+    "description": "auto generated Status"
+  },
+  "2sc5gX": {
+    "defaultMessage": "Tracking items for {name}",
+    "description": "tracking item header"
+  },
+  "2vADgl": {
+    "defaultMessage": "Opt-out Medical",
+    "description": "Opt-out Medical for benefit plan form"
+  },
+  "2zzk7v": {
+    "defaultMessage": "Friday - Thursday"
+  },
+  "33J2of": {
+    "defaultMessage": "Create new employer",
+    "description": "group form employer add title"
+  },
+  "36wJp9": {
+    "defaultMessage": "Guest access",
+    "description": "event document uploader access label"
+  },
+  "3D3KLD": {
+    "defaultMessage": "ID number",
+    "description": "ID Number for benefit plan"
+  },
+  "3EnruA": {
+    "defaultMessage": "Postal code"
+  },
+  "3HZHj7": {
+    "defaultMessage": "{count, plural, one {# employee} other {# employees}} selected"
+  },
+  "3SJ59L": {
+    "defaultMessage": "For example: Siobhan (pronounced shiv-AWN)",
+    "description": "pronunciation extra text"
+  },
+  "3TqYxJ": {
+    "defaultMessage": "Name Recording",
+    "description": "Name recording label"
+  },
+  "3U5fVK": {
+    "defaultMessage": "Unions",
+    "description": "Union page header"
+  },
+  "3WlC4f": {
+    "defaultMessage": "Name",
+    "description": "Employee list component name colmumn field"
+  },
+  "3a5wL8": {
+    "defaultMessage": "Active"
+  },
+  "3b82ET": {
+    "defaultMessage": "Code",
+    "description": "Asset code column title"
+  },
+  "3c6UYj": {
+    "defaultMessage": "Block future time entry",
+    "description": "policies > time entry: label for isBlockEmployeeFutureTimeEntry"
+  },
+  "3dB7kh": {
+    "defaultMessage": "Bank name",
+    "description": "Bank name"
+  },
+  "3dXALh": {
+    "defaultMessage": "Manage employee assignments",
+    "description": "Manage employee assignments tooltip"
+  },
+  "3hUwzf": {
+    "defaultMessage": "Employee not absent on the last scheduled workday before the holiday"
+  },
+  "3iv6mp": {
+    "defaultMessage": "Technical contact will be used when filing electronic tax slips and summaries. HR contact will be used on records of employment",
+    "description": "Tooltip for employer contact type field"
+  },
+  "3j9oFk": {
+    "defaultMessage": "Issue Pay Direct Deposits",
+    "description": "Issue Pay Direct Deposits approval for pay group"
+  },
+  "3o4F4k": {
+    "defaultMessage": "Due date period",
+    "description": "asset Due date period"
+  },
+  "3rLINb": {
+    "defaultMessage": "All",
+    "description": "Employee list component all filter"
+  },
+  "3xVsav": {
+    "defaultMessage": "Annual recurring cost",
+    "description": "asset Annual recurring cost"
+  },
+  "40z1j/": {
+    "defaultMessage": "Allow employees to upload documents on the employee assignment page"
+  },
+  "457MeJ": {
+    "defaultMessage": "Allow employees to request or enter time that will overdraw bank balance",
+    "description": "policies > time off: tooltip for isBlockEmployeeOverBalance"
+  },
+  "4BgAWB": {
+    "defaultMessage": "Email Address",
+    "description": "Login form email address"
+  },
+  "4CelzN": {
+    "defaultMessage": "Are you sure to apply for this position?",
+    "description": "Confirm Apply Description"
+  },
+  "4KNo4V": {
+    "defaultMessage": "Apply to this open job",
+    "description": "Apply button"
+  },
+  "4Kux8Z": {
+    "defaultMessage": "Work plan preview",
+    "description": "auto generated Work plan preview"
+  },
+  "4PLerH": {
+    "defaultMessage": "Bank address"
+  },
+  "4U8QIp": {
+    "defaultMessage": "Issue paycheques",
+    "description": "Issue paycheques approval for pay group"
+  },
+  "4UY6GM": {
+    "defaultMessage": "Name",
+    "description": "Holiday name"
+  },
+  "4bHs3b": {
+    "defaultMessage": "Create new group type",
+    "description": "group type form group type add title"
+  },
+  "4eAY6G": {
+    "defaultMessage": "days in the last"
+  },
+  "4tYjBZ": {
+    "defaultMessage": "(drag into test box)",
+    "description": "Quick placeholder description"
+  },
+  "4yBpXx": {
+    "defaultMessage": "Union status",
+    "description": "Union status tab label"
+  },
+  "4zWfRG": {
+    "defaultMessage": "Due date should be later issue date",
+    "description": "asset due date error"
+  },
+  "5EDot+": {
+    "defaultMessage": "Benefit classes",
+    "description": "Benefit Plans benefit classes tab label"
+  },
+  "5GUQ3e": {
+    "defaultMessage": "Account Number",
+    "description": "Account Number"
+  },
+  "5NWI8r": {
+    "defaultMessage": "Employee access level to bank account on the employee profile",
+    "description": "Tooltip for bank account access level on the employee profile"
+  },
+  "5QVwnR": {
+    "defaultMessage": "Contact name",
+    "description": "Contact name for license and permits"
+  },
+  "5R9heZ": {
+    "defaultMessage": "Expiry Date"
+  },
+  "5SrXkt": {
+    "defaultMessage": "Add Benefit",
+    "description": "Add option for benefit plan"
+  },
+  "5UWSWY": {
+    "defaultMessage": "Enter your recovery email",
+    "description": "Enter your recovery email"
+  },
+  "5jDguV": {
+    "defaultMessage": "Properties",
+    "description": "Properties tab"
+  },
+  "5lA1Vf": {
+    "defaultMessage": "Go to today",
+    "description": "Today button"
+  },
+  "5qFMqy": {
+    "defaultMessage": "View",
+    "description": "View Button"
+  },
+  "5qRFq/": {
+    "defaultMessage": "Delete",
+    "description": "Delete button text"
+  },
+  "5rPEkX": {
+    "defaultMessage": "Evaluator",
+    "description": "Evaluator Input Label"
+  },
+  "5t05u8": {
+    "defaultMessage": "Work week"
+  },
+  "5yfuyX": {
+    "defaultMessage": "Groups",
+    "description": "Employee List component groups list"
+  },
+  "6/PjjV": {
+    "defaultMessage": "Error",
+    "description": "Error"
+  },
+  "60wNv2": {
+    "defaultMessage": "Work date definition",
+    "description": "policies > time entry: label for workDateDefinition"
+  },
+  "6AiFk4": {
+    "defaultMessage": "Expense approval",
+    "description": "Team properties expense approval"
+  },
+  "6DwqF+": {
+    "defaultMessage": "Personal Document",
+    "description": "Editprofile Personal Documents"
+  },
+  "6P79/d": {
+    "defaultMessage": "Probation will be enforced from the employee seniority date till the end of the work period. The probation period will be the sum of ‘Probation months’ and ‘Probation days’.",
+    "description": "benefit > properties: tooltip for probationDays"
+  },
+  "6TMYnU": {
+    "defaultMessage": "Pay Calendars",
+    "description": "Pay Calendar page name in the header"
+  },
+  "6Tps09": {
+    "defaultMessage": "Inactive"
+  },
+  "6V6DQY": {
+    "defaultMessage": "Next",
+    "description": "Next Button"
+  },
+  "6VVAMQ": {
+    "defaultMessage": "Assign new employee",
+    "description": "Asset page assign employee page title"
+  },
+  "6YhU+r": {
+    "defaultMessage": "Departments",
+    "description": "Department page name in the header"
+  },
+  "6ayU9N": {
+    "defaultMessage": "Tax withholding country"
+  },
+  "6dQ4u4": {
+    "defaultMessage": "Go to today"
+  },
+  "6ee9ob": {
+    "defaultMessage": "Benefit status"
+  },
+  "6lnph0": {
+    "defaultMessage": "Confirm new password",
+    "description": "Confirm New Password"
+  },
+  "6oZMvT": {
+    "defaultMessage": "Should be after last expiry date",
+    "description": "Validation error message for enrollment date field in benefit plan form"
+  },
+  "6pIuvz": {
+    "defaultMessage": "System groups",
+    "description": "System groups button text"
+  },
+  "7/j1iv": {
+    "defaultMessage": "times in the last"
+  },
+  "74Pm/+": {
+    "defaultMessage": "Block birthday display",
+    "description": "policy > expense permissions: label for isBlockBirthdayDisplay"
+  },
+  "7BsPz7": {
+    "defaultMessage": "Pay managers",
+    "description": "documents: label for payManagersAccess access level"
+  },
+  "7FB+Aa": {
+    "defaultMessage": "Contact name",
+    "description": "Bank contact name"
+  },
+  "7N3VsD": {
+    "defaultMessage": "Type",
+    "description": "Type"
+  },
+  "7QFgG/": {
+    "defaultMessage": "Supervisos",
+    "description": "supervisors page title"
+  },
+  "7Rl40t": {
+    "defaultMessage": "Something went wrong. Please check your email",
+    "description": "Something went wrong. Please check your email"
+  },
+  "7ZxoC0": {
+    "defaultMessage": "Name",
+    "description": "Name option for classes"
+  },
+  "7ZylJ+": {
+    "defaultMessage": "Notify employee prior to the Due Date",
+    "description": "dueDatePeriod tooltip"
+  },
+  "7iiwG5": {
+    "defaultMessage": "Duration",
+    "description": "time blocks Duration"
+  },
+  "7jw36Z": {
+    "defaultMessage": "Bulk Delete",
+    "description": "Asset assignment Bulk Delete"
+  },
+  "7k1Zos": {
+    "defaultMessage": "Latest evaluation (date)",
+    "description": "Latest evaluation (date) Input Label"
+  },
+  "7mdwLO": {
+    "defaultMessage": "Create new skill",
+    "description": "group form skill add title"
+  },
+  "7rTT8G": {
+    "defaultMessage": "Pay raise",
+    "description": "Pay raise approval for department"
+  },
+  "7xRg3m": {
+    "defaultMessage": "Upload document",
+    "description": "Document uploader drop zone title"
+  },
+  "7yN3y7": {
+    "defaultMessage": "Successfully saved",
+    "description": "Success"
+  },
+  "8Dvz+A": {
+    "defaultMessage": "Contact phone",
+    "description": "Bank contact phone"
+  },
+  "8F/6Xr": {
+    "defaultMessage": "Start",
+    "description": "time blocks Start"
+  },
+  "8JoN6w": {
+    "defaultMessage": "Due date",
+    "description": "auto generated Due date"
+  },
+  "8KvSFW": {
+    "defaultMessage": "Primary Manager"
+  },
+  "8TnyqE": {
+    "defaultMessage": "Review alert (minutes)",
+    "description": "Review alert (minutes) Input Label"
+  },
+  "8WcB7o": {
+    "defaultMessage": "Category",
+    "description": "Category Select Label"
+  },
+  "8Y4pTj": {
+    "defaultMessage": "Employee",
+    "description": "Employee Input Label"
+  },
+  "8edsS7": {
+    "defaultMessage": "Actions",
+    "description": "Asset actions column title"
+  },
+  "8iCQl2": {
+    "defaultMessage": "Inactivate in Group",
+    "description": "Inactive Group"
+  },
+  "8kC7iR": {
+    "defaultMessage": "Yes",
+    "description": "auto generated Yes"
+  },
+  "8pTYqn": {
+    "defaultMessage": "RSVP",
+    "description": "RSVP Column Title"
+  },
+  "8s7ckH": {
+    "defaultMessage": "Evaluator",
+    "description": "Evaluator Column Title"
+  },
+  "8t6WWz": {
+    "defaultMessage": "Create new category",
+    "description": "Create new category button label"
+  },
+  "8vqtZZ": {
+    "defaultMessage": "Active",
+    "description": "Is Active"
+  },
+  "8yi9/e": {
+    "defaultMessage": "Email to employee",
+    "description": "EMAIL_TO_EMPLOYEE Column"
+  },
+  "8zNJ4n": {
+    "defaultMessage": "Type",
+    "description": "Type Input Label"
+  },
+  "91ZDEd": {
+    "defaultMessage": "First Name",
+    "description": "First Name"
+  },
+  "97j76H": {
+    "defaultMessage": "Remove selected employees",
+    "description": "groups page employees bulk delete tooltip"
+  },
+  "9D6Sem": {
+    "defaultMessage": "Resend Notification",
+    "description": "Resend Notification"
+  },
+  "9DMlTC": {
+    "defaultMessage": "Name",
+    "description": "tracking item name"
+  },
+  "9GrCxW": {
+    "defaultMessage": "Go to date",
+    "description": "Go to date"
+  },
+  "9IC9lK": {
+    "defaultMessage": "Invitation",
+    "description": "INVITATION Column"
+  },
+  "9NTVwS": {
+    "defaultMessage": "Use quick placeholders",
+    "description": "Use quick placeholder text title"
+  },
+  "9QFhhh": {
+    "defaultMessage": "Employee",
+    "description": "Employee Column Title"
+  },
+  "9Qxc2E": {
+    "defaultMessage": "Create new asset"
+  },
+  "9U4lyw": {
+    "defaultMessage": "Yes",
+    "description": "Yes"
+  },
+  "9cudvC": {
+    "defaultMessage": "Create",
+    "description": "Create new asset button"
+  },
+  "9q87k0": {
+    "defaultMessage": "Month",
+    "description": "Calendar view - Month"
+  },
+  "9qaI7T": {
+    "defaultMessage": "Save",
+    "description": "Submit/ Edit Button Text"
+  },
+  "A2jeAo": {
+    "defaultMessage": "Edit time block"
+  },
+  "A51KQY": {
+    "defaultMessage": "Tracking items for this tracking segment will be deleted. Do you want to continue?"
+  },
+  "A5XEEh": {
+    "defaultMessage": "Cover letter",
+    "description": "Cover letter"
+  },
+  "A8ZjiH": {
+    "defaultMessage": "This organization is linked to other affiliated business for tax filing",
+    "description": "Employer affiliated company tooltip"
+  },
+  "A8rxIB": {
+    "defaultMessage": "Confirm Delete",
+    "description": "groups page employees bulk delete confirm"
+  },
+  "ABSILu": {
+    "defaultMessage": "Member Description",
+    "description": "Member Description for benefit plan"
+  },
+  "AGtxqr": {
+    "defaultMessage": "Default daily time off duration type",
+    "description": "policies > time off: label for defaultDailyTimeOffDurationType"
+  },
+  "AH93Xf": {
+    "defaultMessage": "Add Account",
+    "description": "Add Account"
+  },
+  "AMo8mX": {
+    "defaultMessage": "Mandatory",
+    "description": "Tracking segment form mandatory label"
+  },
+  "ANdaCy": {
+    "defaultMessage": "Automatically create attendance records for approved time off requests",
+    "description": "policies > time off: label for isAutoAttendanceRecord"
+  },
+  "AcgC0w": {
+    "defaultMessage": "Policy number",
+    "description": "benefit > properties: label for policyNumber"
+  },
+  "Aiu8L4": {
+    "defaultMessage": "Expiry date",
+    "description": "Label for expiry date field in benefit plan form"
+  },
+  "Aq8vMt": {
+    "defaultMessage": "Name",
+    "description": "Tracking segment name col"
+  },
+  "AuzUnS": {
+    "defaultMessage": "Please enter a valid Phone Number",
+    "description": "Invalid phone"
+  },
+  "Av0iHp": {
+    "defaultMessage": "Client Code",
+    "description": "Tracking item client code col"
+  },
+  "Azzc//": {
+    "defaultMessage": "Primary",
+    "description": "Position assign form primary label"
+  },
+  "B1W+M+": {
+    "defaultMessage": "Verification code sent to your recovery email.",
+    "description": "Verification code sent to your recovery email."
+  },
+  "B2YbI4": {
+    "defaultMessage": "Push Notification",
+    "description": "Push Notification Column"
+  },
+  "B50Jra": {
+    "defaultMessage": "Allow employees document upload",
+    "description": "Document upload permission"
+  },
+  "B52Em/": {
+    "defaultMessage": "Address line 1"
+  },
+  "B5SkYI": {
+    "defaultMessage": "Create group",
+    "description": "Group add breadcrumb"
+  },
+  "BA5bfY": {
+    "defaultMessage": "Enter the code",
+    "description": "Enter the code"
+  },
+  "BAKnKQ": {
+    "defaultMessage": "Position",
+    "description": "Position Input Label"
+  },
+  "BNZSba": {
+    "defaultMessage": "Click to upload",
+    "description": "image uploader click to upload"
+  },
+  "BOSU4Y": {
+    "defaultMessage": "Contact phone",
+    "description": "asset Contact phone"
+  },
+  "BQtmiL": {
+    "defaultMessage": "Number of timeblocks",
+    "description": "Number of timeblocks"
+  },
+  "BRdwuJ": {
+    "defaultMessage": "Account Type",
+    "description": "Bank account type"
+  },
+  "BmFREg": {
+    "defaultMessage": "Work",
+    "description": "day definition work"
+  },
+  "Bqmotc": {
+    "defaultMessage": "Note",
+    "description": "documents: label for note"
+  },
+  "Bvqb3H": {
+    "defaultMessage": "Enter your login password",
+    "description": "Please input email address"
+  },
+  "Bx91N4": {
+    "defaultMessage": "Address Line 2",
+    "description": "Bank address line 2"
+  },
+  "C0fOck": {
+    "defaultMessage": "Create new day definition"
+  },
+  "C2oOxx": {
+    "defaultMessage": "Allow employees to overdraw bank balance",
+    "description": "policies > time off: label for isBlockEmployeeOverBalance"
+  },
+  "C7c4e6": {
+    "defaultMessage": "Add Business Number",
+    "description": "Add Business Number"
+  },
+  "CVwwIA": {
+    "defaultMessage": "Departments",
+    "description": "Department page header"
+  },
+  "CWxPSV": {
+    "defaultMessage": "Verification code sent",
+    "description": "Verification code sent"
+  },
+  "CYCK9N": {
+    "defaultMessage": "Repeat Every",
+    "description": "Repeat Every Checkbox Label"
+  },
+  "CdLMuj": {
+    "defaultMessage": "Annual earnings",
+    "description": "Annual Earnings for benefit plan form"
+  },
+  "Cduj8C": {
+    "defaultMessage": "This field is required",
+    "description": "Please input email address"
+  },
+  "CgglSA": {
+    "defaultMessage": "Name",
+    "description": "Group Name for benefit plan form"
+  },
+  "CgqTfP": {
+    "defaultMessage": "State",
+    "description": "US State Authority"
+  },
+  "CitrNZ": {
+    "defaultMessage": "Block employee availability",
+    "description": "policy > expense permissions: label for isBlockEmployeeAvailability"
+  },
+  "Cor5+C": {
+    "defaultMessage": "Double time from",
+    "description": "policies > overtime rules: label for weeklyDoubleTimeFrom"
+  },
+  "CpFmu5": {
+    "defaultMessage": "Import Link",
+    "description": "Import Link"
+  },
+  "D6wAMj": {
+    "defaultMessage": "Auto subtract break duration (minutes) when daily duration exceeds",
+    "description": "policies > time entry: label for dailyBreakExceedsDuration"
+  },
+  "D8k4OE": {
+    "defaultMessage": "Manage HR manager assignments",
+    "description": "GroupType's create a new group tooltip"
+  },
+  "DBZtLW": {
+    "defaultMessage": "Effective date",
+    "description": "Effective date"
+  },
+  "DKvbKm": {
+    "defaultMessage": "Employer Identification Number",
+    "description": "Employer Identification Number"
+  },
+  "DLrzt/": {
+    "defaultMessage": "Enforce max daily hours"
+  },
+  "DOAMwO": {
+    "defaultMessage": "Create",
+    "description": "Create Button"
+  },
+  "DR+23P": {
+    "defaultMessage": "Contact email"
+  },
+  "DSBAuH": {
+    "defaultMessage": "Has {diffrence, plural, one {# year} other {# years}} of experience"
+  },
+  "DT+UDB": {
+    "defaultMessage": "Are you sure you want to delete this item?",
+    "description": "Delete confirmation message"
+  },
+  "DToCyb": {
+    "defaultMessage": "Job Referral"
+  },
+  "DUEw29": {
+    "defaultMessage": "Create new license",
+    "description": "group form license add title"
+  },
+  "DcGyGy": {
+    "defaultMessage": "Add performance review",
+    "description": "Performance review add button title"
+  },
+  "Dcuz70": {
+    "defaultMessage": "Opt-out AD&D",
+    "description": "isOptADD for benefit plan form"
+  },
+  "DlVoyO": {
+    "defaultMessage": "When early arrival or late departure become Unscheduled attendance",
+    "description": "workplan Unscheduled attendance threshold tooltip"
+  },
+  "DoHTzp": {
+    "defaultMessage": "Internal comment",
+    "description": "Internam comment"
+  },
+  "Dpg5SN": {
+    "defaultMessage": "G/L accounts"
+  },
+  "E/emUm": {
+    "defaultMessage": "Number of days prior to the renewal date to notify the HR Manager",
+    "description": "Tooltip for Alert period (days) for skill"
+  },
+  "E/qXYw": {
+    "defaultMessage": "Block mobile employee time entry",
+    "description": "policies > time entry: label for isBlockMobileTimeEntry"
+  },
+  "E2WYEm": {
+    "defaultMessage": "Evidence",
+    "description": "Evidence for benefit plan form"
+  },
+  "E6chkE": {
+    "defaultMessage": "Access Level",
+    "description": "documents: title for access level"
+  },
+  "E6su/r": {
+    "defaultMessage": "All Day",
+    "description": "All Day Checkbox Label"
+  },
+  "E8B0sa": {
+    "defaultMessage": "Create",
+    "description": "Create Button Text"
+  },
+  "EA30LV": {
+    "defaultMessage": "Contact type"
+  },
+  "EDjNny": {
+    "defaultMessage": "Positions",
+    "description": "Position page header"
+  },
+  "ENSzKQ": {
+    "defaultMessage": "Nearest {i, plural, one {# minute} other {# minutes}}",
+    "description": "workPlan unAttendanceRounding options"
+  },
+  "EPI4In": {
+    "defaultMessage": "Punches used",
+    "description": "policies > punches: label for isPunched"
+  },
+  "ESmNP1": {
+    "defaultMessage": "(Inactive)",
+    "description": "Inactive Template Text"
+  },
+  "EY/Ijk": {
+    "defaultMessage": "Select Social Media",
+    "description": "Select Social Media"
+  },
+  "Ee5g2D": {
+    "defaultMessage": "Job Board",
+    "description": "Job Board Title"
+  },
+  "EiqJTN": {
+    "defaultMessage": "Block team tracker & GPS locations on punches",
+    "description": "policy > expense permissions: label for isBlockTeamTracker"
+  },
+  "EoT6DV": {
+    "defaultMessage": "Phone",
+    "description": "Phone"
+  },
+  "EoWfDv": {
+    "defaultMessage": "Recovery Email",
+    "description": "Recovery Email"
+  },
+  "Et94Oz": {
+    "defaultMessage": "Edit",
+    "description": "Edit Tooltip"
+  },
+  "F/Hg9n": {
+    "defaultMessage": "Date",
+    "description": "Holiday date"
+  },
+  "F5SH0p": {
+    "defaultMessage": "General",
+    "description": "Asset assignment form General"
+  },
+  "F7Yxqs": {
+    "defaultMessage": "Name",
+    "description": "Name Input Label"
+  },
+  "F89P9x": {
+    "defaultMessage": "Number",
+    "description": "Business Number Name"
+  },
+  "F9JefH": {
+    "defaultMessage": "Review For",
+    "description": "Review For title"
+  },
+  "FDNE84": {
+    "defaultMessage": "Actions",
+    "description": "General Actions"
+  },
+  "FE4mLu": {
+    "defaultMessage": "Create new region",
+    "description": "Create new region button label"
+  },
+  "FQQCuh": {
+    "defaultMessage": "Capacity",
+    "description": "auto generated Capacity"
+  },
+  "FXKREn": {
+    "defaultMessage": "Note",
+    "description": "day definition note field"
+  },
+  "FjZXfi": {
+    "defaultMessage": "Apply",
+    "description": "Apply Button"
+  },
+  "Fju0P+": {
+    "defaultMessage": "Days",
+    "description": "Holiday min employment months"
+  },
+  "FmEIy8": {
+    "defaultMessage": "7th day overtime rule",
+    "description": "policies > overtime rules: label for isSevenDayOvertime"
+  },
+  "FscfOo": {
+    "defaultMessage": "Currency",
+    "description": "bank account currency"
+  },
+  "FuoSjI": {
+    "defaultMessage": "Primary and manufacturing industry sector"
+  },
+  "GDnn2M": {
+    "defaultMessage": "Start",
+    "description": "Start Date Input Label"
+  },
+  "GHpIQC": {
+    "defaultMessage": "Validation",
+    "description": "Tracking segment validation col"
+  },
+  "GVyrnP": {
+    "defaultMessage": "Contact name",
+    "description": "asset Contact name"
+  },
+  "GY1pVx": {
+    "defaultMessage": "Rotation period (days)",
+    "description": "auto generated Rotation period"
+  },
+  "GhKFeA": {
+    "defaultMessage": "{yesNo, select, yes {Yes} no {No} other {}}",
+    "description": "Tracking segment mandatory col"
+  },
+  "Gl66//": {
+    "defaultMessage": "Block employee time entry",
+    "description": "policies > time entry: label for isBlockTimeEntry"
+  },
+  "GnxmNU": {
+    "defaultMessage": "General ledger account",
+    "description": "General Ledger Page Header"
+  },
+  "God9mc": {
+    "defaultMessage": "Licenses",
+    "description": "License page name in the header"
+  },
+  "GvQHaJ": {
+    "defaultMessage": "Pending",
+    "description": "Asset status 'Pending'"
+  },
+  "GxmM1K": {
+    "defaultMessage": "Create new employee type",
+    "description": "group form employee type add title"
+  },
+  "H/a3uI": {
+    "defaultMessage": "Name",
+    "description": "Tracking segment form name label"
+  },
+  "H0OkQ8": {
+    "defaultMessage": "Position approval",
+    "description": "Position approval for department"
+  },
+  "H3s8rr": {
+    "defaultMessage": "Active",
+    "description": "tracking item active"
+  },
+  "H67deF": {
+    "defaultMessage": "Repeat Day of the Month",
+    "description": "Repeat Day of the Month Checkbox Label"
+  },
+  "HA/Jlv": {
+    "defaultMessage": "Image",
+    "description": "Asset image column title"
+  },
+  "HFZ/2l": {
+    "defaultMessage": "Create new sector",
+    "description": "Create new sector button label"
+  },
+  "HIwV/y": {
+    "defaultMessage": "Required due date for asset return. Leave blank when unknown.",
+    "description": "asset due date tooltip"
+  },
+  "HO9Ht1": {
+    "defaultMessage": "Public Document",
+    "description": "Editprofile Public Documents"
+  },
+  "HQ6FHu": {
+    "defaultMessage": "Serial Number",
+    "description": "Asset serial number column title"
+  },
+  "HUAENk": {
+    "defaultMessage": "Go to a date",
+    "description": "Go to a date pop up menu title"
+  },
+  "HV21Qf": {
+    "defaultMessage": "EmployeeDomain Logo"
+  },
+  "HZZ7oP": {
+    "defaultMessage": "Save Is Disabled",
+    "description": "You do not have permission to edit benefit plan"
+  },
+  "HiQRgl": {
+    "defaultMessage": "Seniority",
+    "description": "Holiday Seniority tab"
+  },
+  "HuH2LQ": {
+    "defaultMessage": "Permissions",
+    "description": "policy permission tab"
+  },
+  "I4p1qq": {
+    "defaultMessage": "Do not assign asset to multiple employees at the same time",
+    "description": "Enforce unique assignment tooltipl"
+  },
+  "I6CNiB": {
+    "defaultMessage": "Employee not absent on the last scheduled workday after the holiday"
+  },
+  "ID4sRD": {
+    "defaultMessage": "Block employee bank balance display",
+    "description": "policies > time off: label for isBlockTimeBankBalanceDisplay"
+  },
+  "IISsOI": {
+    "defaultMessage": "Affiliated company"
+  },
+  "IP6Pr/": {
+    "defaultMessage": "Save",
+    "description": "supervisor form save button"
+  },
+  "IaVBdo": {
+    "defaultMessage": "Confirm delete records",
+    "description": "auto generated Confirm delete records"
+  },
+  "IbWkoT": {
+    "defaultMessage": "Status",
+    "description": "Status Column Title"
+  },
+  "IeA6XJ": {
+    "defaultMessage": "Email",
+    "description": "Email Input"
+  },
+  "IiMJaC": {
+    "defaultMessage": "Add Notification Template",
+    "description": "Add Notification Template"
+  },
+  "Iij59T": {
+    "defaultMessage": "Thursday - Wednesday"
+  },
+  "Imq0BU": {
+    "defaultMessage": "Job Board",
+    "description": "Job Board"
+  },
+  "InL8JY": {
+    "defaultMessage": "This asset is currently assigned to multiple employees",
+    "description": "Asset unique assignment error"
+  },
+  "IozKWd": {
+    "defaultMessage": "External position posting status",
+    "description": "external position posting status"
+  },
+  "IvaGiV": {
+    "defaultMessage": "Days",
+    "description": "Holiday min seniority months"
+  },
+  "J+vu1d": {
+    "defaultMessage": "Go Back",
+    "description": "Go Back"
+  },
+  "J410p5": {
+    "defaultMessage": "Block adjustments to submitted timesheets",
+    "description": "policies > time entry: label for isBlockAdjustmentTimeSheets"
+  },
+  "J4R5nX": {
+    "defaultMessage": "Experience as of date",
+    "description": "Skill experience as of (assign)"
+  },
+  "J7B/VD": {
+    "defaultMessage": "Employment Types",
+    "description": "Employment Type page name in the header"
+  },
+  "J8V8s4": {
+    "defaultMessage": "Assign",
+    "description": "groups page employees assign button"
+  },
+  "JDJoIZ": {
+    "defaultMessage": "This action cannot be undone."
+  },
+  "JNN53c": {
+    "defaultMessage": "There are active employees assigned to this position. Are you sure?",
+    "description": "Confirmation on Inactive Group"
+  },
+  "JWaZgz": {
+    "defaultMessage": "Assiened Employees",
+    "description": "Assets assignment page breadcrumb"
+  },
+  "JXmlfI": {
+    "defaultMessage": "ROE Start Date"
+  },
+  "JY21D+": {
+    "defaultMessage": "GL Type",
+    "description": "GL Type"
+  },
+  "JcRa4K": {
+    "defaultMessage": "Last login",
+    "description": "Last login label"
+  },
+  "JdK9pr": {
+    "defaultMessage": "Edit",
+    "description": "Edit Button"
+  },
+  "Jg5Y07": {
+    "defaultMessage": "Recovery email",
+    "description": "Recovery Email"
+  },
+  "Jpbpww": {
+    "defaultMessage": "Notification Template",
+    "description": "Notification Template Title"
+  },
+  "JtaeTb": {
+    "defaultMessage": "Enforce unique assignment",
+    "description": "asset Enforce unique assignment"
+  },
+  "Jtgk0q": {
+    "defaultMessage": "Employment",
+    "description": "Holiday Employment tab"
+  },
+  "JuH03V": {
+    "defaultMessage": "Latest issue date",
+    "description": "asset latest issue date"
+  },
+  "Jxut/f": {
+    "defaultMessage": "Months",
+    "description": "Holiday min seniority months"
+  },
+  "K0d2sV": {
+    "defaultMessage": "Name",
+    "description": "Asset name column title"
+  },
+  "K3kncu": {
+    "defaultMessage": "Time Entry",
+    "description": "policy time entry tab"
+  },
+  "K3r6DQ": {
+    "defaultMessage": "Delete"
+  },
+  "K6IyWz": {
+    "defaultMessage": "Employee status",
+    "description": "Employee list component employee status button"
+  },
+  "K8dc7G": {
+    "defaultMessage": "Not available for this authority"
+  },
+  "KCQZ6R": {
+    "defaultMessage": "Name",
+    "description": "Name option for benefit plan"
+  },
+  "KFHSSm": {
+    "defaultMessage": "Default coverage is used for LTD calculation",
+    "description": "Override Coverage for benefit plan tooltip"
+  },
+  "KM/Ax8": {
+    "defaultMessage": "Block employee time off requests",
+    "description": "policies > time off: label for isBlockTimeOffRequest"
+  },
+  "KQ2GFS": {
+    "defaultMessage": "Contact email",
+    "description": "Bank contact email"
+  },
+  "KQpWAD": {
+    "defaultMessage": "Score",
+    "description": "Score Input Label"
+  },
+  "KVULVx": {
+    "defaultMessage": "Recovery Phone",
+    "description": "Phone number "
+  },
+  "KVjI6n": {
+    "defaultMessage": "Status",
+    "description": "Status Input Label"
+  },
+  "KXXPMb": {
+    "defaultMessage": "SMS",
+    "description": "SMS Column"
+  },
+  "KoQSVP": {
+    "defaultMessage": "Action",
+    "description": "Action Column Title"
+  },
+  "KqkUfl": {
+    "defaultMessage": "Create new wage schedule",
+    "description": "Create new wage schedule button label"
+  },
+  "KqnQVA": {
+    "defaultMessage": "Create new event",
+    "description": "Create New Event Page"
+  },
+  "KtmTYi": {
+    "defaultMessage": "Please enter the 6-digit code you recieved",
+    "description": "Please enter the 6-digit code you recieved"
+  },
+  "Kyb+E4": {
+    "defaultMessage": "Bulk Delete",
+    "description": "groups page employees bulk delete"
+  },
+  "KyyhXF": {
+    "defaultMessage": "Enforce min daily hours"
+  },
+  "L/D78m": {
+    "defaultMessage": "Provincial",
+    "description": "Canada Provincial Authority"
+  },
+  "L5fEb5": {
+    "defaultMessage": "Employee offboarding",
+    "description": "Employee offboarding approval for department"
+  },
+  "LAaOhU": {
+    "defaultMessage": "Logout",
+    "description": "Logout"
+  },
+  "LKWuwM": {
+    "defaultMessage": "Are you sure you wish to delete this record?",
+    "description": "Delete Performance Review Record Confirm"
+  },
+  "LSX9t7": {
+    "defaultMessage": "Change Password",
+    "description": "Change Password"
+  },
+  "Ls0fVg": {
+    "defaultMessage": "Properties",
+    "description": "License and Permits properties label"
+  },
+  "LwplYi": {
+    "defaultMessage": "Password dont match",
+    "description": "Password dont match"
+  },
+  "M3jtuw": {
+    "defaultMessage": "Columns",
+    "description": "Buttons: label for columns"
+  },
+  "MBv0RA": {
+    "defaultMessage": "Name",
+    "description": "day definition name field"
+  },
+  "MHMeN5": {
+    "defaultMessage": "Enrollment date",
+    "description": "Label for enrollment date field in benefit plan form"
+  },
+  "MJfkCF": {
+    "defaultMessage": "Organization Logo",
+    "description": "Organization Logo"
+  },
+  "MNWGfu": {
+    "defaultMessage": "Default Holiday duration type",
+    "description": "policies > time off: label for defaultHolidayDurationType"
+  },
+  "MNoT8+": {
+    "defaultMessage": "Authority"
+  },
+  "MYrk0M": {
+    "defaultMessage": "Individually assigned document, viewable only by managers and the employee",
+    "description": "Editprofile Personal Documents information"
+  },
+  "McTVP5": {
+    "defaultMessage": "Enter new password",
+    "description": "Enter new password"
+  },
+  "MgIEiY": {
+    "defaultMessage": "Latest Schedule Publish Date",
+    "description": "Team properties latest schedule publish date"
+  },
+  "Mjmu1R": {
+    "defaultMessage": "However you wish others to refer to you",
+    "description": "nickname extra text"
+  },
+  "MkaShn": {
+    "defaultMessage": "Actions",
+    "description": "Actions Column Title"
+  },
+  "MsQpAk": {
+    "defaultMessage": "Benefit Plans",
+    "description": "Benefit Plan page header"
+  },
+  "MuExEF": {
+    "defaultMessage": "Yes",
+    "description": "Message general: Yes"
+  },
+  "MxD6vP": {
+    "defaultMessage": "Debit"
+  },
+  "N4UaBS": {
+    "defaultMessage": "Flex Early Start Offset"
+  },
+  "N78PE7": {
+    "defaultMessage": "Contact email",
+    "description": "asset Contact email"
+  },
+  "N7DMfF": {
+    "defaultMessage": "Verification code sent to:",
+    "description": "Verification code sent to:"
+  },
+  "NAOiy1": {
+    "defaultMessage": "Create",
+    "description": "Create Button Title"
+  },
+  "NEySXX": {
+    "defaultMessage": "Primary pay manager",
+    "description": "Primary pay manager badge"
+  },
+  "NX0AUN": {
+    "defaultMessage": "Display Sequence",
+    "description": "Tracking segment display sequence col"
+  },
+  "NXQuFY": {
+    "defaultMessage": "For Holiday work",
+    "description": "policies > overtime rules: label for isForceOvertimeHoliday"
+  },
+  "NYpbJ/": {
+    "defaultMessage": "Claim Dependents",
+    "description": "Claim for benefit plan form"
+  },
+  "NbAsEi": {
+    "defaultMessage": "Create new pay calendar",
+    "description": "group form pay calendar add title"
+  },
+  "NbELxC": {
+    "defaultMessage": "Performance review",
+    "description": "Position Performance review tab"
+  },
+  "NdXUk7": {
+    "defaultMessage": "Rotation effective date",
+    "description": "auto generated Rotation effective date"
+  },
+  "Nfc/bc": {
+    "defaultMessage": "Active",
+    "description": "Asset active filter label"
+  },
+  "NjPUX2": {
+    "defaultMessage": "Hide inactive assets",
+    "description": "Hide inactive assets"
+  },
+  "NsJGYB": {
+    "defaultMessage": "English",
+    "description": "English Lang Label"
+  },
+  "NyrWMi": {
+    "defaultMessage": "Create new department",
+    "description": "group form department add title"
+  },
+  "O0i3n0": {
+    "defaultMessage": "Overtime Rules",
+    "description": "policy overtime rules tab"
+  },
+  "O8Lrih": {
+    "defaultMessage": "Create new {groupType}",
+    "description": "group form other add title"
+  },
+  "O8iiFs": {
+    "defaultMessage": "Provider name",
+    "description": "benefit > properties: label for provider"
+  },
+  "OHdjb2": {
+    "defaultMessage": "Add Event",
+    "description": "Add Event Page Name"
+  },
+  "OJ13SH": {
+    "defaultMessage": "Create group type",
+    "description": "Group type create page title"
+  },
+  "OK+3lw": {
+    "defaultMessage": "Client Code",
+    "description": "tracking item client code"
+  },
+  "OQ39qP": {
+    "defaultMessage": "Properties",
+    "description": "groups: Properties"
+  },
+  "OSdV6o": {
+    "defaultMessage": "Note",
+    "description": "auto generated Note"
+  },
+  "OlQNfy": {
+    "defaultMessage": "Address Line 1",
+    "description": "Bank address line 1"
+  },
+  "OnqcRj": {
+    "defaultMessage": "The date the employee experience was established",
+    "description": "Experience as of date tooltip"
+  },
+  "P11rui": {
+    "defaultMessage": "View & modify",
+    "description": "documents: label for RU permissions"
+  },
+  "P39hKt": {
+    "defaultMessage": "Enforce max daily break of"
+  },
+  "PALyJ4": {
+    "defaultMessage": "Html message",
+    "description": "Html message Column"
+  },
+  "PI6Z5E": {
+    "defaultMessage": "Day {day}",
+    "description": "Workplan prefix"
+  },
+  "PMQenr": {
+    "defaultMessage": "Terms",
+    "description": "Terms"
+  },
+  "PNcOFp": {
+    "defaultMessage": "Name",
+    "description": "Name Column Title"
+  },
+  "PQRyCY": {
+    "defaultMessage": "Attendance records will automatically be created when the leave requests are approved",
+    "description": "policies > time off: tooltip for isAutoAttendanceRecord"
+  },
+  "PQaOq+": {
+    "defaultMessage": "Verification Code is not valid",
+    "description": "Verification Code is not valid"
+  },
+  "PY4HdL": {
+    "defaultMessage": "All groups",
+    "description": "All groups button text"
+  },
+  "PeaP5Z": {
+    "defaultMessage": "File name",
+    "description": "documents: label for file name"
+  },
+  "PmxTec": {
+    "defaultMessage": "Please enter an email address",
+    "description": "No email address"
+  },
+  "PoxoRC": {
+    "defaultMessage": "Create",
+    "description": "Add button"
+  },
+  "Pxqd3S": {
+    "defaultMessage": "T4A Pension Account",
+    "description": "T4A Pension Account"
+  },
+  "Q1gZsw": {
+    "defaultMessage": "Next scheduled maintenance",
+    "description": "asset Next scheduled maintenance"
+  },
+  "QDpvTw": {
+    "defaultMessage": "Description",
+    "description": "Performance review category description"
+  },
+  "QGYcgU": {
+    "defaultMessage": "Create new holiday calendar",
+    "description": "group form holiday calendar add title"
+  },
+  "QIoUnZ": {
+    "defaultMessage": "Columns are in order of appearance",
+    "description": "Table column fillter description"
+  },
+  "QLSfr5": {
+    "defaultMessage": "Tracking item",
+    "description": "auto generated Tracking item"
+  },
+  "QR6b+5": {
+    "defaultMessage": "Review alert (days)",
+    "description": "Review alert (days) Input Label"
+  },
+  "QSZvd5": {
+    "defaultMessage": "Assets",
+    "description": "Asset page header"
+  },
+  "QT6KpS": {
+    "defaultMessage": "Primary HR manager",
+    "description": "Primary HR manager badge"
+  },
+  "QaZrlm": {
+    "defaultMessage": "Bank Account",
+    "description": "Bank Account Header"
+  },
+  "QcMyie": {
+    "defaultMessage": "View only",
+    "description": "documents: label for R permissions"
+  },
+  "QjflfO": {
+    "defaultMessage": "Latest issue date",
+    "description": "Latest issue date label"
+  },
+  "QjlzwU": {
+    "defaultMessage": "Back to sign in",
+    "description": "Back to sign in"
+  },
+  "QpLc2f": {
+    "defaultMessage": "Delete",
+    "description": "Delete button title"
+  },
+  "R/Y+Ky": {
+    "defaultMessage": "Name",
+    "description": "G/L Name Column"
+  },
+  "R0f2Tf": {
+    "defaultMessage": "Create new asset",
+    "description": "asset header create new asset"
+  },
+  "R13Qri": {
+    "defaultMessage": "Name",
+    "description": "Asset name"
+  },
+  "R8hh8p": {
+    "defaultMessage": "Default Holiday time off fixed duration",
+    "description": "policies > time off: label for defaultHolidayDuration"
+  },
+  "RL+Ihn": {
+    "defaultMessage": "Override",
+    "description": "Override for benefit plan form"
+  },
+  "RcM6Nv": {
+    "defaultMessage": "Bank details"
+  },
+  "RnXLEV": {
+    "defaultMessage": "Nearest {count, plural, one {minute} other {# minutes}}",
+    "description": "policies > punches: options for roundingInterval"
+  },
+  "RxsgUI": {
+    "defaultMessage": "Delayed",
+    "description": "Asset status 'Delayed'"
+  },
+  "RyTXvj": {
+    "defaultMessage": "Probation will be enforced from the employee seniority date till the end of the work period. The probation period will be the sum of ‘Probation months’ and ‘Probation days’.",
+    "description": "benefit > properties: tooltip for probationMonths"
+  },
+  "S0E8CC": {
+    "defaultMessage": "Edit Profile",
+    "description": "Edit profile"
+  },
+  "S80s3z": {
+    "defaultMessage": "General",
+    "description": "Asset form general tab"
+  },
+  "S9OMAo": {
+    "defaultMessage": "Drag or click to replace",
+    "description": "Document uploader replace drop zone text"
+  },
+  "SBxSuI": {
+    "defaultMessage": "Code",
+    "description": "Client Code"
+  },
+  "SMjzA+": {
+    "defaultMessage": "Auto punch processing",
+    "description": "policies > punches: label for isAutoPunchProcessing"
+  },
+  "SPNd9x": {
+    "defaultMessage": "Trade codes",
+    "description": "Trade codes tab label"
+  },
+  "SRdN+5": {
+    "defaultMessage": "Effective date",
+    "description": "groups page employees effective date"
+  },
+  "Si60yB": {
+    "defaultMessage": "Opt-out Dental",
+    "description": "Opt-out Dental for benefit plan form"
+  },
+  "SiaREx": {
+    "defaultMessage": "Active",
+    "description": "Asset Active Switch"
+  },
+  "SpZDfR": {
+    "defaultMessage": "Create new tracking item",
+    "description": "Create new tracking item button"
+  },
+  "StFLZ4": {
+    "defaultMessage": "Delete",
+    "description": "Delete button tooltip"
+  },
+  "Svox5B": {
+    "defaultMessage": "Publish date & time",
+    "description": "auto generated Publish date time"
+  },
+  "SxBgft": {
+    "defaultMessage": "Bank accounts",
+    "description": "Bank accounts tab label employer"
+  },
+  "T0SXpN": {
+    "defaultMessage": "Work Plans",
+    "description": "Work Plan page header"
+  },
+  "T8Xlz+": {
+    "defaultMessage": "Block time entry on non scheduled days",
+    "description": "policies > time entry: label for isBlockUnscheduledTimeEntry"
+  },
+  "TC3QmH": {
+    "defaultMessage": "Job Description",
+    "description": "Job Description Title"
+  },
+  "TE4fIS": {
+    "defaultMessage": "City"
+  },
+  "TPuKKa": {
+    "defaultMessage": "Create",
+    "description": "Time block create button"
+  },
+  "TQrwvs": {
+    "defaultMessage": "Used when no Work Plan is found or outside the Day Definition Early and Late period",
+    "description": "policies > punches: tooltip for roundingInterval"
+  },
+  "TSy53y": {
+    "defaultMessage": "Rotation",
+    "description": "Rotation properties label"
+  },
+  "TZ0sEJ": {
+    "defaultMessage": "Skills",
+    "description": "Skill page header"
+  },
+  "TaLN6C": {
+    "defaultMessage": "Business numbers",
+    "description": "Business numbers tab label employer"
+  },
+  "Te3qwx": {
+    "defaultMessage": "Other documents",
+    "description": "Other documents"
+  },
+  "Tg4D5s": {
+    "defaultMessage": "Pay Groups",
+    "description": "Pay Group page header"
+  },
+  "Th6Db0": {
+    "defaultMessage": "Review date/time",
+    "description": "Review date/time Input Label"
+  },
+  "TsJeqj": {
+    "defaultMessage": "Country",
+    "description": "Bank address country"
+  },
+  "TuAXbQ": {
+    "defaultMessage": "Return date should be later issue date",
+    "description": "auto generated Return after issue"
+  },
+  "TvELS5": {
+    "defaultMessage": "Cancelled by user",
+    "description": " Groups: Cancelled by user"
+  },
+  "TymnVV": {
+    "defaultMessage": "Actions",
+    "description": "G/L Actions Column"
+  },
+  "TzITX2": {
+    "defaultMessage": "Address",
+    "description": "location type address badge"
+  },
+  "Tzxo9v": {
+    "defaultMessage": "Expiry date",
+    "description": "Expiry date benefit assignment column"
+  },
+  "U0uKJf": {
+    "defaultMessage": "Home",
+    "description": "Home button in the sidebar"
+  },
+  "U1TXjE": {
+    "defaultMessage": "Employee not absent on the day after the Holiday"
+  },
+  "U4CpsT": {
+    "defaultMessage": "Mandatory",
+    "description": "Tracking segment mandatory col"
+  },
+  "U9pIO2": {
+    "defaultMessage": "Description",
+    "description": "Bank account description"
+  },
+  "UKER3O": {
+    "defaultMessage": "Wage Schedule",
+    "description": "Wage schedule tab label"
+  },
+  "UMb+vN": {
+    "defaultMessage": "Bank account description",
+    "description": "Bank account description"
+  },
+  "UOar9D": {
+    "defaultMessage": "Teams",
+    "description": "Team page header"
+  },
+  "UX9fyR": {
+    "defaultMessage": "Excess time from",
+    "description": "policies > overtime rules: label for dailyExcessFrom"
+  },
+  "UbQ27Q": {
+    "defaultMessage": "Force overtime before",
+    "description": "policies > overtime rules: label for forceOverTimeBefore"
+  },
+  "Uc4Vgc": {
+    "defaultMessage": "No bank accounts"
+  },
+  "UeGTfc": {
+    "defaultMessage": "Farsi",
+    "description": "Farsi Lang Label"
+  },
+  "UkeQP9": {
+    "defaultMessage": "Active",
+    "description": "Active"
+  },
+  "UlXdhs": {
+    "defaultMessage": "Display the guest list to the event guests",
+    "description": "Display the guest list to the event guests tooltip"
+  },
+  "UwetuO": {
+    "defaultMessage": "Edit employee assignment",
+    "description": "Edit employee assignment tooltip"
+  },
+  "V3fVak": {
+    "defaultMessage": "Inactive",
+    "description": "Employee list component inactive filter"
+  },
+  "VFL1si": {
+    "defaultMessage": "To allows the day start time to be shifted as per the actual start time. For example, a day definition from 9:00am to 5:00pm will be shifted to 9:11 to 5:11 when the employee punches IN at 9:11 instead of 9:00)",
+    "description": "Time block start tooltip"
+  },
+  "VGyO04": {
+    "defaultMessage": "GEO position",
+    "description": "Tracking segment form GEO position label"
+  },
+  "VJy4Al": {
+    "defaultMessage": "Save",
+    "description": "Save Button"
+  },
+  "VSti5j": {
+    "defaultMessage": "Actions",
+    "description": "Day definition table actions label"
+  },
+  "VVPRXJ": {
+    "defaultMessage": "Is flex start time",
+    "description": "day definition is flex start time"
+  },
+  "VhYEbf": {
+    "defaultMessage": "Please enter a valid email address",
+    "description": "Invalid email address"
+  },
+  "Vhak25": {
+    "defaultMessage": "Number",
+    "description": "License number (assign)"
+  },
+  "VhtkFC": {
+    "defaultMessage": "Alias",
+    "description": "employer alias"
+  },
+  "Vp+XlU": {
+    "defaultMessage": "Unscheduled attendance rounding rule",
+    "description": "Unscheduled attendance rounding rule"
+  },
+  "VsJkMf": {
+    "defaultMessage": "Sign in",
+    "description": "Login form sign in button"
+  },
+  "W+0spq": {
+    "defaultMessage": "Employees",
+    "description": "documents: label for restrictedApplicant access level"
+  },
+  "W+GLKJ": {
+    "defaultMessage": "General",
+    "description": "General Column"
+  },
+  "W2nYeD": {
+    "defaultMessage": "Allow supervisor to request or enter time off for more than the employee time bank balance.",
+    "description": "Allow supervisor to overdraw time bank tooltip"
+  },
+  "W8Kf7I": {
+    "defaultMessage": "Fiscal year end day"
+  },
+  "W9JNXb": {
+    "defaultMessage": "Verification code confirmed",
+    "description": "Verification code confirmed"
+  },
+  "WFXk7B": {
+    "defaultMessage": "Properties",
+    "description": "Asset Properties tab label"
+  },
+  "WKZxVX": {
+    "defaultMessage": "HR managers",
+    "description": "documents: label for hrManagersAccess level"
+  },
+  "WLJrKP": {
+    "defaultMessage": "Unscheduled attendance and flex time rounding rule",
+    "description": "policies > punches: label for roundingInterval"
+  },
+  "WLU8+e": {
+    "defaultMessage": "Are you sure you want to delete this bank account?"
+  },
+  "WM/3Gv": {
+    "defaultMessage": "Regions",
+    "description": "Regions tab label"
+  },
+  "WM/dMw": {
+    "defaultMessage": "Send",
+    "description": "Send verification code"
+  },
+  "WNJEmN": {
+    "defaultMessage": "Social Media: Invalid URL Entered",
+    "description": "Social Media URL validation error"
+  },
+  "WUkLEc": {
+    "defaultMessage": "Terms",
+    "description": "Login form terms button"
+  },
+  "WYbP+7": {
+    "defaultMessage": "Probation months",
+    "description": "benefit > properties: label for probationMonths"
+  },
+  "WZrQz/": {
+    "defaultMessage": "List",
+    "description": "Calendar view - List"
+  },
+  "Wbupph": {
+    "defaultMessage": "Bank account access for employees"
+  },
+  "WkTs0s": {
+    "defaultMessage": "Annual earnings",
+    "description": "Override Annual for benefit plan"
+  },
+  "Wl9BL/": {
+    "defaultMessage": "Benefits",
+    "description": "Benefit page name in the header"
+  },
+  "Wou7Zp": {
+    "defaultMessage": "Note",
+    "description": "Note Input Label"
+  },
+  "WurtMv": {
+    "defaultMessage": "Conditions",
+    "description": "Conditions"
+  },
+  "X2TXy0": {
+    "defaultMessage": "Time blocks",
+    "description": "Time blocks list page title"
+  },
+  "X3ASDU": {
+    "defaultMessage": "Contact info",
+    "description": "Benefit Plans contact info tab label"
+  },
+  "X6mKdJ": {
+    "defaultMessage": "Day Definitions",
+    "description": "Day Definition page header"
+  },
+  "XGQICJ": {
+    "defaultMessage": "Active",
+    "description": "Active Column"
+  },
+  "XI2F1P": {
+    "defaultMessage": "Province",
+    "description": "province"
+  },
+  "XJch5+": {
+    "defaultMessage": "Template Type",
+    "description": "Template Type Column"
+  },
+  "XQFw6Z": {
+    "defaultMessage": "Expected number of employees scheduled for work. Use zero when not used.",
+    "description": "wotkplan capacity tooltip"
+  },
+  "XWDab+": {
+    "defaultMessage": "Flex Late Start Offset"
+  },
+  "XZ9UaT": {
+    "defaultMessage": "Locations",
+    "description": "Location page name in the header"
+  },
+  "Xjl/OW": {
+    "defaultMessage": "Create, View, Modify & Create",
+    "description": "documents: label for CRU permissions"
+  },
+  "XnT4Gg": {
+    "defaultMessage": "Configuration",
+    "description": "asset Configuration"
+  },
+  "XrNcIy": {
+    "defaultMessage": "Confirm",
+    "description": "Confirm Code"
+  },
+  "XuXhhW": {
+    "defaultMessage": "Issue history",
+    "description": "Issue history tooltip"
+  },
+  "XwuVDn": {
+    "defaultMessage": "Date is used to evaluate the employee status",
+    "description": "groups page employees effective date tooltip when isDateSensitive N"
+  },
+  "Y+9kdB": {
+    "defaultMessage": "Enter verification code",
+    "description": "Enter Verification Code"
+  },
+  "Y4zzdr": {
+    "defaultMessage": "(Active)",
+    "description": "Active Template Text"
+  },
+  "Y6vrXr": {
+    "defaultMessage": "Reporting code",
+    "description": "Tracking segment form reporting code label"
+  },
+  "YCLkkD": {
+    "defaultMessage": "Income tax form"
+  },
+  "YFttKF": {
+    "defaultMessage": "Description",
+    "description": "Document Description"
+  },
+  "YIGbtM": {
+    "defaultMessage": "Fiscal information",
+    "description": "Fiscal information employer"
+  },
+  "YQtYCH": {
+    "defaultMessage": "Proficiency",
+    "description": "Skill Proficiency (assign)"
+  },
+  "Yklm10": {
+    "defaultMessage": "Default coverage",
+    "description": "Default Coverage for benefit plan form"
+  },
+  "Yury/N": {
+    "defaultMessage": "Licenses",
+    "description": "License page header"
+  },
+  "Z1sDA0": {
+    "defaultMessage": "Position posting",
+    "description": "Position posting tab"
+  },
+  "Z3El/5": {
+    "defaultMessage": "Use {name}'s screen to create a new group",
+    "description": "GroupType's use screen to create a new group tooltip"
+  },
+  "Z4d3+L": {
+    "defaultMessage": "Active",
+    "description": "group page : Is Active"
+  },
+  "Z7u+GZ": {
+    "defaultMessage": "Miniumum Employmnet"
+  },
+  "Z9mx0C": {
+    "defaultMessage": "Months before holiday"
+  },
+  "ZEn+9k": {
+    "defaultMessage": "Close pay",
+    "description": "Close pay approval for pay group"
+  },
+  "ZKTOtU": {
+    "defaultMessage": "Holiday Calendars",
+    "description": "Holiday Calendar page header"
+  },
+  "ZPoRKq": {
+    "defaultMessage": "Note",
+    "description": "Note Column"
+  },
+  "ZSIXzO": {
+    "defaultMessage": "Workplans",
+    "description": "Workplan page name in the header"
+  },
+  "ZZXpCU": {
+    "defaultMessage": "Tracking segments",
+    "description": "Tracking segments title"
+  },
+  "Zc0u1J": {
+    "defaultMessage": "All work prior to this time will be considered as overtime",
+    "description": "policies > overtime rules: tooltip for forceOverTimeBefore"
+  },
+  "ZckL2a": {
+    "defaultMessage": "Record audio clip",
+    "description": "Record audio clip"
+  },
+  "ZdhKZA": {
+    "defaultMessage": "RPP account"
+  },
+  "Zdvjjr": {
+    "defaultMessage": "State",
+    "description": "state"
+  },
+  "Zk6nq4": {
+    "defaultMessage": "The data could not be saved",
+    "description": "Error"
+  },
+  "ZoCp/y": {
+    "defaultMessage": "Create new team",
+    "description": "group form team add title"
+  },
+  "ZoHsQn": {
+    "defaultMessage": "Refer a friend",
+    "description": "Refer a friend button"
+  },
+  "ZuMoaM": {
+    "defaultMessage": "Excess time from",
+    "description": "policies > overtime rules: label for weeklyExcessFrom"
+  },
+  "a7Vbut": {
+    "defaultMessage": "Week",
+    "description": "Week Button"
+  },
+  "a8Dgfh": {
+    "defaultMessage": "Holiday must fall on a scheduled workday"
+  },
+  "aBQxid": {
+    "defaultMessage": "Assign new Pay manager",
+    "description": "assign new Pay manager page title"
+  },
+  "aEFG7B": {
+    "defaultMessage": "Pay items",
+    "description": "Pay items for benefit plan"
+  },
+  "aI5LBl": {
+    "defaultMessage": "Alert period (days)",
+    "description": "Alert period (days) for license and permits"
+  },
+  "aMdHwF": {
+    "defaultMessage": "Confirm Apply",
+    "description": "Confirm Apply"
+  },
+  "aQVXWG": {
+    "defaultMessage": "Last name",
+    "description": "Last name"
+  },
+  "aQhEDO": {
+    "defaultMessage": "External position posting",
+    "description": "external position posting"
+  },
+  "aRLXLY": {
+    "defaultMessage": "Categories",
+    "description": "Categories tab label"
+  },
+  "aWbPCz": {
+    "defaultMessage": "Daily duration used for a full day or range of days time off requests",
+    "description": "policies > time off: tooltip for defaultDailyTimeOffDurationType"
+  },
+  "aXLaEw": {
+    "defaultMessage": "For Sunday work",
+    "description": "policies > overtime rules: label for isForceOvertimeSun"
+  },
+  "aapDm8": {
+    "defaultMessage": "Unknown Page",
+    "description": "Unknown Page Name"
+  },
+  "aeZHjn": {
+    "defaultMessage": "When punches have no IN / OUT or START / END indication",
+    "description": "policies > punches: tooltip for isSwipeGo"
+  },
+  "am+VHO": {
+    "defaultMessage": "Documents",
+    "description": "group documents tab"
+  },
+  "aprQnQ": {
+    "defaultMessage": "Address type"
+  },
+  "at0WUg": {
+    "defaultMessage": "Save",
+    "description": "Edit Button Text"
+  },
+  "aw5xgz": {
+    "defaultMessage": "Display guest list",
+    "description": "Display guest list Checkbox"
+  },
+  "awItTC": {
+    "defaultMessage": "Contact language"
+  },
+  "azReOp": {
+    "defaultMessage": "Assign HR manager",
+    "description": "Manager page assign HR manager button"
+  },
+  "b+eVhm": {
+    "defaultMessage": "Create new union status",
+    "description": "Create new union status button label"
+  },
+  "b78j1X": {
+    "defaultMessage": "Employee Groups",
+    "description": "Other group page name in the header"
+  },
+  "bBg39S": {
+    "defaultMessage": "When turned off, no GPS location will be Tracked",
+    "description": "policies > punches: tooltip for isLocationService"
+  },
+  "bPtBwy": {
+    "defaultMessage": "Status",
+    "description": "Tracking item status col"
+  },
+  "bR4UZL": {
+    "defaultMessage": "Recovery phone",
+    "description": "Recovery Phone"
+  },
+  "bWEDO5": {
+    "defaultMessage": "Loading ...",
+    "description": "Loading title"
+  },
+  "bbPfn0": {
+    "defaultMessage": "Longitude"
+  },
+  "bci+av": {
+    "defaultMessage": "Account Number",
+    "description": "G/L Account Number Column"
+  },
+  "bdwdnI": {
+    "defaultMessage": "Save",
+    "description": "Submit Button Text"
+  },
+  "bgFUL9": {
+    "defaultMessage": "Bank contact"
+  },
+  "bjZces": {
+    "defaultMessage": "Enter the verification code",
+    "description": "Enter the verification code"
+  },
+  "bkZYYt": {
+    "defaultMessage": "Required Skills ({count})",
+    "description": "Position Required Skills tab"
+  },
+  "boB1gk": {
+    "defaultMessage": "File Name",
+    "description": "Document File Name"
+  },
+  "bp48Lf": {
+    "defaultMessage": "Sector",
+    "description": "Sector tab label"
+  },
+  "bpFjjb": {
+    "defaultMessage": "Are you sure you wish to remove {count, plural, one {# employee} other {# employees}} from this group?"
+  },
+  "c3YX4M": {
+    "defaultMessage": "Employee will only be allowed to view the time entry screen. All changes done by the employee will not be allowed",
+    "description": "policies > time entry: tooltip for isBlockTimeEntry"
+  },
+  "c6yskD": {
+    "defaultMessage": "Postal Code",
+    "description": "Bank address postal code"
+  },
+  "cTa/G7": {
+    "defaultMessage": "Member description",
+    "description": "Member description for benefit plan form"
+  },
+  "cWzEF5": {
+    "defaultMessage": "Not Expired Group Found",
+    "description": "Not Expired Group Found"
+  },
+  "cZZqwP": {
+    "defaultMessage": "Positions",
+    "description": "Position page name in the header"
+  },
+  "ccxI9z": {
+    "defaultMessage": "Code",
+    "description": "Asset code"
+  },
+  "cdW7Cf": {
+    "defaultMessage": "Save",
+    "description": "Holiday save button"
+  },
+  "cgcSP2": {
+    "defaultMessage": "Enter your recovery email or phone",
+    "description": "Enter your recovery email or phone"
+  },
+  "chsiOa": {
+    "defaultMessage": "Transmitter Number"
+  },
+  "ciplmo": {
+    "defaultMessage": "For Saturday work",
+    "description": "policies > overtime rules: label for isForceOvertimeSat"
+  },
+  "ck2okg": {
+    "defaultMessage": "Properties",
+    "description": "Benefit Plans properties tab label"
+  },
+  "clnN3C": {
+    "defaultMessage": "Contact Information",
+    "description": "Employer contact Information"
+  },
+  "cm8wvK": {
+    "defaultMessage": "Documents",
+    "description": "Documents Tab"
+  },
+  "cmyu9Q": {
+    "defaultMessage": "Unattendance rounding",
+    "description": "Unattendance rounding"
+  },
+  "ct2jPP": {
+    "defaultMessage": "Contact name"
+  },
+  "cxthK/": {
+    "defaultMessage": "Saturday - Friday"
+  },
+  "czuGOp": {
+    "defaultMessage": "Forgot Email",
+    "description": "Forgot Email"
+  },
+  "dDGuHP": {
+    "defaultMessage": "Benefit option"
+  },
+  "dGkfYU": {
+    "defaultMessage": "Properties",
+    "description": "Workplan properties label"
+  },
+  "dOjW4K": {
+    "defaultMessage": "Employee not absent on the day before the Holiday"
+  },
+  "dYo54i": {
+    "defaultMessage": "Renewal frequency from the day the skill is assigned to the employee",
+    "description": "Tooltip for renewal frequency from the day the skill is assigned to the employee"
+  },
+  "dnhWF3": {
+    "defaultMessage": "{type, select, WORK {Work} BREAK {Break} other {Unknown}} from {start} to {end}",
+    "description": "timeline break tooltip"
+  },
+  "e6gZJm": {
+    "defaultMessage": "Actions",
+    "description": "Tracking item actions col"
+  },
+  "e7ilsv": {
+    "defaultMessage": "Privacy",
+    "description": "Login form privacy button"
+  },
+  "eA94aT": {
+    "defaultMessage": "Invalid phone format",
+    "description": "asset Invalid phone format"
+  },
+  "eHi/1a": {
+    "defaultMessage": "Jurisdiction"
+  },
+  "eOhyeU": {
+    "defaultMessage": "Issued by",
+    "description": "Issued by for license and permits"
+  },
+  "eT4R4W": {
+    "defaultMessage": "Unable to Save",
+    "description": "Error on Saving"
+  },
+  "eYKWe2": {
+    "defaultMessage": "Employee onboarding",
+    "description": "Employee onbording approval for department"
+  },
+  "easWmh": {
+    "defaultMessage": "Return date should be later issue date",
+    "description": "auto generated Return date"
+  },
+  "ecp3Av": {
+    "defaultMessage": "Inactive",
+    "description": "asset header inactive badge"
+  },
+  "eivLc0": {
+    "defaultMessage": "Month",
+    "description": "Month Button"
+  },
+  "el8x4e": {
+    "defaultMessage": "State Unemployment Insurance (SUI) tax"
+  },
+  "exaYNS": {
+    "defaultMessage": "ID number",
+    "description": "ID Number for benefit plan form"
+  },
+  "ezzsHd": {
+    "defaultMessage": "Add tracking segment",
+    "description": "auto generated Add tracking segment"
+  },
+  "f5IjXj": {
+    "defaultMessage": "CCQ Number"
+  },
+  "fA/rzv": {
+    "defaultMessage": "Forgot Password",
+    "description": "Forgot Password"
+  },
+  "fOXsP5": {
+    "defaultMessage": "Find your email",
+    "description": "Find your email"
+  },
+  "fP6FfF": {
+    "defaultMessage": "Contact phone",
+    "description": "Contact phone for license and permits"
+  },
+  "fUAMT3": {
+    "defaultMessage": "Contact phone",
+    "description": "benefit > contact info: label for contactPhone"
+  },
+  "fW+q68": {
+    "defaultMessage": "Save",
+    "description": "group assign form save button"
+  },
+  "fXNt6l": {
+    "defaultMessage": "Description",
+    "description": "documents: title for description"
+  },
+  "fYHaKk": {
+    "defaultMessage": "Manage Payroll manager assignments",
+    "description": "GroupType's create a new group tooltip"
+  },
+  "fhTSDq": {
+    "defaultMessage": "Employee",
+    "description": "auto generated Employee"
+  },
+  "ficmCM": {
+    "defaultMessage": "Timesheet approval",
+    "description": "Team properties timesheet approval"
+  },
+  "fnN+gj": {
+    "defaultMessage": "Attachments",
+    "description": "Attachments for benefit plan form"
+  },
+  "fr1bVY": {
+    "defaultMessage": "Previous",
+    "description": "Previous"
+  },
+  "g6+IGw": {
+    "defaultMessage": "Weeks"
+  },
+  "gBgvUL": {
+    "defaultMessage": "Name",
+    "description": "Group form name"
+  },
+  "gEEiZb": {
+    "defaultMessage": "Inactive",
+    "description": "Asset inactive filter label"
+  },
+  "gOkIvb": {
+    "defaultMessage": "Name",
+    "description": "Name label"
+  },
+  "gg2dwI": {
+    "defaultMessage": "Next",
+    "description": "Next"
+  },
+  "gjP1q9": {
+    "defaultMessage": "Create new union",
+    "description": "group form union add title"
+  },
+  "gkaDs0": {
+    "defaultMessage": "Effective Date",
+    "description": "groups page employees effective date"
+  },
+  "gmOQYa": {
+    "defaultMessage": "Others",
+    "description": "Other page header"
+  },
+  "gnlpSE": {
+    "defaultMessage": "Quebec Business Number must be 16 characters"
+  },
+  "gspyHv": {
+    "defaultMessage": "Monday - Sunday"
+  },
+  "h5ZxcP": {
+    "defaultMessage": "Annual earnings is used for life insurance calculation",
+    "description": "Override Annual for benefit plan tooltip"
+  },
+  "h9RBE3": {
+    "defaultMessage": "Crate a new {name}",
+    "description": "GroupType's create a new group tooltip"
+  },
+  "hDXxIK": {
+    "defaultMessage": "Contact email",
+    "description": "benefit > contact info: label for contactEmail"
+  },
+  "hECJuF": {
+    "defaultMessage": "Groups",
+    "description": "Unknown group page name in the header"
+  },
+  "hUCaEm": {
+    "defaultMessage": "Block adjustments to submitted request",
+    "description": "policy > expense reimbursement: label for isBlockExpenseAdjustmentSubmittedRequest"
+  },
+  "hUtiXP": {
+    "defaultMessage": "Contact email",
+    "description": "Contact Email for benefit plan"
+  },
+  "hVeNZd": {
+    "defaultMessage": "Purchase date",
+    "description": "asset Purchase date"
+  },
+  "hWMQmW": {
+    "defaultMessage": "Reset",
+    "description": "General label for Reset"
+  },
+  "hbSuyE": {
+    "defaultMessage": "Benfit status",
+    "description": "Benefit Status for benefit plan form"
+  },
+  "hgxr97": {
+    "defaultMessage": "Assign supervisor",
+    "description": "Manager page assign new Supervisor button"
+  },
+  "hiOqAb": {
+    "defaultMessage": "Internal",
+    "description": "internal posting title"
+  },
+  "hqZoGw": {
+    "defaultMessage": "Reporting To",
+    "description": "Parent Position"
+  },
+  "hv2mNj": {
+    "defaultMessage": "Pay rate control for employees",
+    "description": "policies > time entry: label for employeePayRateControl"
+  },
+  "hx9Mio": {
+    "defaultMessage": "Create new benefit",
+    "description": "group form benefit add title"
+  },
+  "i0hRik": {
+    "defaultMessage": "Duration (minutes)",
+    "description": "Duration (minutes) Column Title"
+  },
+  "i3aQuh": {
+    "defaultMessage": "Hire",
+    "description": "HIRE Column"
+  },
+  "iDzpqF": {
+    "defaultMessage": "Automatic creation of attendance records when an ‘End’ Punch is received.",
+    "description": "policies > punches: tooltip for isAutoPunchProcessing"
+  },
+  "iFTrec": {
+    "defaultMessage": "Add Benefit",
+    "description": "benefit plan > benefit classes: button label for add new benefit class"
+  },
+  "iLN1B4": {
+    "defaultMessage": "Use your name in email header",
+    "description": "Use your name in email header - checkbox label"
+  },
+  "iP8Okr": {
+    "defaultMessage": "Display Choice",
+    "description": "Tracking segment display choise col"
+  },
+  "iWGLLo": {
+    "defaultMessage": "Block adjustments to submitted requests",
+    "description": "policies > time off: label for isBlockAdjustmentSubmittedRequest"
+  },
+  "iZD4st": {
+    "defaultMessage": "Status",
+    "description": "Emp Status - Status (assign)"
+  },
+  "igcuyL": {
+    "defaultMessage": "Event",
+    "description": "Event Page Name"
+  },
+  "iiSSoy": {
+    "defaultMessage": "Allow temporary onboarding"
+  },
+  "ijy/db": {
+    "defaultMessage": "Published On",
+    "description": "Document Published On"
+  },
+  "j+OGQn": {
+    "defaultMessage": "Nickname",
+    "description": "nickname label"
+  },
+  "j/bJ9M": {
+    "defaultMessage": "Edit",
+    "description": "Edit asset tooltip"
+  },
+  "j1geah": {
+    "defaultMessage": "Attachments",
+    "description": "Attachments Tab Title"
+  },
+  "j2BPPp": {
+    "defaultMessage": "Create new location",
+    "description": "group form location add title"
+  },
+  "j2WwA8": {
+    "defaultMessage": "Days",
+    "description": "Holiday min seniority days"
+  },
+  "j2w6Lx": {
+    "defaultMessage": "Name",
+    "description": "auto generated Name day definition"
+  },
+  "j74e6r": {
+    "defaultMessage": "Branch",
+    "description": "Branch"
+  },
+  "jBfSdF": {
+    "defaultMessage": "Select Organization",
+    "description": "Select Organization"
+  },
+  "jDlB7E": {
+    "defaultMessage": "Assets",
+    "description": "Assets page breadcrumb"
+  },
+  "jGJ7Ak": {
+    "defaultMessage": "Max distance allowed from target coordinate or address on the selected tracking Segment. Use 0 to turn off Geofencing.",
+    "description": "policies > punches: tooltip for geoFence"
+  },
+  "jNjztt": {
+    "defaultMessage": "Block employee absence time entry",
+    "description": "policies > time entry: label for isBlockEmployeeAbsenceTime"
+  },
+  "jQw/BQ": {
+    "defaultMessage": "Skills",
+    "description": "Skill page name in the header"
+  },
+  "jVjwqK": {
+    "defaultMessage": "Manage supervisor assignments",
+    "description": "GroupType's create a new group tooltip"
+  },
+  "jclgdx": {
+    "defaultMessage": "Note",
+    "description": "Note"
+  },
+  "jiL3NQ": {
+    "defaultMessage": "Date used to evaluate employee status and or evaluate assignment status when issue or expiry dates are used",
+    "description": "groups page employees effective date tooltip when isDateSensitive not N"
+  },
+  "jpFxXC": {
+    "defaultMessage": "Assign new supervisor",
+    "description": "assign new supervisor page title"
+  },
+  "jrk3iO": {
+    "defaultMessage": "Policies",
+    "description": "Policy page header"
+  },
+  "jvo0vs": {
+    "defaultMessage": "Save"
+  },
+  "k1Hzh+": {
+    "defaultMessage": "Email sent successfully",
+    "description": "Message on notification success"
+  },
+  "k79xTH": {
+    "defaultMessage": "Default coverage",
+    "description": "Override Coverage for benefit plan"
+  },
+  "kOlYwl": {
+    "defaultMessage": "Trouble Signing In?",
+    "description": "Trouble Signing In"
+  },
+  "kOmTTm": {
+    "defaultMessage": "Supervisors",
+    "description": "documents: label for supervisorsAccess access level"
+  },
+  "kS6TWB": {
+    "defaultMessage": "Tracking segment",
+    "description": "auto generated Tracking segment"
+  },
+  "kaSrMl": {
+    "defaultMessage": "Pay managers",
+    "description": "Pay managers page title"
+  },
+  "km2+Hb": {
+    "defaultMessage": "Please Expire Last Assignment",
+    "description": "Please expire last assignment"
+  },
+  "kp+MCT": {
+    "defaultMessage": "Coordinates",
+    "description": "location type coordinates badge"
+  },
+  "kpF73L": {
+    "defaultMessage": "Click here or drag and drop file",
+    "description": "Document uploader drop zone text"
+  },
+  "kshh5H": {
+    "defaultMessage": "Actions",
+    "description": "auto generated Actions"
+  },
+  "ktAKjy": {
+    "defaultMessage": "List",
+    "description": "List Button"
+  },
+  "ktHdOg": {
+    "defaultMessage": "Business Number",
+    "description": "Employer Business Number"
+  },
+  "kucUFi": {
+    "defaultMessage": "Email",
+    "description": "Login form email address"
+  },
+  "kwAgfQ": {
+    "defaultMessage": "Select traking segment",
+    "description": "auto generated Select traking segment"
+  },
+  "kwtKbS": {
+    "defaultMessage": "Employment Statuses",
+    "description": "Employment Status page name in the header"
+  },
+  "ky+mRA": {
+    "defaultMessage": "Create new policy",
+    "description": "group form policy add title"
+  },
+  "l15eNb": {
+    "defaultMessage": "Internal position posting status",
+    "description": "internal position posting status"
+  },
+  "l2rGzw": {
+    "defaultMessage": "Documents",
+    "description": "asset Documents"
+  },
+  "l37N42": {
+    "defaultMessage": "Employee is expected to work on site"
+  },
+  "l6azwj": {
+    "defaultMessage": "Fiscal year end month"
+  },
+  "lA0J6R": {
+    "defaultMessage": "Note",
+    "description": "groups: Note"
+  },
+  "lBqUpc": {
+    "defaultMessage": "Class",
+    "description": "Class for benefit plan form"
+  },
+  "lFAp91": {
+    "defaultMessage": "Proprietor 2 S.I.N"
+  },
+  "lNAkk5": {
+    "defaultMessage": "Province",
+    "description": "Bank address province"
+  },
+  "lcLxlX": {
+    "defaultMessage": "Policies",
+    "description": "Policy page name in the header"
+  },
+  "ljR5oM": {
+    "defaultMessage": "No tracking segments",
+    "description": "auto generated No tracking segments"
+  },
+  "lk2rlB": {
+    "defaultMessage": "No",
+    "description": "auto generated No"
+  },
+  "lq2/6m": {
+    "defaultMessage": "Actions",
+    "description": "time blocks Actions"
+  },
+  "lyXZ7h": {
+    "defaultMessage": "Pronoun",
+    "description": "Pronoun"
+  },
+  "lzkbmR": {
+    "defaultMessage": "Code",
+    "description": "Performance review category code"
+  },
+  "m+sjA6": {
+    "defaultMessage": "Issue date",
+    "description": "Issue date"
+  },
+  "m/Y7uZ": {
+    "defaultMessage": "Code",
+    "description": "Code label"
+  },
+  "m1Tojw": {
+    "defaultMessage": "CV",
+    "description": "CV"
+  },
+  "m6719B": {
+    "defaultMessage": "Export Link",
+    "description": "Export Link"
+  },
+  "mFVrRP": {
+    "defaultMessage": "Display choice",
+    "description": "Tracking segment form display choice label"
+  },
+  "mLvz+r": {
+    "defaultMessage": "Credit"
+  },
+  "mNGP+x": {
+    "defaultMessage": "Viewable by all group members",
+    "description": "Editprofile Personal Documents information"
+  },
+  "mRrm29": {
+    "defaultMessage": "Location service",
+    "description": "policies > punches: label for isLocationService"
+  },
+  "mg5I/C": {
+    "defaultMessage": "Expense Reimbursment",
+    "description": "policy expense reimbursment tab"
+  },
+  "mh8TGv": {
+    "defaultMessage": "Assign new employee",
+    "description": "Group page assign employee page title"
+  },
+  "miyvZo": {
+    "defaultMessage": "Benefit options",
+    "description": "Benefit Plans benefit options tab label"
+  },
+  "mnBTZB": {
+    "defaultMessage": "Employees will only be able to view schedule up till and including the publish date if not blank",
+    "description": "workplan publish date time tooltip"
+  },
+  "mo2BLT": {
+    "defaultMessage": "Employee can report for work or leave any time within the time block"
+  },
+  "moOY58": {
+    "defaultMessage": "Federal",
+    "description": "Other country federal authority"
+  },
+  "mqEhHY": {
+    "defaultMessage": "Details",
+    "description": "Holiday details tab"
+  },
+  "mv+dBe": {
+    "defaultMessage": "Default unscheduled start time",
+    "description": "policies > time entry: label for defaultUnscheduledStartTime"
+  },
+  "n+VibR": {
+    "defaultMessage": "Employment Types",
+    "description": "Employment Type page header"
+  },
+  "n0sTK1": {
+    "defaultMessage": "Employers",
+    "description": "Employer page name in the header"
+  },
+  "n4H/ph": {
+    "defaultMessage": "Hebrew",
+    "description": "Hebrew Lang Label"
+  },
+  "n5QvJy": {
+    "defaultMessage": "Start date"
+  },
+  "n7rn72": {
+    "defaultMessage": "Overdue",
+    "description": "auto generated Overdue"
+  },
+  "n9hway": {
+    "defaultMessage": "Miniumum Seniority"
+  },
+  "nBSvDU": {
+    "defaultMessage": "RBQ Number"
+  },
+  "nInxFQ": {
+    "defaultMessage": "Employees",
+    "description": "Employe list"
+  },
+  "nbdrtx": {
+    "defaultMessage": "Note",
+    "description": "Holiday note"
+  },
+  "ne7IZH": {
+    "defaultMessage": "General",
+    "description": "General tab"
+  },
+  "ngABD4": {
+    "defaultMessage": "Enforce min daily break of"
+  },
+  "nluWJA": {
+    "defaultMessage": "Employee welcome",
+    "description": "EMPLOYEE_WELCOME Column"
+  },
+  "o/Bjri": {
+    "defaultMessage": "Double time from",
+    "description": "policies > overtime rules: label for dailyDoubleTimeFrom"
+  },
+  "o1dQz/": {
+    "defaultMessage": "Create, View, Modify, Create & Delete",
+    "description": "documents: label for CRUD permissions"
+  },
+  "o1fYbk": {
+    "defaultMessage": "Status",
+    "description": "Tracking segment status col"
+  },
+  "o94fAH": {
+    "defaultMessage": "Geofence perimeter (meters)",
+    "description": "policies > punches: label for geoFence"
+  },
+  "oGdPAA": {
+    "defaultMessage": "First name",
+    "description": "First name"
+  },
+  "oQY0a2": {
+    "defaultMessage": "Address line 2"
+  },
+  "ogHGOs": {
+    "defaultMessage": "Inactive",
+    "description": "group header inactive badge"
+  },
+  "ommVp0": {
+    "defaultMessage": "Save",
+    "description": "Group Type Form Save Button"
+  },
+  "oq0nZ9": {
+    "defaultMessage": "Display sequence",
+    "description": "Tracking segment form display sequence label"
+  },
+  "or9R6J": {
+    "defaultMessage": "Asset image",
+    "description": "Asset image"
+  },
+  "orNoBe": {
+    "defaultMessage": "Benefit type",
+    "description": "benefit > properties: label for benefitType"
+  },
+  "ouw7C/": {
+    "defaultMessage": "Recurring",
+    "description": "Recurring Checkbox Label"
+  },
+  "oxkA6S": {
+    "defaultMessage": "Save",
+    "description": "asset form save button"
+  },
+  "ozynQF": {
+    "defaultMessage": "Delete Performance Review Record",
+    "description": "Delete Performance Review Record Tooltip"
+  },
+  "p0nhB4": {
+    "defaultMessage": "Renewal frequency (months)",
+    "description": "Renewal frequency (months) for skill"
+  },
+  "p3RzB5": {
+    "defaultMessage": "Claim dependents",
+    "description": "Claim Dependents for benefit plan"
+  },
+  "p6Drtp": {
+    "defaultMessage": "General",
+    "description": "groups: General"
+  },
+  "p76JKG": {
+    "defaultMessage": "Step is not available",
+    "description": "Position assign form step error message"
+  },
+  "p76XJm": {
+    "defaultMessage": "Actions",
+    "description": "Tracking segment actions col"
+  },
+  "p7qSb1": {
+    "defaultMessage": "Days before holiday"
+  },
+  "p95Fsg": {
+    "defaultMessage": "Block employee scheduled swap",
+    "description": "policy > expense permissions: label for isBlockEmployeeMyScheduleSwap"
+  },
+  "pAhqT/": {
+    "defaultMessage": "Punches",
+    "description": "policy punch tab"
+  },
+  "pE/w/J": {
+    "defaultMessage": "Option",
+    "description": "Option for benefit plan"
+  },
+  "pOsUHe": {
+    "defaultMessage": "Locations",
+    "description": "Location page header"
+  },
+  "pVByEP": {
+    "defaultMessage": "Approved By",
+    "description": "Emp Status - Approved By (assign)"
+  },
+  "pXewf9": {
+    "defaultMessage": "Edit {name}",
+    "description": "Group's edit tooltip"
+  },
+  "pbFsP9": {
+    "defaultMessage": "Block employee work time entry",
+    "description": "policies > time entry: label for isBlockEmployeeWorkTime"
+  },
+  "pbwPb0": {
+    "defaultMessage": "Overdue",
+    "description": "Asset status 'Overdue'"
+  },
+  "pejlV1": {
+    "defaultMessage": "Send Referral",
+    "description": "Send Referral Form Title"
+  },
+  "poWgjC": {
+    "defaultMessage": "Business Type"
+  },
+  "ppSy+n": {
+    "defaultMessage": "Day Definitions"
+  },
+  "pufCiJ": {
+    "defaultMessage": "Block ‘My Team’ schedule display",
+    "description": "policy > expense permissions: label for isBlockEmployeeMySchedule"
+  },
+  "pv1lF7": {
+    "defaultMessage": "Workflow"
+  },
+  "pxcHJE": {
+    "defaultMessage": "Force overtime after",
+    "description": "policies > overtime rules: label for forceOverTimeAfter"
+  },
+  "q2V9QB": {
+    "defaultMessage": "Create new position",
+    "description": "group form position add title"
+  },
+  "qHuuNU": {
+    "defaultMessage": "Contact name",
+    "description": "benefit > contact info: label for contactName"
+  },
+  "qKKPPj": {
+    "defaultMessage": "Evaluator",
+    "description": "Evaluator Text Select Menu"
+  },
+  "qMePPG": {
+    "defaultMessage": "Note"
+  },
+  "qSqWvz": {
+    "defaultMessage": "Recovery Phone",
+    "description": "Recovery Phone"
+  },
+  "qTeOBw": {
+    "defaultMessage": "City",
+    "description": "Bank address city"
+  },
+  "qeR3en": {
+    "defaultMessage": "Click to add or remove employee groups type from the display",
+    "description": "Employee list component group button tooltip"
+  },
+  "qsJ0Sw": {
+    "defaultMessage": "RSVP",
+    "description": "RSVP Checkbox Label"
+  },
+  "r+/aeH": {
+    "defaultMessage": "No",
+    "description": "No"
+  },
+  "r1qsCv": {
+    "defaultMessage": "Recurrence ends",
+    "description": "Recurrence ends select label"
+  },
+  "r30qjn": {
+    "defaultMessage": "Assigned Employees",
+    "description": "Group pages assinged employees list title"
+  },
+  "r7YAiz": {
+    "defaultMessage": "Address",
+    "description": "group form address tab label"
+  },
+  "rFvmTf": {
+    "defaultMessage": "Performance Review",
+    "description": "Performance Review Title"
+  },
+  "rInHuE": {
+    "defaultMessage": "Employers",
+    "description": "Employer page header"
+  },
+  "rMwzxo": {
+    "defaultMessage": "Active",
+    "description": "asset header active badge"
+  },
+  "rOWfBK": {
+    "defaultMessage": "Event",
+    "description": "Event Calendar Title"
+  },
+  "rQc7CQ": {
+    "defaultMessage": "Employee",
+    "description": "Employee Tab Title"
+  },
+  "rWJZK6": {
+    "defaultMessage": "Check your recovery email inbox (and spam folder) or your text messages for the next step. If you do not receive an email or text message, this could mean that you signed up with different recovery credentials. Ask your supervisor or manager to reset these credentials on your behalf.",
+    "description": "Username sent to recovery email"
+  },
+  "rb6QI/": {
+    "defaultMessage": "Days",
+    "description": "Holiday min employment days"
+  },
+  "rq1d93": {
+    "defaultMessage": "Worked that day of the week"
+  },
+  "rtBvd4": {
+    "defaultMessage": "Internal position posting",
+    "description": "internal position posting"
+  },
+  "ruJAGd": {
+    "defaultMessage": "Employees",
+    "description": "documents: label for empAccess access level"
+  },
+  "s3IChw": {
+    "defaultMessage": "Teams",
+    "description": "Team page name in the header"
+  },
+  "sAuXeA": {
+    "defaultMessage": "Preview",
+    "description": "workplan preview button"
+  },
+  "sC2qVE": {
+    "defaultMessage": "Create",
+    "description": "Create button title"
+  },
+  "sI/yPx": {
+    "defaultMessage": "Wednesday - Tuesday"
+  },
+  "sLAMYl": {
+    "defaultMessage": "Quebec Business Number must start with 10 digits",
+    "description": "Quebec Business Number must start with 10 digits"
+  },
+  "sOGZFQ": {
+    "defaultMessage": "Recovery email",
+    "description": "Please input email address"
+  },
+  "sRB5Xf": {
+    "defaultMessage": "Unions",
+    "description": "Union page name in the header"
+  },
+  "sUQC7Q": {
+    "defaultMessage": "Issue date",
+    "description": "auto generated Issue date"
+  },
+  "sijoE5": {
+    "defaultMessage": "Inactive",
+    "description": "Inactive"
+  },
+  "snTktk": {
+    "defaultMessage": "Alert period (days)",
+    "description": "Alert period (days) for skill"
+  },
+  "srWzwQ": {
+    "defaultMessage": "Parent Position cannot be pointed to this group",
+    "description": "Parent position error"
+  },
+  "ssxh3w": {
+    "defaultMessage": "Template type:",
+    "description": "Template Type Paragraph"
+  },
+  "t+W7Uk": {
+    "defaultMessage": "French",
+    "description": "French Lang Label"
+  },
+  "tI8kb6": {
+    "defaultMessage": "Tuesday - Monday"
+  },
+  "tML4ct": {
+    "defaultMessage": "Pay Calendars",
+    "description": "Pay Calendar page header"
+  },
+  "tOSRu9": {
+    "defaultMessage": "Create",
+    "description": "Create new tracking segment button"
+  },
+  "tP4EV0": {
+    "defaultMessage": "Add Holiday",
+    "description": "add holiday drawer label"
+  },
+  "tc+sl9": {
+    "defaultMessage": "Proprietor 1 S.I.N"
+  },
+  "te6Pp5": {
+    "defaultMessage": "Block employee expense reimbursment",
+    "description": "policy > expense reimbursement: label for isBlockEmployeeExpenseReimbursement"
+  },
+  "tgdqv+": {
+    "defaultMessage": "Create new paygroup",
+    "description": "group form paygroup add title"
+  },
+  "togH0L": {
+    "defaultMessage": "Overlap Detetcted",
+    "description": "Overlap Detetcted"
+  },
+  "tp9R5e": {
+    "defaultMessage": "DPSP account"
+  },
+  "tzMNF3": {
+    "defaultMessage": "Status"
+  },
+  "tzOO2W": {
+    "defaultMessage": "Leave approval",
+    "description": "Team properties time off approval"
+  },
+  "u1SQ4c": {
+    "defaultMessage": "Succession plan",
+    "description": "Position Succession plan tab"
+  },
+  "uGYQ+f": {
+    "defaultMessage": "Performance review",
+    "description": "Performance review for department"
+  },
+  "uN58T0": {
+    "defaultMessage": "Federal Business Number must be 15 characters"
+  },
+  "uO+kth": {
+    "defaultMessage": "Next cheque sequence number",
+    "description": "bank account next cheque sequence number"
+  },
+  "uS1x++": {
+    "defaultMessage": "Serial number",
+    "description": "asset Serial no"
+  },
+  "uVm5V2": {
+    "defaultMessage": "Inavlid phone number"
+  },
+  "uWCvTt": {
+    "defaultMessage": "Renewal frequency (months)",
+    "description": "Renewal frequency (months) for license and permits"
+  },
+  "uWLUsi": {
+    "defaultMessage": "Work",
+    "description": "Holiday Work tab"
+  },
+  "uYVdcI": {
+    "defaultMessage": "Employee record change",
+    "description": "Employee record change approval for department"
+  },
+  "uatJ/r": {
+    "defaultMessage": "local",
+    "description": "US Local Authority"
+  },
+  "ubjq7K": {
+    "defaultMessage": "Employees",
+    "description": "documents: label for otherEmployee access level"
+  },
+  "ue2Z2W": {
+    "defaultMessage": "Cancel",
+    "description": "Cancel delete button text"
+  },
+  "uj1l1i": {
+    "defaultMessage": "Add Contact",
+    "description": "Employer form add contact button"
+  },
+  "ujYGO/": {
+    "defaultMessage": "Latitude"
+  },
+  "urcgsl": {
+    "defaultMessage": "Months",
+    "description": "Holiday min employment months"
+  },
+  "v0T+Xh": {
+    "defaultMessage": "Returned",
+    "description": "Asset status 'Returned'"
+  },
+  "v1Dfxq": {
+    "defaultMessage": "Create new employee status",
+    "description": "group form employee status add title"
+  },
+  "v2ZsuQ": {
+    "defaultMessage": "View tracking items",
+    "description": "Tracking segment view tracking items tooltip"
+  },
+  "vAW30j": {
+    "defaultMessage": "Frequency"
+  },
+  "vBlT6y": {
+    "defaultMessage": "Documents"
+  },
+  "vDfGX9": {
+    "defaultMessage": "Create",
+    "description": "Create Holiday button"
+  },
+  "vMVN/o": {
+    "defaultMessage": "Published on",
+    "description": "documents: label for published on"
+  },
+  "vONi+O": {
+    "defaultMessage": "Country"
+  },
+  "vOhFNO": {
+    "defaultMessage": "Click to verify",
+    "description": "Verify"
+  },
+  "vTzEx6": {
+    "defaultMessage": "Save",
+    "description": "Timeblock save button"
+  },
+  "vYZl0V": {
+    "defaultMessage": "Legal Name",
+    "description": "Legal Name for Employer"
+  },
+  "vgPs1r": {
+    "defaultMessage": "Create new workplan",
+    "description": "group form union add title"
+  },
+  "viU9sH": {
+    "defaultMessage": "Note",
+    "description": "asset Note"
+  },
+  "vmeDqw": {
+    "defaultMessage": "Pay item",
+    "description": "Holiday calenday pay item slect label"
+  },
+  "vqSnq9": {
+    "defaultMessage": "Cell Phone",
+    "description": "Cell Phone"
+  },
+  "vtpbra": {
+    "defaultMessage": "Review date/time",
+    "description": "Review date/time Column Title"
+  },
+  "vuoc3w": {
+    "defaultMessage": "Referral text",
+    "description": "Referral Text Label"
+  },
+  "vw+Xom": {
+    "defaultMessage": "Employment Statuses",
+    "description": "Employment Status page header"
+  },
+  "w/CtZ5": {
+    "defaultMessage": "General",
+    "description": "Personal Info"
+  },
+  "w0hF+x": {
+    "defaultMessage": "HR Managers",
+    "description": "HR managers page title"
+  },
+  "w3JqyH": {
+    "defaultMessage": "Edit holidays",
+    "description": "Groups page edit holidays tooltip"
+  },
+  "w5Lk8a": {
+    "defaultMessage": "Name",
+    "description": "Employer Name"
+  },
+  "w5UCyx": {
+    "defaultMessage": "Notes",
+    "description": "Note for benefit plan form"
+  },
+  "w6sWw4": {
+    "defaultMessage": "GL Type",
+    "description": "G/L Type Column"
+  },
+  "w7C63r": {
+    "defaultMessage": "Option",
+    "description": "Option for benefit plan form"
+  },
+  "w8Wxlv": {
+    "defaultMessage": "Assign Payroll manager",
+    "description": "Manager page assign new Payroll manager button"
+  },
+  "wBkbI1": {
+    "defaultMessage": "Note",
+    "description": "tracking item note"
+  },
+  "wE7YGT": {
+    "defaultMessage": "Smoker",
+    "description": "Smoker for benefit plan form"
+  },
+  "wK4M4e": {
+    "defaultMessage": "Purchase cost",
+    "description": "asset Purchase cos"
+  },
+  "wM9Vo0": {
+    "defaultMessage": "Enrollment date",
+    "description": "Enrollment date"
+  },
+  "wOLOa3": {
+    "defaultMessage": "Block employee time entry of pay items members of the ‘Work’ pay item group",
+    "description": "policies > time entry: tooltip for isBlockEmployeeWorkTime"
+  },
+  "wVpSNy": {
+    "defaultMessage": "Currency",
+    "description": "asset Currency"
+  },
+  "wWd1tJ": {
+    "defaultMessage": "Contact info",
+    "description": "Rotation properties label"
+  },
+  "wY5xTy": {
+    "defaultMessage": "Link Code",
+    "description": "Asset link code column title"
+  },
+  "wZfV8o": {
+    "defaultMessage": "Color",
+    "description": "day definition color field"
+  },
+  "wZy9m2": {
+    "defaultMessage": "Phone",
+    "description": "address phone"
+  },
+  "wbkUpS": {
+    "defaultMessage": "Previous",
+    "description": "Previous Button"
+  },
+  "wgZQj6": {
+    "defaultMessage": "Override",
+    "description": "Override for benefit plan"
+  },
+  "wizZR5": {
+    "defaultMessage": "Name",
+    "description": "Name Column"
+  },
+  "wj4WiC": {
+    "defaultMessage": "Overtime from",
+    "description": "policies > overtime rules: label for dailyOvertimeFrom"
+  },
+  "wrhKJw": {
+    "defaultMessage": "Change",
+    "description": "Change Password"
+  },
+  "x0bt1u": {
+    "defaultMessage": "Validation",
+    "description": "Tracking segment form validation label"
+  },
+  "x3l1TN": {
+    "defaultMessage": "Check your recovery email inbox (and spam folder) or your text messages for the next step. If you do not receive an email or text message, this could mean that you signed up with different recovery credentials. Ask your supervisor or manager to reset these credentials on your behalf.",
+    "description": "Verification code sent to your recovery email."
+  },
+  "xHu4H6": {
+    "defaultMessage": "Break",
+    "description": "day definition break"
+  },
+  "xJsfIB": {
+    "defaultMessage": "Active",
+    "description": "Bank account active"
+  },
+  "xRVmeK": {
+    "defaultMessage": "Calendar days in the last"
+  },
+  "xWv3pT": {
+    "defaultMessage": "Send verification code",
+    "description": "Send Verification Code"
+  },
+  "y8zzVx": {
+    "defaultMessage": "Email",
+    "description": "Email"
+  },
+  "yFsIfg": {
+    "defaultMessage": "Name",
+    "description": "Tracking item name col"
+  },
+  "yasqY7": {
+    "defaultMessage": "Termination Id",
+    "description": "Emp Status - Termination Id (assign)"
+  },
+  "yfmRe8": {
+    "defaultMessage": "Save",
+    "description": "Default save button"
+  },
+  "yg2HFT": {
+    "defaultMessage": "Success",
+    "description": "Success"
+  },
+  "ynnBKt": {
+    "defaultMessage": "Search...",
+    "description": "Search..."
+  },
+  "yoYyHD": {
+    "defaultMessage": "Link code",
+    "description": "asset Link code"
+  },
+  "z8b41I": {
+    "defaultMessage": "End",
+    "description": "time blocks End"
+  },
+  "zACjhL": {
+    "defaultMessage": "Employees",
+    "description": "documents: label for restrictedCandidate access level"
+  },
+  "zAMkhb": {
+    "defaultMessage": "Opt-out Critical Illness",
+    "description": "Opt-out Critical Illness for benefit plan form"
+  },
+  "zDJtgQ": {
+    "defaultMessage": "Job Referral from {name}",
+    "description": "Job Referral from {name}"
+  },
+  "zHHVqL": {
+    "defaultMessage": "Time off",
+    "description": "policy > label for time off tab"
+  },
+  "zRX6ns": {
+    "defaultMessage": "Logo",
+    "description": "Employer Logo"
+  },
+  "zUzx72": {
+    "defaultMessage": "Step",
+    "description": "Position assign form step label"
+  },
+  "zXWeVV": {
+    "defaultMessage": "Active",
+    "description": "Tracking segment form active label"
+  },
+  "zYhbkH": {
+    "defaultMessage": "Send",
+    "description": "Send Button"
+  },
+  "ziE0X7": {
+    "defaultMessage": "Create",
+    "description": "Default create button"
+  },
+  "zlqpMT": {
+    "defaultMessage": "Create new time block"
+  },
+  "zoWkxz": {
+    "defaultMessage": "Enter verification code",
+    "description": "Enter Verification code"
+  },
+  "zoZZvl": {
+    "defaultMessage": "No",
+    "description": "Message general: No"
+  }
+}

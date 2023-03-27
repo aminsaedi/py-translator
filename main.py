@@ -9,6 +9,10 @@ def get_source_lang(full_lang_code):
     :param full_lang_code: full language code
     :return: source language
     """
+
+    if full_lang_code == 'he-IL':
+        return 'hebrew'
+
     return full_lang_code.split('-')[0]
 
 

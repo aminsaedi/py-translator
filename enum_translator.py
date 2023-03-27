@@ -10,6 +10,10 @@ def get_source_lang(full_lang_code):
     :param full_lang_code: full language code
     :return: source language
     """
+
+    if full_lang_code == 'he-IL':
+        return 'hebrew'
+
     return full_lang_code.split('-')[0]
 
 
@@ -39,7 +43,7 @@ def translate_enum_block(enums_list, target_lang):
         # Extract the enum name and values
         enum_lines = enum_block.strip().split('\n')
         raw_enum_values = [line.strip()
-                       for line in enum_lines[1:-1] if line.strip()]
+                           for line in enum_lines[1:-1] if line.strip()]
 
         enum_values = [line.strip().replace('_', ' ')
                        for line in enum_lines[1:-1] if line.strip()]
@@ -99,7 +103,7 @@ result = translate_enum_block(enums_list, target_lang)
 old_data = read_from_file(target_lang)
 
 with open('./input_files/legacy_messages.json') as f:
-        legacy_messages = json.load(f)
+    legacy_messages = json.load(f)
 legacy_messages = legacy_messages['fullEnums']
 
 

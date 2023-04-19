@@ -80,7 +80,11 @@
     "OTHER": "Other",
     "FAMILY": "Family"
   },
-  "paymentType": { "HOURLY": "Hourly", "SALARY": "Salary", "OTHER": "Other" },
+  "paymentType": {
+    "HOURLY": "Hourly",
+    "SALARY": "Salary",
+    "OTHER": "Other"
+  },
   "statusEnum": {
     "PENDING1": "Pending 1",
     "PENDING2": "Pending 2",
@@ -421,7 +425,10 @@
         "CANCELLED": "Cancelled"
       }
     },
-    "union": { "union": "Union", "addUnion": "Add union" },
+    "union": {
+      "union": "Union",
+      "addUnion": "Add union"
+    },
     "skills": {
       "skills": "Skills",
       "proficiency": "Proficiency",
@@ -434,7 +441,9 @@
       "addLicense": "Add license",
       "assignedlicenseandpermit": "Licenses & permits"
     },
-    "position": { "expiredPosition": "Expired position" },
+    "position": {
+      "expiredPosition": "Expired position"
+    },
     "benefitOption": {
       "override": "Override",
       "optout": "Opt-out",
@@ -555,9 +564,14 @@
       "chequeSample": "Cheque specimen",
       "uploadVoidCheque": "Upload void cheque"
     },
-    "idNumberTab": { "add": "Add id" }
+    "idNumberTab": {
+      "add": "Add id"
+    }
   },
-  "countries": { "CA": "Canada", "US": "United States of America" },
+  "countries": {
+    "CA": "Canada",
+    "US": "United States of America"
+  },
   "warnings": {
     "reportUse": "Use for reposts",
     "datamodified": "",
@@ -698,7 +712,7 @@
     "teams": "Teams",
     "attendancePolicies": "Attendance policies",
     "workPlan": "Work plan",
-    "latestTimeOff": "Latest submitted Leave requests ",
+    "latestLeave": "Latest submitted Leave requests ",
     "latestDoc": "Latest document dates",
     "supervisor": "Supervisor",
     "leftPanel": {
@@ -788,7 +802,7 @@
         "birthDate": "Birth Date Of "
       },
       "myCalendar": {
-        "timeOff": "Leave",
+        "leave": "Leave",
         "title": "My calendar",
         "PR": "Performance review",
         "HOLIDAY": "Holiday",
@@ -798,9 +812,13 @@
         "col1": "Title",
         "col2": "Type"
       },
-      "myExpense": { "title": "My expense" },
-      "timeBank": { "title": "Time banks" },
-      "timeOff": {
+      "myExpense": {
+        "title": "My expense"
+      },
+      "timeBank": {
+        "title": "Time banks"
+      },
+      "leave": {
         "date": "Date",
         "title": "Leave requests",
         "status": "Status",
@@ -811,7 +829,9 @@
         "bank": "Amount",
         "time": "Time"
       },
-      "myPay": { "title": "My pay" },
+      "myPay": {
+        "title": "My pay"
+      },
       "myAttendance": {
         "title": "My punches",
         "type": "Type",
@@ -825,10 +845,22 @@
         "registered": "Registered",
         "goto": "Go to employees"
       },
-      "teams": { "title": "Teams", "goto": "Go to teams" },
-      "policies": { "title": "Policies", "goto": "Go to policies" },
-      "departments": { "title": "Departments", "goto": "Go to departments" },
-      "workPlans": { "title": "Work plans", "goto": "Go to Work Plans" },
+      "teams": {
+        "title": "Teams",
+        "goto": "Go to teams"
+      },
+      "policies": {
+        "title": "Policies",
+        "goto": "Go to policies"
+      },
+      "departments": {
+        "title": "Departments",
+        "goto": "Go to departments"
+      },
+      "workPlans": {
+        "title": "Work plans",
+        "goto": "Go to Work Plans"
+      },
       "latestPublishDate": {
         "titleOne": "Latest payslip",
         "titleTwo": "Latest tax form"
@@ -912,8 +944,15 @@
         "isOk": "Is ok",
         "punchDateTime": "Punch time"
       },
-      "whoIsIn": { "team": "Team", "title": "Who is in", "device": "Device" },
-      "whoIsOut": { "title": "Who is out", "payItem": "Pay item" },
+      "whoIsIn": {
+        "team": "Team",
+        "title": "Who is in",
+        "device": "Device"
+      },
+      "whoIsOut": {
+        "title": "Who is out",
+        "payItem": "Pay item"
+      },
       "totalWorked": {
         "title": "Total worked",
         "expected": "Expected",
@@ -937,7 +976,7 @@
         "status": "Status"
       },
       "allTitles": {
-        "My_LEAVE_TIME_OFF": "My leave",
+        "My_LEAVE_LEAVE": "My leave",
         "MY_MANAGERS": "My manager",
         "NOTIFICATION_CENTER": "Notification center",
         "RECENT_DOCUMENTS": "Recent documents",
@@ -964,7 +1003,7 @@
         "Schedule": "Schedule",
         "Punches": "Punches",
         "TimeSheets": "Timesheets",
-        "TimeOffRequests": "Leave requests",
+        "Leaves": "Leave requests",
         "Expense": "Expense",
         "Calendar": "Calendar",
         "WhoIsIn": "Who is in",
@@ -978,8 +1017,7 @@
         "NewHireTermination": "New hire/termination",
         "TurnOver": "Turnover",
         "Absence": "Absence",
-        "PendingDocuments": "Pending documents",
-        "Leaves": "Leave"
+        "PendingDocuments": "Pending documents"
       },
       "leaves": {
         "title": "Leave",
@@ -1115,7 +1153,9 @@
       "accountNumber": "Account number (7+)",
       "chequeSpecimen": "Cheque specimen"
     },
-    "paymentMethod": { "title": "Payment method" },
+    "paymentMethod": {
+      "title": "Payment method"
+    },
     "education": {
       "title": "Education",
       "highestlevelofEducation": "Highest level of education",
@@ -1163,7 +1203,7 @@
       "canAccess": {
         "canAccessReimbursement": "Expense reimbursment access",
         "canAccessTimeEntry": "Time entry access",
-        "canAccessTimeOff": "Block access to Leave entry",
+        "canAccessLeave": "Block access to Leave entry",
         "canAccessMyAvailability": "Block access to My Availability",
         "canAccessDocuments": "Block access to Documents",
         "canChangeBankAccount": "Block Bank Account Access",
@@ -1177,14 +1217,16 @@
       "newSchedule": "New schedule",
       "shiftEnd": "Shift end",
       "shiftStart": "Shift start",
-      "timeOffApproval": "Leave approval",
-      "timeOffSubmittal": "Leave submittal",
+      "leaveApproval": "Leave approval",
+      "leaveSubmittal": "Leave submittal",
       "timeSheetApproval": "Timesheet approval",
       "timeSheetSubmittal": "Timesheet submittal",
       "expenseReimbursementApproval": "Expense reimbursement approval",
       "expenseReimbursementSubmittal": "Expense reimbursement submittal"
     },
-    "custom": { "title": "Custom" },
+    "custom": {
+      "title": "Custom"
+    },
     "contacts": {
       "addContact": "Add contact",
       "addReference": "Add reference",
@@ -1213,8 +1255,8 @@
       "isTimeSheetApproval": "Timesheet approval",
       "isTimeSheetRejection": "Timesheet rejection",
       "isTimeSheetMessage": "Timesheet message",
-      "isTimeOffApproval": "Leave approval",
-      "isTimeOffRejection": "Leave rejection",
+      "isLeaveApproval": "Leave approval",
+      "isLeaveRejection": "Leave rejection",
       "isNewDocument": "New document",
       "asOfDate": "As of Date : "
     },
@@ -1739,14 +1781,14 @@
         "isBlockEmployeeExpenseReimbursement": "Block Employee Expense Reimbursments",
         "isBlockExpenseAdjustmentSubmittedRequest": "Block Adjustments to Submitted Requests"
       },
-      "timeOff": {
-        "isBlockTimeOffRequest": "Block Employee Leave request",
+      "leave": {
+        "isBlockLeave": "Block Employee Leave request",
         "isAutoAttendanceRecord": "Automatically Create Attendance Records for Approved Leave requests",
         "isBlockAdjustmentSubmittedRequest": "Block Adjustments to Submitted Requests",
-        "isBlockEmployeeOverBalance": "Block Negative Time Bank Balance",
+        "isAllowEmployeeOverBalance": "Block Negative Time Bank Balance",
         "isBlockTimeBankBalanceDisplay": "Block Employee Time Bank Balance Display",
-        "defaultDailyTimeOffDuration": "Default Daily Leave Duration",
-        "defaultDailyTimeOffDurationType": "Default Daily Leave Duration Type",
+        "defaultDailyLeaveDuration": "Default Daily Leave Duration",
+        "defaultDailyLeaveDurationType": "Default Daily Leave Duration Type",
         "defaultHolidayDuration": "Default holiday duration",
         "defaultHolidayDurationType": "Default Holiday Duration Type"
       }
@@ -1780,7 +1822,10 @@
     "contactLanguage": "Contact language",
     "contactName": "Contact name",
     "contactPhone": "Contact phone",
-    "coordinates": { "lat": "Latitude", "lng": "Longitude" },
+    "coordinates": {
+      "lat": "Latitude",
+      "lng": "Longitude"
+    },
     "country": "Country",
     "currency": "Currency",
     "linkCode": "Link code",
@@ -1790,7 +1835,10 @@
     "internalJobListingStatusTooltip": "An open internal job listing status will be displayed on the dashboard’s ‘Job Board’ panel",
     "thirdPartyJobListingStatus": "3rd Party Job Listing Status",
     "thirdPartyJobListingStatusTooltip": "An open 3rd party job listing status will be transmitted on selected 3rd party recruiters’ sites",
-    "jobListingStatus": { "open": "Open", "close": "Close" },
+    "jobListingStatus": {
+      "open": "Open",
+      "close": "Close"
+    },
     "trainingIds": "Required training",
     "successionPlanWFId": "Succession plan workflow",
     "successionPlanNote": "Succession plan note",
@@ -1892,14 +1940,17 @@
     "step": "Steps",
     "sUITax": "State Unemployment Insurance (SUI) tax",
     "taxWithholdingCountry": "Tax withholding country",
-    "timeOffRequestWF": "Leave",
+    "leaveWF": "Leave",
     "timeSheetPayrollSubmitWF": "Timesheet payroll submittal",
     "timeSheetWF": "Timesheet",
     "transitNumber": "Transit number",
     "WEEKLY": "Weekly",
     "workPlanPublishDate": "Latest Schedule Publish Date",
     "jobDescription": "Job description",
-    "stateIdNo": { "state": "State name", "idNumber": "State id" },
+    "stateIdNo": {
+      "state": "State name",
+      "idNumber": "State id"
+    },
     "account": {
       "bank": "Bank",
       "branch": "Branch",
@@ -1988,7 +2039,7 @@
     "createAndModifyPunches": "Create & Modify Punches",
     "temporaryOnboarding": "Temporary onboarding",
     "timeSheetApproval": "Timesheet approval",
-    "timeOffRequestApproval": "Leave Request Approval",
+    "leaveApproval": "Leave Request Approval",
     "expenseReimbursementApproval": "Expense reimbursement approval",
     "employeeProfiles": "Employee profiles",
     "employeeTemplates": "Employee templates",
@@ -2000,9 +2051,9 @@
     "employeeExpenseReimbursement": "Employee expense reimbursements",
     "employeePayRates": "Employee pay rates",
     "performanceReviews": "Performance reviews",
-    "EmployeeTimeOffRequests": "Employee Leave Requests",
+    "EmployeeLeaves": "Employee Leave Requests",
     "timeSheetSubmittal": "Timesheet submittal",
-    "timeOffRequestSubmittal": "Leave Request Submittal",
+    "leaveSubmittal": "Leave Request Submittal",
     "expenseReimbursementSubmittal": "Expense reimbursement submittal",
     "issuePayChequeApprovalLevelEnum": "Issue paycheques approval",
     "issuePayDirectDepositApprovalLevelEnum": "Issue Pay Direct Deposits Approval",
@@ -2036,7 +2087,9 @@
       "accessLevel": "Access level",
       "notificationLevel": "Notification level"
     },
-    "placeholders": { "select": "Select" },
+    "placeholders": {
+      "select": "Select"
+    },
     "options": {
       "none": "None",
       "all": "All",
@@ -2090,7 +2143,7 @@
         "expenseWF": "Expense workflow",
         "timeSheetPayrollSubmitWF": "Timesheet payroll submittal workflow",
         "timeSheetWF": "Timesheet workflow",
-        "timeOffRequestWF": "Leave workflow"
+        "leaveWF": "Leave workflow"
       },
       "department": {
         "offBoardingWF": "Employee offboarding workflow",
@@ -2380,7 +2433,7 @@
     "team": "Team",
     "teams": "Teams",
     "teamTracker": "Team tracker",
-    "timeOffRequests": "Leave requests",
+    "leaves": "Leave requests",
     "tracker": "Tracker",
     "trackingsegments": "Tracking segments",
     "training": "Training",
@@ -2543,7 +2596,10 @@
     "companyLogo": "Company logo",
     "copied": "Copied!"
   },
-  "payee": { "addNewPayee": "Add new payee", "deletePayee": "Delete payee" },
+  "payee": {
+    "addNewPayee": "Add new payee",
+    "deletePayee": "Delete payee"
+  },
   "applicant": {
     "internalApplicant": "Internal applicant",
     "employee": "Employee",
@@ -2597,7 +2653,7 @@
     "uploadedBy": "Uploaded by ",
     "on": "On "
   },
-  "timeOffRequests": {
+  "leaves": {
     "create": "Create Leave request",
     "employeeName": "Employee name",
     "actions": "Actions",
@@ -2622,7 +2678,7 @@
     "endTime": "Time to",
     "dateRange": "Date From and To",
     "cancel": "Cancel request",
-    "timeOffRequest": "Leave request",
+    "leave": "Leave request",
     "all": "All teams",
     "filters": "Filters",
     "buttons": {
@@ -2679,7 +2735,11 @@
     "addTimeBlockFor": "Add Time Block For ",
     "timeblocks": "Time blocks",
     "timeBlockType": "Type",
-    "timeBlockTypes": { "WORK": "Work", "BREAK": "Break", "ACCESS": "Access" },
+    "timeBlockTypes": {
+      "WORK": "Work",
+      "BREAK": "Break",
+      "ACCESS": "Access"
+    },
     "isFlexTime": "Flex time",
     "requirePunch": "Require punch",
     "minBreakinMin": "Minimum Break (in Minutes)",
@@ -2748,7 +2808,7 @@
     "canAccessDocuments": "Can access documents",
     "canAccessMyAvailability": "Can Access My Availability",
     "canAccessTimeEntry": "Can Access Time Entry",
-    "canAccessTimeOff": "Can Access Leave",
+    "canAccessLeave": "Can Access Leave",
     "canAccessReimbursement": "Can access reimbursement",
     "canChangeBankAccount": "Can Change Bank Account",
     "canChangeProfile": "Block profile change",
@@ -2795,7 +2855,7 @@
     "HE": "Hebrew - HE",
     "FR": "French - FR",
     "OVERDUE": "Overdue",
-    "TIME_OFF": "Leave",
+    "LEAVE": "Leave",
     "YES": "Yes",
     "NO": "No",
     "HR": "Hourly",
@@ -3181,7 +3241,7 @@
     "ADD_FROM_SCHEDULE": "Add from schedule",
     "COPY_FROM_PREVIOUS_WEEK": "Copy From Previous Week",
     "SUBMIT": "Submit",
-    "REQUEST_TIME_OFF": "Request leave",
+    "REQUEST_LEAVE": "Request leave",
     "DRAG_AND_DROP": "Drag and drop",
     "WEEK": "Week",
     "MONTH": "Month",
@@ -3256,7 +3316,11 @@
     "pleaseEnterDigitalIDTypeInPersonalDigitalIDPage": "Please enter ID type in Personal/ Digital IDs page",
     "enterExpiryInDigitalID": "Please enter expiry date in Personal/ Digital IDs page"
   },
-  "modalPrevNextButton": { "prev": "Previous", "next": "Next", "save": "Save" },
+  "modalPrevNextButton": {
+    "prev": "Previous",
+    "next": "Next",
+    "save": "Save"
+  },
   "recurringEvents": {
     "DAILY": "Day (s)",
     "WEEKLY": "Week (s)",
@@ -3300,11 +3364,11 @@
     "calendarSettings": "Calendar settings",
     "showWeather": "Show weather",
     "showHoliday": "Show holiday calendar",
-    "showTimeOff": "Show Leave requests",
+    "showLeave": "Show Leave requests",
     "availabilityVisible": "Show availability",
-    "timeOff": "Leave",
+    "leave": "Leave",
     "showOriginalBlock": "Always show original time block (if modified)",
-    "timeOffSummary": "Leave summary",
+    "leaveSummary": "Leave summary",
     "today": "Today",
     "thisWeek": "This week",
     "showSeniority": "Show employee seniority"
@@ -3340,7 +3404,10 @@
       "PROCESSED": "Processed",
       "UNKNOWN_EMPLOYEE": "Unknown employee"
     },
-    "types": { "START": "Start", "END": "End" }
+    "types": {
+      "START": "Start",
+      "END": "End"
+    }
   },
   "scroller": {
     "isRequired": "Is required",
@@ -3395,5 +3462,7 @@
     "type": "Type",
     "date": "Date / time"
   },
-  "tableWrapper": { "columnsOrder": "Columns are in order of appearance" }
+  "tableWrapper": {
+    "columnsOrder": "Columns are in order of appearance"
+  }
 }

@@ -47,6 +47,8 @@ def translate_all(source_data, target_lang):
     translator = GoogleTranslator(
         source='en', target=get_source_lang(target_lang))
     count = 1
+    skip_count = 0
+    translate_count = 0
     for key, value in source_data.items():
 
         if key in old_data:
@@ -54,6 +56,7 @@ def translate_all(source_data, target_lang):
                   str(len(source_data)) + f"  {old_data[key]} ")
             translated_data[key] = old_data[key]
             count += 1
+            skip_count += 1
             continue
 
         translation = translator.translate(text=value)
@@ -61,6 +64,15 @@ def translate_all(source_data, target_lang):
         count += 1
         print("Translated: " + str(count) + " of " +
               str(len(source_data)) + f"  {translation} ")
+        translate_count += 1
+    print(f"""
+    ==========================================
+    Translated {translate_count} words
+    Skipped {skip_count} words
+    ==========================================
+    Total: {translate_count + skip_count}
+    ==========================================
+    """)
     return translated_data
 
 

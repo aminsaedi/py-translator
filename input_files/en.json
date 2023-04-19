@@ -3,9 +3,17 @@
     "defaultMessage": "Review Location",
     "description": "Location Input Label"
   },
+  "+/4OG4": {
+    "defaultMessage": "Status",
+    "description": "payItems list status"
+  },
   "+/Ezbk": {
     "defaultMessage": "Duration (minutes)",
     "description": "Duration Input Label"
+  },
+  "+06gHn": {
+    "defaultMessage": "Annual exemption",
+    "description": "pay items forms process annual exemption type"
   },
   "+1STO5": {
     "defaultMessage": "Allow supervisor to overdraw time bank",
@@ -19,13 +27,29 @@
     "defaultMessage": "Name pronunciation",
     "description": "pronunciation label"
   },
+  "+9e9Y6": {
+    "defaultMessage": "Any step",
+    "description": "Work flow graph step"
+  },
   "+CgsmC": {
     "defaultMessage": "Active",
     "description": "Employee list component active filter"
   },
+  "+GKZRJ": {
+    "defaultMessage": "Pay item quantity scope",
+    "description": "Quantity scope"
+  },
   "+HBqCW": {
     "defaultMessage": "Organizer",
     "description": "Organizer Input Label"
+  },
+  "+HcXf+": {
+    "defaultMessage": "URL",
+    "description": "URL Input Label"
+  },
+  "+Hr8N8": {
+    "defaultMessage": "Add new benefit class",
+    "description": "benefit plan > benefit classes: button label for add new benefit class"
   },
   "+IEbSx": {
     "defaultMessage": "Vendor",
@@ -43,6 +67,10 @@
     "defaultMessage": "Unscheduled rounding rule to the nearest minute",
     "description": "Unattendance rounding rule tooltip"
   },
+  "+UeOV+": {
+    "defaultMessage": "Contact reference note",
+    "description": "auto generated reference => contactReferenceNote"
+  },
   "+Uoyov": {
     "defaultMessage": "Refer",
     "description": "Refer Button"
@@ -50,6 +78,14 @@
   "+WAxoG": {
     "defaultMessage": "Properties",
     "description": "Position Properties tab"
+  },
+  "+Wr1KP": {
+    "defaultMessage": "Create",
+    "description": "Create new pay item group button"
+  },
+  "+XrbVY": {
+    "defaultMessage": "Name",
+    "description": "Name Column Label"
   },
   "+af9li": {
     "defaultMessage": "Primary",
@@ -75,9 +111,16 @@
     "defaultMessage": "Keep blank to make permanently active",
     "description": "Keep blank to make permanently active"
   },
+  "+y9b7I": {
+    "defaultMessage": "Workflow transtion logs"
+  },
   "/92kRi": {
     "defaultMessage": "Evaluator",
     "description": "Evaluator Tab Title"
+  },
+  "/BAEiq": {
+    "defaultMessage": "Issue pay cheques",
+    "description": "Issue paycheques approval for pay group"
   },
   "/CMG4U": {
     "defaultMessage": "Contact info",
@@ -98,6 +141,10 @@
     "defaultMessage": "Or sign in with",
     "description": "Login form SSO button title"
   },
+  "/R+SVv": {
+    "defaultMessage": "Early",
+    "description": "Early Arrival Grace Column Label"
+  },
   "/ZA6bC": {
     "defaultMessage": "Save",
     "description": "Saving applicant information"
@@ -114,9 +161,24 @@
     "defaultMessage": "Add tracking item",
     "description": "add traking item header"
   },
+  "/cDWdc": {
+    "defaultMessage": "First you need to complete all checklists"
+  },
   "/gg6WH": {
     "defaultMessage": "Assign new HR manager",
     "description": "assign new HR manager page title"
+  },
+  "/lByzY": {
+    "defaultMessage": "Round",
+    "description": "Round Title"
+  },
+  "/qxtuL": {
+    "defaultMessage": "Pay items",
+    "description": "Pay items page header"
+  },
+  "/rRLWC": {
+    "defaultMessage": "Actions",
+    "description": "Actions Column Label"
   },
   "/w0Pvt": {
     "defaultMessage": "Grade",
@@ -126,6 +188,10 @@
     "defaultMessage": "Email",
     "description": "Email Column"
   },
+  "/zZBvo": {
+    "defaultMessage": "Auto subtract break (minutes)",
+    "description": "policies > time entry: label for dailyBreakExceedsDuration"
+  },
   "09Faln": {
     "defaultMessage": "Save",
     "description": "group form save button"
@@ -133,6 +199,10 @@
   "09q75W": {
     "defaultMessage": "Phone Number",
     "description": "Placeholder for Phone Number"
+  },
+  "0A6Zfx": {
+    "defaultMessage": "Access level",
+    "description": "auto generated supervisors => tabs => accessLevel"
   },
   "0B5C5U": {
     "defaultMessage": "Description",
@@ -157,6 +227,14 @@
   "0RmoYb": {
     "defaultMessage": "Probation days",
     "description": "benefit > properties: label for probationDays"
+  },
+  "0SdNgH": {
+    "defaultMessage": "Late",
+    "description": "Late Arrival Grace Column Label"
+  },
+  "0SiFL5": {
+    "defaultMessage": "Issue Date",
+    "description": "Issue Date Input Label"
   },
   "0X+m74": {
     "defaultMessage": "Total records: {total}",
@@ -190,15 +268,16 @@
     "defaultMessage": "No approval required",
     "description": "No approval required"
   },
-  "0qfJ55": {
-    "defaultMessage": "Sunday - Saturday"
-  },
   "0wOWO+": {
     "defaultMessage": "No spaces or ‘-‘s, for example: 108166950RP0001"
   },
   "0x584p": {
     "defaultMessage": "Pay item",
     "description": "time blocks Pay item"
+  },
+  "0xemDX": {
+    "defaultMessage": "Pay item assignment",
+    "description": "pay items groups breadcrumb"
   },
   "0yBm/F": {
     "defaultMessage": "Custom groups",
@@ -211,6 +290,22 @@
   "1FHJHj": {
     "defaultMessage": "Account number",
     "description": "Bank Account number"
+  },
+  "1I9DOU": {
+    "defaultMessage": "Assignments",
+    "description": "wor flow assignments breadcrumb"
+  },
+  "1J/JF6": {
+    "defaultMessage": "Early arrival grace",
+    "description": "Early arrival grace input Label"
+  },
+  "1Ro0+U": {
+    "defaultMessage": "Leave approval",
+    "description": "auto generated "
+  },
+  "1UTLmZ": {
+    "defaultMessage": "Due Date",
+    "description": "Due Date Input Label"
   },
   "1UaP/6": {
     "defaultMessage": "Overtime from",
@@ -251,6 +346,10 @@
   "1nO+kS": {
     "defaultMessage": "Federal business first 9 digits must be a valid SIN"
   },
+  "1ntMtz": {
+    "defaultMessage": "Evaluation",
+    "description": "Evaluation Input Label"
+  },
   "1od+ia": {
     "defaultMessage": "Legal Name",
     "description": "Group form name for employer"
@@ -259,10 +358,6 @@
     "defaultMessage": "Today",
     "description": "Today Button"
   },
-  "1zsQCk": {
-    "defaultMessage": "Create new trade code",
-    "description": "Create new trade code button label"
-  },
   "1zssMX": {
     "defaultMessage": "Claim number of dependents",
     "description": "Claim number of dependents for benefit plan tooltip"
@@ -270,6 +365,10 @@
   "2+/pXE": {
     "defaultMessage": "Please enter your new password",
     "description": "Please enter your new password"
+  },
+  "2+T50+": {
+    "defaultMessage": "Notes",
+    "description": "pay item notes label"
   },
   "20Bd7p": {
     "defaultMessage": "Password has been changed successfully",
@@ -314,6 +413,10 @@
     "defaultMessage": "Social Media Accounts",
     "description": "Social Media Accounts"
   },
+  "2cA7Zf": {
+    "defaultMessage": "Follow us on social media",
+    "description": "Follow us on social media icons title"
+  },
   "2faH1J": {
     "defaultMessage": "Create",
     "description": "Create new day definition button"
@@ -337,6 +440,9 @@
     "defaultMessage": "End",
     "description": "End Date Input Label"
   },
+  "2ruosL": {
+    "defaultMessage": "Move to system step"
+  },
   "2s9haV": {
     "defaultMessage": "Status",
     "description": "auto generated Status"
@@ -349,8 +455,9 @@
     "defaultMessage": "Opt-out Medical",
     "description": "Opt-out Medical for benefit plan form"
   },
-  "2zzk7v": {
-    "defaultMessage": "Friday - Thursday"
+  "2y9rcD": {
+    "defaultMessage": "Custom step",
+    "description": "Work flow graph step"
   },
   "33J2of": {
     "defaultMessage": "Create new employer",
@@ -359,6 +466,14 @@
   "36wJp9": {
     "defaultMessage": "Guest access",
     "description": "event document uploader access label"
+  },
+  "38agnr": {
+    "defaultMessage": "Create new rounding rule",
+    "description": "Add a new rounding rule page header"
+  },
+  "39o2d1": {
+    "defaultMessage": "Work period start and end dates are taken from the pay calendar. Pay transaction allocation date will be used as the work date",
+    "description": "PayItemForm Probation to tooltip"
   },
   "3D3KLD": {
     "defaultMessage": "ID number",
@@ -370,6 +485,10 @@
   "3HZHj7": {
     "defaultMessage": "{count, plural, one {# employee} other {# employees}} selected"
   },
+  "3SE+64": {
+    "defaultMessage": "Contact 1",
+    "description": "wf form contact 1 field"
+  },
   "3SJ59L": {
     "defaultMessage": "For example: Siobhan (pronounced shiv-AWN)",
     "description": "pronunciation extra text"
@@ -378,9 +497,9 @@
     "defaultMessage": "Name Recording",
     "description": "Name recording label"
   },
-  "3U5fVK": {
-    "defaultMessage": "Unions",
-    "description": "Union page header"
+  "3TrFzx": {
+    "defaultMessage": "General",
+    "description": "pay item general tab label"
   },
   "3WlC4f": {
     "defaultMessage": "Name",
@@ -412,10 +531,6 @@
     "defaultMessage": "Technical contact will be used when filing electronic tax slips and summaries. HR contact will be used on records of employment",
     "description": "Tooltip for employer contact type field"
   },
-  "3j9oFk": {
-    "defaultMessage": "Issue Pay Direct Deposits",
-    "description": "Issue Pay Direct Deposits approval for pay group"
-  },
   "3o4F4k": {
     "defaultMessage": "Due date period",
     "description": "asset Due date period"
@@ -433,7 +548,7 @@
   },
   "457MeJ": {
     "defaultMessage": "Allow employees to request or enter time that will overdraw bank balance",
-    "description": "policies > time off: tooltip for isBlockEmployeeOverBalance"
+    "description": "policies > time off: tooltip for isAllowEmployeeOverBalance"
   },
   "4BgAWB": {
     "defaultMessage": "Email Address",
@@ -443,6 +558,10 @@
     "defaultMessage": "Are you sure to apply for this position?",
     "description": "Confirm Apply Description"
   },
+  "4G4Oaz": {
+    "defaultMessage": "Status",
+    "description": "pay item quantity tab label"
+  },
   "4KNo4V": {
     "defaultMessage": "Apply to this open job",
     "description": "Apply button"
@@ -451,16 +570,20 @@
     "defaultMessage": "Work plan preview",
     "description": "auto generated Work plan preview"
   },
+  "4ODzah": {
+    "defaultMessage": "Add new category",
+    "description": "Add new category button label"
+  },
   "4PLerH": {
     "defaultMessage": "Bank address"
-  },
-  "4U8QIp": {
-    "defaultMessage": "Issue paycheques",
-    "description": "Issue paycheques approval for pay group"
   },
   "4UY6GM": {
     "defaultMessage": "Name",
     "description": "Holiday name"
+  },
+  "4YWNdk": {
+    "defaultMessage": "Tasks",
+    "description": "TransitionDrawer tasks"
   },
   "4bHs3b": {
     "defaultMessage": "Create new group type",
@@ -468,6 +591,10 @@
   },
   "4eAY6G": {
     "defaultMessage": "days in the last"
+  },
+  "4iHdw5": {
+    "defaultMessage": "Drag and drop your desire step and for modifing transitions double click on the line",
+    "description": "Work flow graph step drag and drop"
   },
   "4tYjBZ": {
     "defaultMessage": "(drag into test box)",
@@ -481,6 +608,18 @@
     "defaultMessage": "Due date should be later issue date",
     "description": "asset due date error"
   },
+  "5+QaB0": {
+    "defaultMessage": "Timesheet submittal",
+    "description": "auto generated supervisors => timeSheetSubmittal"
+  },
+  "57lA4/": {
+    "defaultMessage": "Daily",
+    "description": "Policies > overtime rules: label for Daily"
+  },
+  "5AC/Av": {
+    "defaultMessage": "Add task",
+    "description": "TransitionDrawer add task"
+  },
   "5EDot+": {
     "defaultMessage": "Benefit classes",
     "description": "Benefit Plans benefit classes tab label"
@@ -488,6 +627,10 @@
   "5GUQ3e": {
     "defaultMessage": "Account Number",
     "description": "Account Number"
+  },
+  "5HMqvO": {
+    "defaultMessage": "Rounding Rule",
+    "description": "Rounding Rule Header Title"
   },
   "5NWI8r": {
     "defaultMessage": "Employee access level to bank account on the employee profile",
@@ -500,21 +643,25 @@
   "5R9heZ": {
     "defaultMessage": "Expiry Date"
   },
-  "5SrXkt": {
-    "defaultMessage": "Add Benefit",
-    "description": "Add option for benefit plan"
-  },
   "5UWSWY": {
     "defaultMessage": "Enter your recovery email",
     "description": "Enter your recovery email"
+  },
+  "5Zzue4": {
+    "defaultMessage": "Error in advancing workflow",
+    "description": "WF Error in advancing workflow"
+  },
+  "5aKCLe": {
+    "defaultMessage": "Age restriction",
+    "description": "PayItemForm age restriction"
   },
   "5jDguV": {
     "defaultMessage": "Properties",
     "description": "Properties tab"
   },
-  "5lA1Vf": {
-    "defaultMessage": "Go to today",
-    "description": "Today button"
+  "5ox4aJ": {
+    "defaultMessage": "Paid leave includes all employment statuses marked as ‘Paid leave’ under Organization / Advanced. Evaluated by the work date / pay transaction allocation date",
+    "description": "PayItemForm Keep Active During Leave Tooltip"
   },
   "5qFMqy": {
     "defaultMessage": "View",
@@ -528,12 +675,13 @@
     "defaultMessage": "Evaluator",
     "description": "Evaluator Input Label"
   },
-  "5t05u8": {
-    "defaultMessage": "Work week"
-  },
   "5yfuyX": {
     "defaultMessage": "Groups",
     "description": "Employee List component groups list"
+  },
+  "6+IglM": {
+    "defaultMessage": "Actions",
+    "description": "WFMainPage actions column title"
   },
   "6/PjjV": {
     "defaultMessage": "Error",
@@ -551,6 +699,14 @@
     "defaultMessage": "Personal Document",
     "description": "Editprofile Personal Documents"
   },
+  "6HPfgJ": {
+    "defaultMessage": "Active",
+    "description": "PayItemForm Active"
+  },
+  "6NU8tk": {
+    "defaultMessage": "Employee payslips",
+    "description": "auto generated supervisors => employeePaySlips"
+  },
   "6P79/d": {
     "defaultMessage": "Probation will be enforced from the employee seniority date till the end of the work period. The probation period will be the sum of ‘Probation months’ and ‘Probation days’.",
     "description": "benefit > properties: tooltip for probationDays"
@@ -558,6 +714,10 @@
   "6TMYnU": {
     "defaultMessage": "Pay Calendars",
     "description": "Pay Calendar page name in the header"
+  },
+  "6TiOu1": {
+    "defaultMessage": "Training Status",
+    "description": "Training Status Input Label"
   },
   "6Tps09": {
     "defaultMessage": "Inactive"
@@ -574,6 +734,14 @@
     "defaultMessage": "Departments",
     "description": "Department page name in the header"
   },
+  "6YiOWj": {
+    "defaultMessage": "Clone and assign",
+    "description": "pay items list clone pay item clone and assign"
+  },
+  "6ZcPv/": {
+    "defaultMessage": "Type",
+    "description": "wf form type field"
+  },
   "6ayU9N": {
     "defaultMessage": "Tax withholding country"
   },
@@ -582,6 +750,14 @@
   },
   "6ee9ob": {
     "defaultMessage": "Benefit status"
+  },
+  "6lVhl/": {
+    "defaultMessage": "Documents",
+    "description": "Documents Tab Title"
+  },
+  "6lbe3F": {
+    "defaultMessage": "Name",
+    "description": "auto generated fullEnums => NAME"
   },
   "6lnph0": {
     "defaultMessage": "Confirm new password",
@@ -595,6 +771,14 @@
     "defaultMessage": "System groups",
     "description": "System groups button text"
   },
+  "6yVhYn": {
+    "defaultMessage": "Employee pay rates",
+    "description": "auto generated supervisors => employeePayRates"
+  },
+  "6zq482": {
+    "defaultMessage": "Require employee signature",
+    "description": "Require employee signature Input Input Label"
+  },
   "7/j1iv": {
     "defaultMessage": "times in the last"
   },
@@ -605,6 +789,10 @@
   "7BsPz7": {
     "defaultMessage": "Pay managers",
     "description": "documents: label for payManagersAccess access level"
+  },
+  "7DVKX1": {
+    "defaultMessage": "Pay item quantity source",
+    "description": "Quantity source"
   },
   "7FB+Aa": {
     "defaultMessage": "Contact name",
@@ -622,6 +810,14 @@
     "defaultMessage": "Something went wrong. Please check your email",
     "description": "Something went wrong. Please check your email"
   },
+  "7TU4+p": {
+    "defaultMessage": "General",
+    "description": "wf form general tab"
+  },
+  "7VmBs7": {
+    "defaultMessage": "No openings currently available.",
+    "description": "No job posted text description"
+  },
   "7ZxoC0": {
     "defaultMessage": "Name",
     "description": "Name option for classes"
@@ -629,6 +825,14 @@
   "7ZylJ+": {
     "defaultMessage": "Notify employee prior to the Due Date",
     "description": "dueDatePeriod tooltip"
+  },
+  "7cRPms": {
+    "defaultMessage": "Assign Employees",
+    "description": "Assign Employee Page Title"
+  },
+  "7d9ghr": {
+    "defaultMessage": "Benefit options list is empty",
+    "description": "Benefit options: Empty list message"
   },
   "7iiwG5": {
     "defaultMessage": "Duration",
@@ -650,13 +854,21 @@
     "defaultMessage": "Pay raise",
     "description": "Pay raise approval for department"
   },
-  "7xRg3m": {
-    "defaultMessage": "Upload document",
-    "description": "Document uploader drop zone title"
+  "7vKYkD": {
+    "defaultMessage": "Transition",
+    "description": "wf transtion line label"
+  },
+  "7xaBPh": {
+    "defaultMessage": "Max arrear pay back amount",
+    "description": "pay items forms arrears maxArrearPayBackAmount"
   },
   "7yN3y7": {
     "defaultMessage": "Successfully saved",
     "description": "Success"
+  },
+  "825pS6": {
+    "defaultMessage": "Do you want to unassign employees?",
+    "description": "PayItemForm Active Unassign employees"
   },
   "8Dvz+A": {
     "defaultMessage": "Contact phone",
@@ -673,6 +885,14 @@
   "8KvSFW": {
     "defaultMessage": "Primary Manager"
   },
+  "8LyLHx": {
+    "defaultMessage": "Employee timesheets",
+    "description": "auto generated supervisors => employeeTimeSheet"
+  },
+  "8M40f0": {
+    "defaultMessage": "Minimum age",
+    "description": "PayItemForm age restriction min age"
+  },
   "8TnyqE": {
     "defaultMessage": "Review alert (minutes)",
     "description": "Review alert (minutes) Input Label"
@@ -685,9 +905,17 @@
     "defaultMessage": "Employee",
     "description": "Employee Input Label"
   },
+  "8dtlSn": {
+    "defaultMessage": "Pay item quantity scope parameter",
+    "description": "Quantity scope parameter"
+  },
   "8edsS7": {
     "defaultMessage": "Actions",
     "description": "Asset actions column title"
+  },
+  "8huxHz": {
+    "defaultMessage": "Code",
+    "description": "Code Column Label"
   },
   "8iCQl2": {
     "defaultMessage": "Inactivate in Group",
@@ -705,17 +933,21 @@
     "defaultMessage": "Evaluator",
     "description": "Evaluator Column Title"
   },
-  "8t6WWz": {
-    "defaultMessage": "Create new category",
-    "description": "Create new category button label"
-  },
   "8vqtZZ": {
     "defaultMessage": "Active",
     "description": "Is Active"
   },
+  "8xqLbW": {
+    "defaultMessage": "Issue Date",
+    "description": "Issue Date Column Title"
+  },
   "8yi9/e": {
     "defaultMessage": "Email to employee",
     "description": "EMAIL_TO_EMPLOYEE Column"
+  },
+  "8yzd67": {
+    "defaultMessage": "Sign status",
+    "description": "auto generated groupDocumentUploader => signStatus"
   },
   "8zNJ4n": {
     "defaultMessage": "Type",
@@ -748,6 +980,10 @@
   "9NTVwS": {
     "defaultMessage": "Use quick placeholders",
     "description": "Use quick placeholder text title"
+  },
+  "9O8ctA": {
+    "defaultMessage": "Contact name",
+    "description": "Contact name Input Label"
   },
   "9QFhhh": {
     "defaultMessage": "Employee",
@@ -796,7 +1032,7 @@
   },
   "AGtxqr": {
     "defaultMessage": "Default daily time off duration type",
-    "description": "policies > time off: label for defaultDailyTimeOffDurationType"
+    "description": "policies > time off: label for defaultDailyLeaveDurationType"
   },
   "AH93Xf": {
     "defaultMessage": "Add Account",
@@ -818,6 +1054,10 @@
     "defaultMessage": "Expiry date",
     "description": "Label for expiry date field in benefit plan form"
   },
+  "AjdEGB": {
+    "defaultMessage": "Contact phone",
+    "description": "Contact phone Input Label"
+  },
   "Aq8vMt": {
     "defaultMessage": "Name",
     "description": "Tracking segment name col"
@@ -830,9 +1070,25 @@
     "defaultMessage": "Client Code",
     "description": "Tracking item client code col"
   },
+  "AzLx3d": {
+    "defaultMessage": "Email",
+    "description": "auto generated general => email"
+  },
+  "AzZngN": {
+    "defaultMessage": "Recurrence (months)",
+    "description": "Recurrence (months) Input Input Label"
+  },
   "Azzc//": {
     "defaultMessage": "Primary",
     "description": "Position assign form primary label"
+  },
+  "B+g5jQ": {
+    "defaultMessage": "Create a new workflow",
+    "description": "Create new workflow button"
+  },
+  "B/IFSQ": {
+    "defaultMessage": "Assign employees",
+    "description": "Assign employees to workflow"
   },
   "B1W+M+": {
     "defaultMessage": "Verification code sent to your recovery email.",
@@ -877,6 +1133,22 @@
     "defaultMessage": "Account Type",
     "description": "Bank account type"
   },
+  "BRhZdA": {
+    "defaultMessage": "Unscheduled duration",
+    "description": "policies > time entry: label for defaultUnscheduledDailyDuration"
+  },
+  "BWJ6Jm": {
+    "defaultMessage": "Create new training session",
+    "description": "Create new training session button text"
+  },
+  "Bf4RkP": {
+    "defaultMessage": "Code",
+    "description": "pay item code label"
+  },
+  "BgMJ0u": {
+    "defaultMessage": "Work period start and end dates are taken from the pay calendar Pay transaction allocation date will be used as the work date",
+    "description": "PayItemForm age restriction tooltip"
+  },
   "BmFREg": {
     "defaultMessage": "Work",
     "description": "day definition work"
@@ -893,20 +1165,43 @@
     "defaultMessage": "Address Line 2",
     "description": "Bank address line 2"
   },
+  "C+1S3n": {
+    "defaultMessage": "Department",
+    "description": "Department page header"
+  },
+  "C/C0E4": {
+    "defaultMessage": "The rule to adjust actual start and end time for incoming punches and attendance records",
+    "description": "Round tooltip"
+  },
+  "C0H1W9": {
+    "defaultMessage": "Unscheduled start time",
+    "description": "policies > time entry: label for defaultUnscheduledStartTime"
+  },
+  "C0WU0H": {
+    "defaultMessage": "Delete",
+    "description": "Delete performance review record button title"
+  },
   "C0fOck": {
     "defaultMessage": "Create new day definition"
   },
   "C2oOxx": {
     "defaultMessage": "Allow employees to overdraw bank balance",
-    "description": "policies > time off: label for isBlockEmployeeOverBalance"
+    "description": "policies > time off: label for isAllowEmployeeOverBalance"
   },
   "C7c4e6": {
     "defaultMessage": "Add Business Number",
     "description": "Add Business Number"
   },
-  "CVwwIA": {
-    "defaultMessage": "Departments",
-    "description": "Department page header"
+  "CPPExC": {
+    "defaultMessage": "Advace without actions"
+  },
+  "CQuH3O": {
+    "defaultMessage": "Is required sign",
+    "description": "auto generated groupDocumentUploader => isRequiredSign"
+  },
+  "CVjK3Z": {
+    "defaultMessage": "Code",
+    "description": "payItems list code"
   },
   "CWxPSV": {
     "defaultMessage": "Verification code sent",
@@ -915,6 +1210,9 @@
   "CYCK9N": {
     "defaultMessage": "Repeat Every",
     "description": "Repeat Every Checkbox Label"
+  },
+  "CaKpVy": {
+    "defaultMessage": "Do you want to clone the employee assignments of the selected pay item?"
   },
   "CdLMuj": {
     "defaultMessage": "Annual earnings",
@@ -944,9 +1242,9 @@
     "defaultMessage": "Import Link",
     "description": "Import Link"
   },
-  "D6wAMj": {
-    "defaultMessage": "Auto subtract break duration (minutes) when daily duration exceeds",
-    "description": "policies > time entry: label for dailyBreakExceedsDuration"
+  "CrbPHj": {
+    "defaultMessage": "Create new pay items",
+    "description": "pay item header create new asset"
   },
   "D8k4OE": {
     "defaultMessage": "Manage HR manager assignments",
@@ -955,6 +1253,10 @@
   "DBZtLW": {
     "defaultMessage": "Effective date",
     "description": "Effective date"
+  },
+  "DF5BC3": {
+    "defaultMessage": "Save",
+    "description": "pay item form save button"
   },
   "DKvbKm": {
     "defaultMessage": "Employer Identification Number",
@@ -992,6 +1294,14 @@
     "defaultMessage": "Opt-out AD&D",
     "description": "isOptADD for benefit plan form"
   },
+  "Ddkyx1": {
+    "defaultMessage": "Display sequence",
+    "description": "Step display squence"
+  },
+  "De0pJt": {
+    "defaultMessage": "Licenses & Permits",
+    "description": "License page header"
+  },
   "DlVoyO": {
     "defaultMessage": "When early arrival or late departure become Unscheduled attendance",
     "description": "workplan Unscheduled attendance threshold tooltip"
@@ -1002,6 +1312,10 @@
   },
   "Dpg5SN": {
     "defaultMessage": "G/L accounts"
+  },
+  "DuQX1g": {
+    "defaultMessage": "Assign",
+    "description": "Assignment table's employees assign button"
   },
   "E/emUm": {
     "defaultMessage": "Number of days prior to the renewal date to notify the HR Manager",
@@ -1034,6 +1348,14 @@
     "defaultMessage": "Positions",
     "description": "Position page header"
   },
+  "EFgpbn": {
+    "defaultMessage": "Name",
+    "description": "wf form name field"
+  },
+  "EIzCVy": {
+    "defaultMessage": "Employee schedules",
+    "description": "auto generated supervisors => employeeSchedules"
+  },
   "ENSzKQ": {
     "defaultMessage": "Nearest {i, plural, one {# minute} other {# minutes}}",
     "description": "workPlan unAttendanceRounding options"
@@ -1053,6 +1375,10 @@
   "Ee5g2D": {
     "defaultMessage": "Job Board",
     "description": "Job Board Title"
+  },
+  "EhZXRl": {
+    "defaultMessage": "Scores list is empty",
+    "description": "Empty Scores List"
   },
   "EiqJTN": {
     "defaultMessage": "Block team tracker & GPS locations on punches",
@@ -1094,9 +1420,9 @@
     "defaultMessage": "Actions",
     "description": "General Actions"
   },
-  "FE4mLu": {
-    "defaultMessage": "Create new region",
-    "description": "Create new region button label"
+  "FIodAu": {
+    "defaultMessage": "Assign Pay Item",
+    "description": "Assign Pay Item to pay item group button"
   },
   "FQQCuh": {
     "defaultMessage": "Capacity",
@@ -1105,6 +1431,10 @@
   "FXKREn": {
     "defaultMessage": "Note",
     "description": "day definition note field"
+  },
+  "FdD/lt": {
+    "defaultMessage": "Keep active during paid leave",
+    "description": "PayItemForm Keep Active During Leave"
   },
   "FjZXfi": {
     "defaultMessage": "Apply",
@@ -1141,6 +1471,10 @@
     "defaultMessage": "Rotation period (days)",
     "description": "auto generated Rotation period"
   },
+  "GfqGj5": {
+    "defaultMessage": "Inactive when employee benefit plan is inactive",
+    "description": "PayItemForm Inactive When Employee Benefit Plan Is Inactive"
+  },
   "GhKFeA": {
     "defaultMessage": "{yesNo, select, yes {Yes} no {No} other {}}",
     "description": "Tracking segment mandatory col"
@@ -1161,9 +1495,17 @@
     "defaultMessage": "Pending",
     "description": "Asset status 'Pending'"
   },
+  "GwVbR7": {
+    "defaultMessage": "Candidate",
+    "description": "auto generated roles => CANDIDATE"
+  },
   "GxmM1K": {
     "defaultMessage": "Create new employee type",
     "description": "group form employee type add title"
+  },
+  "GyT4Kx": {
+    "defaultMessage": "URL List",
+    "description": "URL list button title"
   },
   "H/a3uI": {
     "defaultMessage": "Name",
@@ -1172,6 +1514,10 @@
   "H0OkQ8": {
     "defaultMessage": "Position approval",
     "description": "Position approval for department"
+  },
+  "H3PRij": {
+    "defaultMessage": "Create arrears",
+    "description": "pay items forms arrears isCreateArrears"
   },
   "H3s8rr": {
     "defaultMessage": "Active",
@@ -1184,10 +1530,6 @@
   "HA/Jlv": {
     "defaultMessage": "Image",
     "description": "Asset image column title"
-  },
-  "HFZ/2l": {
-    "defaultMessage": "Create new sector",
-    "description": "Create new sector button label"
   },
   "HIwV/y": {
     "defaultMessage": "Required due date for asset return. Leave blank when unknown.",
@@ -1208,13 +1550,28 @@
   "HV21Qf": {
     "defaultMessage": "EmployeeDomain Logo"
   },
+  "HXnjqT": {
+    "defaultMessage": "Task and Checklist from {from} to {to}",
+    "description": "TransitionDrawer title"
+  },
   "HZZ7oP": {
     "defaultMessage": "Save Is Disabled",
     "description": "You do not have permission to edit benefit plan"
   },
+  "HdZkVH": {
+    "defaultMessage": "Pay item assignment",
+    "description": "pay items group list assignment"
+  },
   "HiQRgl": {
     "defaultMessage": "Seniority",
     "description": "Holiday Seniority tab"
+  },
+  "HlMWir": {
+    "defaultMessage": "Employee"
+  },
+  "HsqJeY": {
+    "defaultMessage": "Unassign",
+    "description": "PayItemForm Active Unassign employees Unassign"
   },
   "HuH2LQ": {
     "defaultMessage": "Permissions",
@@ -1231,12 +1588,24 @@
     "defaultMessage": "Block employee bank balance display",
     "description": "policies > time off: label for isBlockTimeBankBalanceDisplay"
   },
+  "IGVc3g": {
+    "defaultMessage": "Save",
+    "description": "wf form save button"
+  },
   "IISsOI": {
     "defaultMessage": "Affiliated company"
   },
   "IP6Pr/": {
     "defaultMessage": "Save",
     "description": "supervisor form save button"
+  },
+  "ISkMFQ": {
+    "defaultMessage": "Add score",
+    "description": "Add score tab title"
+  },
+  "IXG9Va": {
+    "defaultMessage": "Any",
+    "description": "Workflow Any node's label"
   },
   "IaVBdo": {
     "defaultMessage": "Confirm delete records",
@@ -1253,9 +1622,6 @@
   "IiMJaC": {
     "defaultMessage": "Add Notification Template",
     "description": "Add Notification Template"
-  },
-  "Iij59T": {
-    "defaultMessage": "Thursday - Wednesday"
   },
   "Imq0BU": {
     "defaultMessage": "Job Board",
@@ -1296,6 +1662,10 @@
   "JDJoIZ": {
     "defaultMessage": "This action cannot be undone."
   },
+  "JMUwVI": {
+    "defaultMessage": "Add",
+    "description": "Add Page Title"
+  },
   "JNN53c": {
     "defaultMessage": "There are active employees assigned to this position. Are you sure?",
     "description": "Confirmation on Inactive Group"
@@ -1323,6 +1693,10 @@
     "defaultMessage": "Recovery email",
     "description": "Recovery Email"
   },
+  "JmT5NT": {
+    "defaultMessage": "Position",
+    "description": "auto generated general => position"
+  },
   "Jpbpww": {
     "defaultMessage": "Notification Template",
     "description": "Notification Template Title"
@@ -1343,6 +1717,14 @@
     "defaultMessage": "Months",
     "description": "Holiday min seniority months"
   },
+  "Jy03v9": {
+    "defaultMessage": "G/L Account",
+    "description": "pay items forms process GL"
+  },
+  "K+gpPB": {
+    "defaultMessage": "Tax forms",
+    "description": "pay item tax forms tab label"
+  },
   "K0d2sV": {
     "defaultMessage": "Name",
     "description": "Asset name column title"
@@ -1358,6 +1740,10 @@
     "defaultMessage": "Employee status",
     "description": "Employee list component employee status button"
   },
+  "K88m/P": {
+    "defaultMessage": "Pay groups",
+    "description": "Pay Group page header"
+  },
   "K8dc7G": {
     "defaultMessage": "Not available for this authority"
   },
@@ -1371,7 +1757,7 @@
   },
   "KM/Ax8": {
     "defaultMessage": "Block employee time off requests",
-    "description": "policies > time off: label for isBlockTimeOffRequest"
+    "description": "policies > time off: label for isBlockLeave"
   },
   "KQ2GFS": {
     "defaultMessage": "Contact email",
@@ -1393,13 +1779,25 @@
     "defaultMessage": "SMS",
     "description": "SMS Column"
   },
+  "KYNKLW": {
+    "defaultMessage": "Name",
+    "description": "pay item group list name"
+  },
+  "KeDUjT": {
+    "defaultMessage": "Progress",
+    "description": "auto generated applicant => progress"
+  },
+  "Khbdfd": {
+    "defaultMessage": "Add new region",
+    "description": "Add new region button label"
+  },
   "KoQSVP": {
     "defaultMessage": "Action",
     "description": "Action Column Title"
   },
-  "KqkUfl": {
-    "defaultMessage": "Create new wage schedule",
-    "description": "Create new wage schedule button label"
+  "Kqhh+H": {
+    "defaultMessage": "Review workflow",
+    "description": "PerformanceReviewForm: wfId label"
   },
   "KqnQVA": {
     "defaultMessage": "Create new event",
@@ -1408,6 +1806,10 @@
   "KtmTYi": {
     "defaultMessage": "Please enter the 6-digit code you recieved",
     "description": "Please enter the 6-digit code you recieved"
+  },
+  "KwFTx6": {
+    "defaultMessage": "Properties",
+    "description": "Document Drawer title"
   },
   "Kyb+E4": {
     "defaultMessage": "Bulk Delete",
@@ -1420,6 +1822,14 @@
     "defaultMessage": "Provincial",
     "description": "Canada Provincial Authority"
   },
+  "L/Lvp2": {
+    "defaultMessage": "Evaluated",
+    "description": "PayItemForm age restriction min age evaluated"
+  },
+  "L/qomc": {
+    "defaultMessage": "Name",
+    "description": "Step name"
+  },
   "L5fEb5": {
     "defaultMessage": "Employee offboarding",
     "description": "Employee offboarding approval for department"
@@ -1428,29 +1838,69 @@
     "defaultMessage": "Logout",
     "description": "Logout"
   },
-  "LKWuwM": {
-    "defaultMessage": "Are you sure you wish to delete this record?",
-    "description": "Delete Performance Review Record Confirm"
+  "LRI5it": {
+    "defaultMessage": "File name",
+    "description": "auto generated groupDocumentUploader => fileName"
   },
   "LSX9t7": {
     "defaultMessage": "Change Password",
     "description": "Change Password"
   },
+  "LTMlx0": {
+    "defaultMessage": "Leave submittal",
+    "description": "auto generated "
+  },
+  "LXc3bY": {
+    "defaultMessage": "Advance workflow to {stateName}",
+    "description": "WF Advance Workflow Drawer Title"
+  },
+  "LiZFme": {
+    "defaultMessage": "Probation",
+    "description": "PayItemForm Probation"
+  },
+  "Lnx9PG": {
+    "defaultMessage": "Code",
+    "description": "pay item group list code"
+  },
+  "LrEUQB": {
+    "defaultMessage": "Late departure grace",
+    "description": "Late departure grace input Label"
+  },
   "Ls0fVg": {
     "defaultMessage": "Properties",
     "description": "License and Permits properties label"
+  },
+  "LsLcfj": {
+    "defaultMessage": "Processing Sequence",
+    "description": "pay items forms process processingSequence"
   },
   "LwplYi": {
     "defaultMessage": "Password dont match",
     "description": "Password dont match"
   },
+  "LyS52q": {
+    "defaultMessage": "Actions",
+    "description": "assigned payItems list actions"
+  },
+  "M1Rh0j": {
+    "defaultMessage": "Primary supervisor",
+    "description": "auto generated supervisors => isPrimarySupervisor"
+  },
   "M3jtuw": {
     "defaultMessage": "Columns",
     "description": "Buttons: label for columns"
   },
+  "M8SvYl": {
+    "defaultMessage": "General",
+    "description": "General Tab Label"
+  },
   "MBv0RA": {
     "defaultMessage": "Name",
     "description": "day definition name field"
+  },
+  "MFDmgK": {
+    "defaultMessage": "System code",
+    "description": "pay item system code label"
   },
   "MHMeN5": {
     "defaultMessage": "Enrollment date",
@@ -1466,6 +1916,10 @@
   },
   "MNoT8+": {
     "defaultMessage": "Authority"
+  },
+  "MS0uPk": {
+    "defaultMessage": "Add new union status",
+    "description": "Add new union status button label"
   },
   "MYrk0M": {
     "defaultMessage": "Individually assigned document, viewable only by managers and the employee",
@@ -1486,10 +1940,6 @@
   "MkaShn": {
     "defaultMessage": "Actions",
     "description": "Actions Column Title"
-  },
-  "MsQpAk": {
-    "defaultMessage": "Benefit Plans",
-    "description": "Benefit Plan page header"
   },
   "MuExEF": {
     "defaultMessage": "Yes",
@@ -1513,9 +1963,17 @@
     "defaultMessage": "Create",
     "description": "Create Button Title"
   },
+  "NE/Ngp": {
+    "defaultMessage": "Contact Info",
+    "description": "Contact Info Tab Title"
+  },
   "NEySXX": {
     "defaultMessage": "Primary pay manager",
     "description": "Primary pay manager badge"
+  },
+  "NULZ57": {
+    "defaultMessage": "Assigned Employees",
+    "description": "Training page assigned employee list title"
   },
   "NX0AUN": {
     "defaultMessage": "Display Sequence",
@@ -1553,6 +2011,14 @@
     "defaultMessage": "English",
     "description": "English Lang Label"
   },
+  "Nw+9IR": {
+    "defaultMessage": "Employee confidential information",
+    "description": "auto generated supervisors => employeeConfidentialInformation"
+  },
+  "NyjkOk": {
+    "defaultMessage": "Early arrival round",
+    "description": "Early arrival round input Label"
+  },
   "NyrWMi": {
     "defaultMessage": "Create new department",
     "description": "group form department add title"
@@ -1569,6 +2035,10 @@
     "defaultMessage": "Provider name",
     "description": "benefit > properties: label for provider"
   },
+  "OA0Csu": {
+    "defaultMessage": "Create new workflow",
+    "description": "asset header create new workflow"
+  },
   "OHdjb2": {
     "defaultMessage": "Add Event",
     "description": "Add Event Page Name"
@@ -1581,17 +2051,45 @@
     "defaultMessage": "Client Code",
     "description": "tracking item client code"
   },
+  "OKMiwi": {
+    "defaultMessage": "Expense reimbursement approval",
+    "description": "auto generated supervisors => expenseReimbursementApproval"
+  },
+  "ONOgR9": {
+    "defaultMessage": "Employee profiles",
+    "description": "auto generated supervisors => employeeProfiles"
+  },
   "OQ39qP": {
     "defaultMessage": "Properties",
     "description": "groups: Properties"
+  },
+  "OQB2IH": {
+    "defaultMessage": "No checklists",
+    "description": "WF No checklists"
+  },
+  "OSPowN": {
+    "defaultMessage": "Clone",
+    "description": "pay items list clone pay item clone"
   },
   "OSdV6o": {
     "defaultMessage": "Note",
     "description": "auto generated Note"
   },
+  "OWnCiw": {
+    "defaultMessage": "Contact email",
+    "description": "Contact email Input Label"
+  },
+  "OdVgxe": {
+    "defaultMessage": "Create",
+    "description": "Create Rounding Rule Button"
+  },
   "OlQNfy": {
     "defaultMessage": "Address Line 1",
     "description": "Bank address line 1"
+  },
+  "OmdQmn": {
+    "defaultMessage": "Benefit plans",
+    "description": "Benefit Plan page header"
   },
   "OnqcRj": {
     "defaultMessage": "The date the employee experience was established",
@@ -1601,12 +2099,24 @@
     "defaultMessage": "View & modify",
     "description": "documents: label for RU permissions"
   },
+  "P1k7bz": {
+    "defaultMessage": "Create",
+    "description": "Create Submit Button"
+  },
   "P39hKt": {
     "defaultMessage": "Enforce max daily break of"
+  },
+  "P6lbtr": {
+    "defaultMessage": "Early departure grace",
+    "description": "Early departure grace input Label"
   },
   "PALyJ4": {
     "defaultMessage": "Html message",
     "description": "Html message Column"
+  },
+  "PCanES": {
+    "defaultMessage": "Category",
+    "description": "pay item category label"
   },
   "PI6Z5E": {
     "defaultMessage": "Day {day}",
@@ -1619,6 +2129,10 @@
   "PNcOFp": {
     "defaultMessage": "Name",
     "description": "Name Column Title"
+  },
+  "PQJ/EH": {
+    "defaultMessage": "{tabLabel} list is empty",
+    "description": "Union: Empty list message"
   },
   "PQRyCY": {
     "defaultMessage": "Attendance records will automatically be created when the leave requests are approved",
@@ -1636,6 +2150,10 @@
     "defaultMessage": "File name",
     "description": "documents: label for file name"
   },
+  "PlV9DP": {
+    "defaultMessage": "Clone pay item",
+    "description": "pay items list clone pay item"
+  },
   "PmxTec": {
     "defaultMessage": "Please enter an email address",
     "description": "No email address"
@@ -1651,6 +2169,10 @@
   "Q1gZsw": {
     "defaultMessage": "Next scheduled maintenance",
     "description": "asset Next scheduled maintenance"
+  },
+  "Q6jHAg": {
+    "defaultMessage": "Published on",
+    "description": "auto generated groupDocumentUploader => publishedDate"
   },
   "QDpvTw": {
     "defaultMessage": "Description",
@@ -1679,6 +2201,10 @@
   "QT6KpS": {
     "defaultMessage": "Primary HR manager",
     "description": "Primary HR manager badge"
+  },
+  "QY0O3u": {
+    "defaultMessage": "General",
+    "description": "General Input Label"
   },
   "QaZrlm": {
     "defaultMessage": "Bank Account",
@@ -1712,6 +2238,10 @@
     "defaultMessage": "Name",
     "description": "Asset name"
   },
+  "R4d9mr": {
+    "defaultMessage": "Delete",
+    "description": "Union: Delete button label"
+  },
   "R8hh8p": {
     "defaultMessage": "Default Holiday time off fixed duration",
     "description": "policies > time off: label for defaultHolidayDuration"
@@ -1722,6 +2252,10 @@
   },
   "RcM6Nv": {
     "defaultMessage": "Bank details"
+  },
+  "RkZhrd": {
+    "defaultMessage": "Logs",
+    "description": "Workflow logs button tooltip"
   },
   "RnXLEV": {
     "defaultMessage": "Nearest {count, plural, one {minute} other {# minutes}}",
@@ -1739,6 +2273,10 @@
     "defaultMessage": "Edit Profile",
     "description": "Edit profile"
   },
+  "S3kcrs": {
+    "defaultMessage": "Type",
+    "description": "PayItemForm Probation type"
+  },
   "S80s3z": {
     "defaultMessage": "General",
     "description": "Asset form general tab"
@@ -1754,6 +2292,10 @@
   "SMjzA+": {
     "defaultMessage": "Auto punch processing",
     "description": "policies > punches: label for isAutoPunchProcessing"
+  },
+  "SONsVn": {
+    "defaultMessage": "Grace Period",
+    "description": "Grace Period Title"
   },
   "SPNd9x": {
     "defaultMessage": "Trade codes",
@@ -1774,10 +2316,6 @@
   "SpZDfR": {
     "defaultMessage": "Create new tracking item",
     "description": "Create new tracking item button"
-  },
-  "StFLZ4": {
-    "defaultMessage": "Delete",
-    "description": "Delete button tooltip"
   },
   "Svox5B": {
     "defaultMessage": "Publish date & time",
@@ -1802,9 +2340,17 @@
   "TE4fIS": {
     "defaultMessage": "City"
   },
+  "TOMwX/": {
+    "defaultMessage": "Expense reimbursement submittal",
+    "description": "auto generated supervisors => expenseReimbursementSubmittal"
+  },
   "TPuKKa": {
     "defaultMessage": "Create",
     "description": "Time block create button"
+  },
+  "TQfXQA": {
+    "defaultMessage": "Late arrival grace",
+    "description": "Late arrival grace input Label"
   },
   "TQrwvs": {
     "defaultMessage": "Used when no Work Plan is found or outside the Day Definition Early and Late period",
@@ -1825,10 +2371,6 @@
   "Te3qwx": {
     "defaultMessage": "Other documents",
     "description": "Other documents"
-  },
-  "Tg4D5s": {
-    "defaultMessage": "Pay Groups",
-    "description": "Pay Group page header"
   },
   "Th6Db0": {
     "defaultMessage": "Review date/time",
@@ -1858,6 +2400,10 @@
     "defaultMessage": "Expiry date",
     "description": "Expiry date benefit assignment column"
   },
+  "U/QglF": {
+    "defaultMessage": "Add assignment",
+    "description": "pay items groups breadcrumb"
+  },
   "U0uKJf": {
     "defaultMessage": "Home",
     "description": "Home button in the sidebar"
@@ -1869,6 +2415,10 @@
     "defaultMessage": "Mandatory",
     "description": "Tracking segment mandatory col"
   },
+  "U9Y7ai": {
+    "defaultMessage": "Policy",
+    "description": "Policy page header"
+  },
   "U9pIO2": {
     "defaultMessage": "Description",
     "description": "Bank account description"
@@ -1877,9 +2427,17 @@
     "defaultMessage": "Wage Schedule",
     "description": "Wage schedule tab label"
   },
+  "ULUWkA": {
+    "defaultMessage": "Pay item groups",
+    "description": "Pay item groups page header"
+  },
   "UMb+vN": {
     "defaultMessage": "Bank account description",
     "description": "Bank account description"
+  },
+  "UNgs7E": {
+    "defaultMessage": "Bulk delete",
+    "description": "Bulk Delete Button Title"
   },
   "UOar9D": {
     "defaultMessage": "Teams",
@@ -1900,25 +2458,37 @@
     "defaultMessage": "Farsi",
     "description": "Farsi Lang Label"
   },
-  "UkeQP9": {
-    "defaultMessage": "Active",
-    "description": "Active"
-  },
   "UlXdhs": {
     "defaultMessage": "Display the guest list to the event guests",
     "description": "Display the guest list to the event guests tooltip"
+  },
+  "Us5Sri": {
+    "defaultMessage": "Small windows of time in which the punch will be adjusted to the scheduled event time. Note that multiples of 3 minutes will be nicely rounded in decimal durations",
+    "description": "Grace tooltip"
   },
   "UwetuO": {
     "defaultMessage": "Edit employee assignment",
     "description": "Edit employee assignment tooltip"
   },
+  "V0rypS": {
+    "defaultMessage": "Workflows",
+    "description": "wor flow breadcrumb"
+  },
   "V3fVak": {
     "defaultMessage": "Inactive",
     "description": "Employee list component inactive filter"
   },
+  "V5GT6P": {
+    "defaultMessage": "employee leaves",
+    "description": "auto generated "
+  },
   "VFL1si": {
     "defaultMessage": "To allows the day start time to be shifted as per the actual start time. For example, a day definition from 9:00am to 5:00pm will be shifted to 9:11 to 5:11 when the employee punches IN at 9:11 instead of 9:00)",
     "description": "Time block start tooltip"
+  },
+  "VGebyD": {
+    "defaultMessage": "Delete",
+    "description": "Delete Button Title"
   },
   "VGyO04": {
     "defaultMessage": "GEO position",
@@ -1932,9 +2502,21 @@
     "defaultMessage": "Actions",
     "description": "Day definition table actions label"
   },
+  "VVADjJ": {
+    "defaultMessage": "Checklist",
+    "description": "TransitionDrawer checklist"
+  },
   "VVPRXJ": {
     "defaultMessage": "Is flex start time",
     "description": "day definition is flex start time"
+  },
+  "VWBFgZ": {
+    "defaultMessage": "Create new training",
+    "description": "Create New Training Page Name"
+  },
+  "VZ+4g3": {
+    "defaultMessage": "Add new benefit option",
+    "description": "Add option for benefit plan"
   },
   "VhYEbf": {
     "defaultMessage": "Please enter a valid email address",
@@ -1951,6 +2533,10 @@
   "Vp+XlU": {
     "defaultMessage": "Unscheduled attendance rounding rule",
     "description": "Unscheduled attendance rounding rule"
+  },
+  "VqCCLz": {
+    "defaultMessage": "Reference year-end month",
+    "description": "pay item reference year-end month label"
   },
   "VsJkMf": {
     "defaultMessage": "Sign in",
@@ -1979,6 +2565,10 @@
     "defaultMessage": "Properties",
     "description": "Asset Properties tab label"
   },
+  "WGnhIW": {
+    "defaultMessage": "Facebook Icon",
+    "description": "Facebook Icon logo"
+  },
   "WKZxVX": {
     "defaultMessage": "HR managers",
     "description": "documents: label for hrManagersAccess level"
@@ -1997,6 +2587,10 @@
   "WM/dMw": {
     "defaultMessage": "Send",
     "description": "Send verification code"
+  },
+  "WNH8Gq": {
+    "defaultMessage": "Type",
+    "description": "pay item type label"
   },
   "WNJEmN": {
     "defaultMessage": "Social Media: Invalid URL Entered",
@@ -2045,6 +2639,14 @@
     "defaultMessage": "Day Definitions",
     "description": "Day Definition page header"
   },
+  "X9/rvM": {
+    "defaultMessage": "Liability",
+    "description": "pay items forms process GL glLiabilityAccountId"
+  },
+  "XCQ0Mc": {
+    "defaultMessage": "Create new pay item group",
+    "description": "pay item group header new"
+  },
   "XGQICJ": {
     "defaultMessage": "Active",
     "description": "Active Column"
@@ -2053,9 +2655,17 @@
     "defaultMessage": "Province",
     "description": "province"
   },
+  "XIuVd8": {
+    "defaultMessage": "Status",
+    "description": "pay items group list status"
+  },
   "XJch5+": {
     "defaultMessage": "Template Type",
     "description": "Template Type Column"
+  },
+  "XJozPu": {
+    "defaultMessage": "Shortcut",
+    "description": "payItems list shortcut"
   },
   "XQFw6Z": {
     "defaultMessage": "Expected number of employees scheduled for work. Use zero when not used.",
@@ -2068,13 +2678,25 @@
     "defaultMessage": "Locations",
     "description": "Location page name in the header"
   },
+  "XhusRH": {
+    "defaultMessage": "Amount",
+    "description": "pay item amount tab label"
+  },
   "Xjl/OW": {
     "defaultMessage": "Create, View, Modify & Create",
     "description": "documents: label for CRU permissions"
   },
+  "Xkj98j": {
+    "defaultMessage": "Arrival Grace",
+    "description": "Arrival Column Label"
+  },
   "XnT4Gg": {
     "defaultMessage": "Configuration",
     "description": "asset Configuration"
+  },
+  "Xp6DeK": {
+    "defaultMessage": "Error while saving workflow",
+    "description": "wf save error"
   },
   "XrNcIy": {
     "defaultMessage": "Confirm",
@@ -2088,9 +2710,17 @@
     "defaultMessage": "Date is used to evaluate the employee status",
     "description": "groups page employees effective date tooltip when isDateSensitive N"
   },
+  "XxZj45": {
+    "defaultMessage": "Early",
+    "description": "Early Departure Grace Column Label"
+  },
   "Y+9kdB": {
     "defaultMessage": "Enter verification code",
     "description": "Enter Verification Code"
+  },
+  "Y0kdU/": {
+    "defaultMessage": "from",
+    "description": "PayItemForm Probation from"
   },
   "Y4zzdr": {
     "defaultMessage": "(Active)",
@@ -2115,13 +2745,21 @@
     "defaultMessage": "Proficiency",
     "description": "Skill Proficiency (assign)"
   },
+  "YSm6Lo": {
+    "defaultMessage": "Entry Condition",
+    "description": "pay items forms process entryCondition"
+  },
+  "YYoNNy": {
+    "defaultMessage": "Rate",
+    "description": "pay item rate tab label"
+  },
   "Yklm10": {
     "defaultMessage": "Default coverage",
     "description": "Default Coverage for benefit plan form"
   },
-  "Yury/N": {
-    "defaultMessage": "Licenses",
-    "description": "License page header"
+  "YmMKso": {
+    "defaultMessage": "Create new assignment",
+    "description": "Create New assignment Page"
   },
   "Z1sDA0": {
     "defaultMessage": "Position posting",
@@ -2138,12 +2776,24 @@
   "Z7u+GZ": {
     "defaultMessage": "Miniumum Employmnet"
   },
+  "Z8tmDP": {
+    "defaultMessage": "Color",
+    "description": "pay item color label"
+  },
   "Z9mx0C": {
     "defaultMessage": "Months before holiday"
+  },
+  "ZBtgcM": {
+    "defaultMessage": "Name",
+    "description": "pay item name label"
   },
   "ZEn+9k": {
     "defaultMessage": "Close pay",
     "description": "Close pay approval for pay group"
+  },
+  "ZG2mpd": {
+    "defaultMessage": "Add new wage schedule",
+    "description": "Add new wage schedule button label"
   },
   "ZKTOtU": {
     "defaultMessage": "Holiday Calendars",
@@ -2160,6 +2810,10 @@
   "ZZXpCU": {
     "defaultMessage": "Tracking segments",
     "description": "Tracking segments title"
+  },
+  "ZbZl1+": {
+    "defaultMessage": "Issue pay direct deposits",
+    "description": "Issue Pay Direct Deposits approval for pay group"
   },
   "Zc0u1J": {
     "defaultMessage": "All work prior to this time will be considered as overtime",
@@ -2188,9 +2842,21 @@
     "defaultMessage": "Refer a friend",
     "description": "Refer a friend button"
   },
+  "ZrH/rf": {
+    "defaultMessage": "Arrears",
+    "description": "pay items forms arrears"
+  },
   "ZuMoaM": {
     "defaultMessage": "Excess time from",
     "description": "policies > overtime rules: label for weeklyExcessFrom"
+  },
+  "Zw5zJi": {
+    "defaultMessage": "System used",
+    "description": "pay item form checkbox label"
+  },
+  "ZwzmiQ": {
+    "defaultMessage": "Type",
+    "description": "auto generated applicant => type"
   },
   "a7Vbut": {
     "defaultMessage": "Week",
@@ -2207,9 +2873,17 @@
     "defaultMessage": "Pay items",
     "description": "Pay items for benefit plan"
   },
+  "aEhmwv": {
+    "defaultMessage": "Create new rounding rule",
+    "description": "Create new rounding rule breadcrumb title"
+  },
   "aI5LBl": {
     "defaultMessage": "Alert period (days)",
     "description": "Alert period (days) for license and permits"
+  },
+  "aJxydE": {
+    "defaultMessage": "Entry Restriction",
+    "description": "pay items forms process entryRestriction"
   },
   "aMdHwF": {
     "defaultMessage": "Confirm Apply",
@@ -2229,11 +2903,15 @@
   },
   "aWbPCz": {
     "defaultMessage": "Daily duration used for a full day or range of days time off requests",
-    "description": "policies > time off: tooltip for defaultDailyTimeOffDurationType"
+    "description": "policies > time off: tooltip for defaultDailyLeaveDurationType"
   },
   "aXLaEw": {
     "defaultMessage": "For Sunday work",
     "description": "policies > overtime rules: label for isForceOvertimeSun"
+  },
+  "aacibU": {
+    "defaultMessage": "Training",
+    "description": "Training page title"
   },
   "aapDm8": {
     "defaultMessage": "Unknown Page",
@@ -2250,10 +2928,6 @@
   "aprQnQ": {
     "defaultMessage": "Address type"
   },
-  "at0WUg": {
-    "defaultMessage": "Save",
-    "description": "Edit Button Text"
-  },
   "aw5xgz": {
     "defaultMessage": "Display guest list",
     "description": "Display guest list Checkbox"
@@ -2261,13 +2935,17 @@
   "awItTC": {
     "defaultMessage": "Contact language"
   },
+  "awWY8v": {
+    "defaultMessage": "Permissions",
+    "description": "auto generated supervisors => tabs => permissions"
+  },
+  "ayDytt": {
+    "defaultMessage": "URL list is empty",
+    "description": "URL list empty title"
+  },
   "azReOp": {
     "defaultMessage": "Assign HR manager",
     "description": "Manager page assign HR manager button"
-  },
-  "b+eVhm": {
-    "defaultMessage": "Create new union status",
-    "description": "Create new union status button label"
   },
   "b78j1X": {
     "defaultMessage": "Employee Groups",
@@ -2276,6 +2954,10 @@
   "bBg39S": {
     "defaultMessage": "When turned off, no GPS location will be Tracked",
     "description": "policies > punches: tooltip for isLocationService"
+  },
+  "bN+Fnf": {
+    "defaultMessage": "Actions",
+    "description": "auto generated general => actions"
   },
   "bPtBwy": {
     "defaultMessage": "Status",
@@ -2289,16 +2971,16 @@
     "defaultMessage": "Loading ...",
     "description": "Loading title"
   },
+  "bYL2AW": {
+    "defaultMessage": "Add new trade code",
+    "description": "Add new trade code button label"
+  },
   "bbPfn0": {
     "defaultMessage": "Longitude"
   },
   "bci+av": {
     "defaultMessage": "Account Number",
     "description": "G/L Account Number Column"
-  },
-  "bdwdnI": {
-    "defaultMessage": "Save",
-    "description": "Submit Button Text"
   },
   "bgFUL9": {
     "defaultMessage": "Bank contact"
@@ -2322,6 +3004,14 @@
   "bpFjjb": {
     "defaultMessage": "Are you sure you wish to remove {count, plural, one {# employee} other {# employees}} from this group?"
   },
+  "bxhkdW": {
+    "defaultMessage": "First name",
+    "description": "auto generated profile => basicInfo => firstName"
+  },
+  "c2+onV": {
+    "defaultMessage": "Bulk Delete",
+    "description": "pay item group - delete pay item button"
+  },
   "c3YX4M": {
     "defaultMessage": "Employee will only be allowed to view the time entry screen. All changes done by the employee will not be allowed",
     "description": "policies > time entry: tooltip for isBlockTimeEntry"
@@ -2329,6 +3019,18 @@
   "c6yskD": {
     "defaultMessage": "Postal Code",
     "description": "Bank address postal code"
+  },
+  "cNvud5": {
+    "defaultMessage": "Employee expense reimbursements",
+    "description": "auto generated supervisors => employeeExpenseReimbursement"
+  },
+  "cPAFST": {
+    "defaultMessage": "Exclude from attendance entry screen",
+    "description": "pay item form checkbox label"
+  },
+  "cPtWkO": {
+    "defaultMessage": "Cancel",
+    "description": "pay items list clone pay item cancel"
   },
   "cTa/G7": {
     "defaultMessage": "Member description",
@@ -2349,6 +3051,10 @@
   "cdW7Cf": {
     "defaultMessage": "Save",
     "description": "Holiday save button"
+  },
+  "ceiewC": {
+    "defaultMessage": "Late",
+    "description": "Late Departure Grace Column Label"
   },
   "cgcSP2": {
     "defaultMessage": "Enter your recovery email or phone",
@@ -2380,15 +3086,16 @@
   "ct2jPP": {
     "defaultMessage": "Contact name"
   },
-  "cxthK/": {
-    "defaultMessage": "Saturday - Friday"
-  },
   "czuGOp": {
     "defaultMessage": "Forgot Email",
     "description": "Forgot Email"
   },
   "dDGuHP": {
     "defaultMessage": "Benefit option"
+  },
+  "dFApWD": {
+    "defaultMessage": "Keep trying to end of month if entry faield or have zero amount",
+    "description": "pay items forms process isPersist tooltip"
   },
   "dGkfYU": {
     "defaultMessage": "Properties",
@@ -2397,13 +3104,33 @@
   "dOjW4K": {
     "defaultMessage": "Employee not absent on the day before the Holiday"
   },
+  "dOuOHV": {
+    "defaultMessage": "Rule Code",
+    "description": "Rule Code Input Label"
+  },
   "dYo54i": {
     "defaultMessage": "Renewal frequency from the day the skill is assigned to the employee",
     "description": "Tooltip for renewal frequency from the day the skill is assigned to the employee"
   },
+  "dlnyDO": {
+    "defaultMessage": "Sign",
+    "description": "Sign Input Label"
+  },
   "dnhWF3": {
     "defaultMessage": "{type, select, WORK {Work} BREAK {Break} other {Unknown}} from {start} to {end}",
     "description": "timeline break tooltip"
+  },
+  "doCKrJ": {
+    "defaultMessage": "Employees",
+    "description": "Employees Input Label"
+  },
+  "dzdSzU": {
+    "defaultMessage": "Create & Modify Punches",
+    "description": "auto generated supervisors => createAndModifyPunches"
+  },
+  "e5RIPZ": {
+    "defaultMessage": "Manage employee assignments",
+    "description": "Manage employee assignments Tooltip"
   },
   "e6gZJm": {
     "defaultMessage": "Actions",
@@ -2413,12 +3140,19 @@
     "defaultMessage": "Privacy",
     "description": "Login form privacy button"
   },
+  "e8Yn12": {
+    "defaultMessage": "Employee",
+    "description": "auto generated supervisors => menuProfile"
+  },
   "eA94aT": {
     "defaultMessage": "Invalid phone format",
     "description": "asset Invalid phone format"
   },
   "eHi/1a": {
     "defaultMessage": "Jurisdiction"
+  },
+  "eI/R+l": {
+    "defaultMessage": "There is no transition between the current state and the next state!"
   },
   "eOhyeU": {
     "defaultMessage": "Issued by",
@@ -2436,9 +3170,17 @@
     "defaultMessage": "Return date should be later issue date",
     "description": "auto generated Return date"
   },
+  "ebwu0I": {
+    "defaultMessage": "Full name",
+    "description": "auto generated profile => basicInfo => fullName"
+  },
   "ecp3Av": {
     "defaultMessage": "Inactive",
     "description": "asset header inactive badge"
+  },
+  "eeMH0z": {
+    "defaultMessage": "Type",
+    "description": "WFMainPage type column title"
   },
   "eivLc0": {
     "defaultMessage": "Month",
@@ -2446,6 +3188,14 @@
   },
   "el8x4e": {
     "defaultMessage": "State Unemployment Insurance (SUI) tax"
+  },
+  "ench+E": {
+    "defaultMessage": "Note",
+    "description": "auto generated general => note"
+  },
+  "eqWg4z": {
+    "defaultMessage": "Entry Method",
+    "description": "pay items forms process entryMethod"
   },
   "exaYNS": {
     "defaultMessage": "ID number",
@@ -2455,12 +3205,23 @@
     "defaultMessage": "Add tracking segment",
     "description": "auto generated Add tracking segment"
   },
+  "f+Y4ri": {
+    "defaultMessage": "No checklists"
+  },
+  "f2MPbQ": {
+    "defaultMessage": "Organization",
+    "description": "auto generated supervisors => organization"
+  },
   "f5IjXj": {
     "defaultMessage": "CCQ Number"
   },
   "fA/rzv": {
     "defaultMessage": "Forgot Password",
     "description": "Forgot Password"
+  },
+  "fKwuoH": {
+    "defaultMessage": "Assign employee",
+    "description": "Assign employee to wf button"
   },
   "fOXsP5": {
     "defaultMessage": "Find your email",
@@ -2470,6 +3231,14 @@
     "defaultMessage": "Contact phone",
     "description": "Contact phone for license and permits"
   },
+  "fSFCc0": {
+    "defaultMessage": "Note",
+    "description": "Note Textarea Label"
+  },
+  "fSkHsN": {
+    "defaultMessage": "Name",
+    "description": "payItems list name"
+  },
   "fUAMT3": {
     "defaultMessage": "Contact phone",
     "description": "benefit > contact info: label for contactPhone"
@@ -2478,13 +3247,25 @@
     "defaultMessage": "Save",
     "description": "group assign form save button"
   },
+  "fWREma": {
+    "defaultMessage": "No columns selected",
+    "description": "Table column fillter description"
+  },
   "fXNt6l": {
     "defaultMessage": "Description",
     "description": "documents: title for description"
   },
+  "fY5hsT": {
+    "defaultMessage": "Timesheet approval",
+    "description": "auto generated supervisors => timeSheetApproval"
+  },
   "fYHaKk": {
     "defaultMessage": "Manage Payroll manager assignments",
     "description": "GroupType's create a new group tooltip"
+  },
+  "fZAtof": {
+    "defaultMessage": "Link code",
+    "description": "Link code Input Label"
   },
   "fhTSDq": {
     "defaultMessage": "Employee",
@@ -2536,9 +3317,6 @@
   "gnlpSE": {
     "defaultMessage": "Quebec Business Number must be 16 characters"
   },
-  "gspyHv": {
-    "defaultMessage": "Monday - Sunday"
-  },
   "h5ZxcP": {
     "defaultMessage": "Annual earnings is used for life insurance calculation",
     "description": "Override Annual for benefit plan tooltip"
@@ -2583,6 +3361,10 @@
     "defaultMessage": "Internal",
     "description": "internal posting title"
   },
+  "hiVcDE": {
+    "defaultMessage": "Active",
+    "description": "Active Input Label"
+  },
   "hqZoGw": {
     "defaultMessage": "Reporting To",
     "description": "Parent Position"
@@ -2599,6 +3381,14 @@
     "defaultMessage": "Duration (minutes)",
     "description": "Duration (minutes) Column Title"
   },
+  "i33fSi": {
+    "defaultMessage": "Assign employee to {workflowName}",
+    "description": "Wf assign employee to workflow header"
+  },
+  "i35Qd1": {
+    "defaultMessage": "Pay item groups",
+    "description": "pay items groups breadcrumb"
+  },
   "i3aQuh": {
     "defaultMessage": "Hire",
     "description": "HIRE Column"
@@ -2606,10 +3396,6 @@
   "iDzpqF": {
     "defaultMessage": "Automatic creation of attendance records when an ‘End’ Punch is received.",
     "description": "policies > punches: tooltip for isAutoPunchProcessing"
-  },
-  "iFTrec": {
-    "defaultMessage": "Add Benefit",
-    "description": "benefit plan > benefit classes: button label for add new benefit class"
   },
   "iLN1B4": {
     "defaultMessage": "Use your name in email header",
@@ -2622,6 +3408,10 @@
   "iWGLLo": {
     "defaultMessage": "Block adjustments to submitted requests",
     "description": "policies > time off: label for isBlockAdjustmentSubmittedRequest"
+  },
+  "iYwjkG": {
+    "defaultMessage": "Maximum age",
+    "description": "PayItemForm age restriction max age"
   },
   "iZD4st": {
     "defaultMessage": "Status",
@@ -2702,12 +3492,16 @@
     "defaultMessage": "Assign new supervisor",
     "description": "assign new supervisor page title"
   },
-  "jrk3iO": {
-    "defaultMessage": "Policies",
-    "description": "Policy page header"
-  },
   "jvo0vs": {
     "defaultMessage": "Save"
+  },
+  "k+3654": {
+    "defaultMessage": "Preview",
+    "description": "pay items forms process processingSequence preview"
+  },
+  "k+us/x": {
+    "defaultMessage": "Export link code",
+    "description": "pay item export link code label"
   },
   "k1Hzh+": {
     "defaultMessage": "Email sent successfully",
@@ -2717,6 +3511,10 @@
     "defaultMessage": "Default coverage",
     "description": "Override Coverage for benefit plan"
   },
+  "kFq2zx": {
+    "defaultMessage": "Late arrival round",
+    "description": "Late arrival round input Label"
+  },
   "kOlYwl": {
     "defaultMessage": "Trouble Signing In?",
     "description": "Trouble Signing In"
@@ -2725,17 +3523,37 @@
     "defaultMessage": "Supervisors",
     "description": "documents: label for supervisorsAccess access level"
   },
+  "kRKvIn": {
+    "defaultMessage": "Code",
+    "description": "Code Input Label"
+  },
   "kS6TWB": {
     "defaultMessage": "Tracking segment",
     "description": "auto generated Tracking segment"
+  },
+  "kYaEOv": {
+    "defaultMessage": "Time bank",
+    "description": "pay item form checkbox label"
   },
   "kaSrMl": {
     "defaultMessage": "Pay managers",
     "description": "Pay managers page title"
   },
+  "kfKasp": {
+    "defaultMessage": "Active",
+    "description": "pay item group active label"
+  },
+  "klRWt+": {
+    "defaultMessage": "Duration",
+    "description": "PayItemForm Probation Duration"
+  },
   "km2+Hb": {
     "defaultMessage": "Please Expire Last Assignment",
     "description": "Please expire last assignment"
+  },
+  "kna2tr": {
+    "defaultMessage": "General",
+    "description": "pay item group general tab label"
   },
   "kp+MCT": {
     "defaultMessage": "Coordinates",
@@ -2795,6 +3613,14 @@
     "defaultMessage": "Class",
     "description": "Class for benefit plan form"
   },
+  "lE2/lL": {
+    "defaultMessage": "Entry Restriction Pay Items",
+    "description": "pay items forms process entryRestrictionPayItems"
+  },
+  "lE5m7P": {
+    "defaultMessage": "Notification template",
+    "description": "TransitionDrawer notification template"
+  },
   "lFAp91": {
     "defaultMessage": "Proprietor 2 S.I.N"
   },
@@ -2802,9 +3628,17 @@
     "defaultMessage": "Province",
     "description": "Bank address province"
   },
+  "lSGMXe": {
+    "defaultMessage": "Custom",
+    "description": "Workflow Custom node's label"
+  },
   "lcLxlX": {
     "defaultMessage": "Policies",
     "description": "Policy page name in the header"
+  },
+  "lfuova": {
+    "defaultMessage": "Organization",
+    "description": "auto generated general => organization"
   },
   "ljR5oM": {
     "defaultMessage": "No tracking segments",
@@ -2813,6 +3647,10 @@
   "lk2rlB": {
     "defaultMessage": "No",
     "description": "auto generated No"
+  },
+  "lm/9ZP": {
+    "defaultMessage": "Actions",
+    "description": "Actions Input Label"
   },
   "lq2/6m": {
     "defaultMessage": "Actions",
@@ -2838,6 +3676,10 @@
     "defaultMessage": "CV",
     "description": "CV"
   },
+  "m52xP1": {
+    "defaultMessage": "Save",
+    "description": "pay item group form save button"
+  },
   "m6719B": {
     "defaultMessage": "Export Link",
     "description": "Export Link"
@@ -2853,9 +3695,17 @@
     "defaultMessage": "Viewable by all group members",
     "description": "Editprofile Personal Documents information"
   },
+  "mP6q52": {
+    "defaultMessage": "Evaluated",
+    "description": "PayItemForm age restriction max age evaluated"
+  },
   "mRrm29": {
     "defaultMessage": "Location service",
     "description": "policies > punches: label for isLocationService"
+  },
+  "mWNUlb": {
+    "defaultMessage": "Pay items",
+    "description": "pay items breadcrumb"
   },
   "mg5I/C": {
     "defaultMessage": "Expense Reimbursment",
@@ -2868,6 +3718,10 @@
   "miyvZo": {
     "defaultMessage": "Benefit options",
     "description": "Benefit Plans benefit options tab label"
+  },
+  "mj9oz1": {
+    "defaultMessage": "Properties",
+    "description": "Properties Tab Label"
   },
   "mnBTZB": {
     "defaultMessage": "Employees will only be able to view schedule up till and including the publish date if not blank",
@@ -2884,9 +3738,9 @@
     "defaultMessage": "Details",
     "description": "Holiday details tab"
   },
-  "mv+dBe": {
-    "defaultMessage": "Default unscheduled start time",
-    "description": "policies > time entry: label for defaultUnscheduledStartTime"
+  "mteL3B": {
+    "defaultMessage": "Add new sector",
+    "description": "Add new sector button label"
   },
   "n+VibR": {
     "defaultMessage": "Employment Types",
@@ -2895,6 +3749,10 @@
   "n0sTK1": {
     "defaultMessage": "Employers",
     "description": "Employer page name in the header"
+  },
+  "n1W2SN": {
+    "defaultMessage": "Process",
+    "description": "pay item process tab label"
   },
   "n4H/ph": {
     "defaultMessage": "Hebrew",
@@ -2913,9 +3771,29 @@
   "nBSvDU": {
     "defaultMessage": "RBQ Number"
   },
+  "nGgDaJ": {
+    "defaultMessage": "Color",
+    "description": "pay item group color label"
+  },
+  "nHgDjY": {
+    "defaultMessage": "Create new training",
+    "description": "Create New Training Page"
+  },
   "nInxFQ": {
     "defaultMessage": "Employees",
     "description": "Employe list"
+  },
+  "nKAOTH": {
+    "defaultMessage": "Internal applicant",
+    "description": "auto generated applicant => internalApplicant"
+  },
+  "nNg0ww": {
+    "defaultMessage": "URL List",
+    "description": "URL List Tab Title"
+  },
+  "nPgRq+": {
+    "defaultMessage": "Workflows",
+    "description": "Workflows page title"
   },
   "nbdrtx": {
     "defaultMessage": "Note",
@@ -2931,6 +3809,10 @@
   "nluWJA": {
     "defaultMessage": "Employee welcome",
     "description": "EMPLOYEE_WELCOME Column"
+  },
+  "nzaZ1n": {
+    "defaultMessage": "Checklists",
+    "description": "TransitionDrawer checklists"
   },
   "o/Bjri": {
     "defaultMessage": "Double time from",
@@ -2948,16 +3830,31 @@
     "defaultMessage": "Geofence perimeter (meters)",
     "description": "policies > punches: label for geoFence"
   },
+  "oFFCox": {
+    "defaultMessage": "Advace with actions"
+  },
   "oGdPAA": {
     "defaultMessage": "First name",
     "description": "First name"
   },
+  "oHXzvM": {
+    "defaultMessage": "Actions",
+    "description": "auto generated applicant => actions"
+  },
   "oQY0a2": {
     "defaultMessage": "Address line 2"
+  },
+  "oUAH86": {
+    "defaultMessage": "Expenses",
+    "description": "pay items forms process GL glExpenseAccountId"
   },
   "ogHGOs": {
     "defaultMessage": "Inactive",
     "description": "group header inactive badge"
+  },
+  "ol0Lmy": {
+    "defaultMessage": "Departure Grace",
+    "description": "Departure Column Label"
   },
   "ommVp0": {
     "defaultMessage": "Save",
@@ -2987,9 +3884,17 @@
     "defaultMessage": "Delete Performance Review Record",
     "description": "Delete Performance Review Record Tooltip"
   },
+  "p/0sqK": {
+    "defaultMessage": "From {from} to {to}",
+    "description": "Workflow transition log"
+  },
   "p0nhB4": {
     "defaultMessage": "Renewal frequency (months)",
     "description": "Renewal frequency (months) for skill"
+  },
+  "p0u4cs": {
+    "defaultMessage": "Annual exemption",
+    "description": "pay items forms process annual exemption"
   },
   "p3RzB5": {
     "defaultMessage": "Claim dependents",
@@ -2998,6 +3903,10 @@
   "p6Drtp": {
     "defaultMessage": "General",
     "description": "groups: General"
+  },
+  "p6SKms": {
+    "defaultMessage": "Actions",
+    "description": "payItems list actions"
   },
   "p76JKG": {
     "defaultMessage": "Step is not available",
@@ -3009,6 +3918,9 @@
   },
   "p7qSb1": {
     "defaultMessage": "Days before holiday"
+  },
+  "p8JMK4": {
+    "defaultMessage": "System steps"
   },
   "p95Fsg": {
     "defaultMessage": "Block employee scheduled swap",
@@ -3029,6 +3941,10 @@
   "pVByEP": {
     "defaultMessage": "Approved By",
     "description": "Emp Status - Approved By (assign)"
+  },
+  "pVbkKn": {
+    "defaultMessage": "Pay code",
+    "description": "pay item pay code label"
   },
   "pXewf9": {
     "defaultMessage": "Edit {name}",
@@ -3052,12 +3968,13 @@
   "ppSy+n": {
     "defaultMessage": "Day Definitions"
   },
+  "pqVrbB": {
+    "defaultMessage": "To",
+    "description": "PayItemForm Probation to"
+  },
   "pufCiJ": {
     "defaultMessage": "Block ‘My Team’ schedule display",
     "description": "policy > expense permissions: label for isBlockEmployeeMySchedule"
-  },
-  "pv1lF7": {
-    "defaultMessage": "Workflow"
   },
   "pxcHJE": {
     "defaultMessage": "Force overtime after",
@@ -3066,6 +3983,18 @@
   "q2V9QB": {
     "defaultMessage": "Create new position",
     "description": "group form position add title"
+  },
+  "q4JxRF": {
+    "defaultMessage": "Name",
+    "description": "WFMainPage name column title"
+  },
+  "q8jzHp": {
+    "defaultMessage": "Late departure round",
+    "description": "Late departure round input Label"
+  },
+  "qGF9BG": {
+    "defaultMessage": "Weekly",
+    "description": "Policies > overtime rules: label for Weekly"
   },
   "qHuuNU": {
     "defaultMessage": "Contact name",
@@ -3078,6 +4007,10 @@
   "qMePPG": {
     "defaultMessage": "Note"
   },
+  "qSVrL9": {
+    "defaultMessage": "Pay item quantity pointer",
+    "description": "Quantity pointer"
+  },
   "qSqWvz": {
     "defaultMessage": "Recovery Phone",
     "description": "Recovery Phone"
@@ -3086,13 +4019,36 @@
     "defaultMessage": "City",
     "description": "Bank address city"
   },
+  "qYselV": {
+    "defaultMessage": "Clone pay item",
+    "description": "pay items list clone pay item modal title"
+  },
+  "qdtvD5": {
+    "defaultMessage": "Create new workflow",
+    "description": "wor flow create new breadcrumb"
+  },
   "qeR3en": {
     "defaultMessage": "Click to add or remove employee groups type from the display",
     "description": "Employee list component group button tooltip"
   },
+  "qo3qDT": {
+    "defaultMessage": "Contact reference date",
+    "description": "auto generated reference => contactReferenceDate"
+  },
+  "qq5vr2": {
+    "defaultMessage": "Workflow progress"
+  },
   "qsJ0Sw": {
     "defaultMessage": "RSVP",
     "description": "RSVP Checkbox Label"
+  },
+  "quuhnP": {
+    "defaultMessage": "Contact 2",
+    "description": "wf form contact 2 field"
+  },
+  "qwBZN2": {
+    "defaultMessage": "Workflow stepps",
+    "description": "wf form workflow stepps tab"
   },
   "r+/aeH": {
     "defaultMessage": "No",
@@ -3106,9 +4062,21 @@
     "defaultMessage": "Assigned Employees",
     "description": "Group pages assinged employees list title"
   },
+  "r4/c6x": {
+    "defaultMessage": "Rank",
+    "description": "auto generated applicant => rank"
+  },
+  "r4lEg9": {
+    "defaultMessage": "Add",
+    "description": "auto generated buttons => addBtn"
+  },
   "r7YAiz": {
     "defaultMessage": "Address",
     "description": "group form address tab label"
+  },
+  "rD/DE/": {
+    "defaultMessage": "Phone",
+    "description": "auto generated general => phone"
   },
   "rFvmTf": {
     "defaultMessage": "Performance Review",
@@ -3138,6 +4106,10 @@
     "defaultMessage": "Days",
     "description": "Holiday min employment days"
   },
+  "rmo+df": {
+    "defaultMessage": "Overdue",
+    "description": "Overdue status message"
+  },
   "rq1d93": {
     "defaultMessage": "Worked that day of the week"
   },
@@ -3153,20 +4125,36 @@
     "defaultMessage": "Teams",
     "description": "Team page name in the header"
   },
+  "s5yHdw": {
+    "defaultMessage": "Edit workflow",
+    "description": "Edit workflow"
+  },
+  "s8ZOvT": {
+    "defaultMessage": "Pay item quantity",
+    "description": "Quantity"
+  },
   "sAuXeA": {
     "defaultMessage": "Preview",
     "description": "workplan preview button"
+  },
+  "sBW/yZ": {
+    "defaultMessage": "Efective date"
   },
   "sC2qVE": {
     "defaultMessage": "Create",
     "description": "Create button title"
   },
-  "sI/yPx": {
-    "defaultMessage": "Wednesday - Tuesday"
+  "sI3yW1": {
+    "defaultMessage": "Please enter a valid Phone number",
+    "description": "Please enter a valid Phone number input label"
   },
   "sLAMYl": {
     "defaultMessage": "Quebec Business Number must start with 10 digits",
     "description": "Quebec Business Number must start with 10 digits"
+  },
+  "sNLMbz": {
+    "defaultMessage": "Authority level",
+    "description": "auto generated supervisors => tabs => authorityLevel"
   },
   "sOGZFQ": {
     "defaultMessage": "Recovery email",
@@ -3180,10 +4168,6 @@
     "defaultMessage": "Issue date",
     "description": "auto generated Issue date"
   },
-  "sijoE5": {
-    "defaultMessage": "Inactive",
-    "description": "Inactive"
-  },
   "snTktk": {
     "defaultMessage": "Alert period (days)",
     "description": "Alert period (days) for skill"
@@ -3196,12 +4180,16 @@
     "defaultMessage": "Template type:",
     "description": "Template Type Paragraph"
   },
+  "syyW20": {
+    "defaultMessage": "Rounding Rules",
+    "description": "Rounding Rule Page Title"
+  },
   "t+W7Uk": {
     "defaultMessage": "French",
     "description": "French Lang Label"
   },
-  "tI8kb6": {
-    "defaultMessage": "Tuesday - Monday"
+  "tHOH9N": {
+    "defaultMessage": "To state"
   },
   "tML4ct": {
     "defaultMessage": "Pay Calendars",
@@ -3215,6 +4203,10 @@
     "defaultMessage": "Add Holiday",
     "description": "add holiday drawer label"
   },
+  "tTyakU": {
+    "defaultMessage": "Description",
+    "description": "auto generated groupDocumentUploader => description"
+  },
   "tc+sl9": {
     "defaultMessage": "Proprietor 1 S.I.N"
   },
@@ -3225,6 +4217,10 @@
   "tgdqv+": {
     "defaultMessage": "Create new paygroup",
     "description": "group form paygroup add title"
+  },
+  "tjJQI0": {
+    "defaultMessage": "Employee",
+    "description": "auto generated supervisors => profile"
   },
   "togH0L": {
     "defaultMessage": "Overlap Detetcted",
@@ -3243,6 +4239,10 @@
   "u1SQ4c": {
     "defaultMessage": "Succession plan",
     "description": "Position Succession plan tab"
+  },
+  "uGMgsC": {
+    "defaultMessage": "Early departure round",
+    "description": "Early departure round input Label"
   },
   "uGYQ+f": {
     "defaultMessage": "Performance review",
@@ -3293,9 +4293,25 @@
   "ujYGO/": {
     "defaultMessage": "Latitude"
   },
+  "uq9MDR": {
+    "defaultMessage": "Training",
+    "description": "Training Page Name"
+  },
   "urcgsl": {
     "defaultMessage": "Months",
     "description": "Holiday min employment months"
+  },
+  "uwpztA": {
+    "defaultMessage": "Annual exemption pointer",
+    "description": "pay items forms process annual exemption type"
+  },
+  "uyAD67": {
+    "defaultMessage": "Import link code",
+    "description": "pay item import link code label"
+  },
+  "uzp7bi": {
+    "defaultMessage": "Union",
+    "description": "Union page header"
   },
   "v0T+Xh": {
     "defaultMessage": "Returned",
@@ -3305,9 +4321,21 @@
     "defaultMessage": "Create new employee status",
     "description": "group form employee status add title"
   },
+  "v1tLUx": {
+    "defaultMessage": "Add a reference",
+    "description": "auto generated editProfile => toolTips => addAReference"
+  },
   "v2ZsuQ": {
     "defaultMessage": "View tracking items",
     "description": "Tracking segment view tracking items tooltip"
+  },
+  "v3W4XJ": {
+    "defaultMessage": "Completion Date",
+    "description": "Completion Date Input Label"
+  },
+  "v3mahD": {
+    "defaultMessage": "Benefit classes list is empty",
+    "description": "Benefit classes: Empty list message"
   },
   "vAW30j": {
     "defaultMessage": "Frequency"
@@ -3338,6 +4366,9 @@
     "defaultMessage": "Legal Name",
     "description": "Legal Name for Employer"
   },
+  "vaNL5i": {
+    "defaultMessage": "Create new pay item"
+  },
   "vgPs1r": {
     "defaultMessage": "Create new workplan",
     "description": "group form union add title"
@@ -3361,6 +4392,10 @@
   "vuoc3w": {
     "defaultMessage": "Referral text",
     "description": "Referral Text Label"
+  },
+  "vuq62I": {
+    "defaultMessage": "Assign",
+    "description": "pay item group - assign pay item button"
   },
   "vw+Xom": {
     "defaultMessage": "Employment Statuses",
@@ -3402,6 +4437,10 @@
     "defaultMessage": "Note",
     "description": "tracking item note"
   },
+  "wDyNaa": {
+    "defaultMessage": "Reference",
+    "description": "auto generated general => reference"
+  },
   "wE7YGT": {
     "defaultMessage": "Smoker",
     "description": "Smoker for benefit plan form"
@@ -3409,6 +4448,9 @@
   "wK4M4e": {
     "defaultMessage": "Purchase cost",
     "description": "asset Purchase cos"
+  },
+  "wL7VAE": {
+    "defaultMessage": "Actions"
   },
   "wM9Vo0": {
     "defaultMessage": "Enrollment date",
@@ -3442,6 +4484,10 @@
     "defaultMessage": "Previous",
     "description": "Previous Button"
   },
+  "wd164+": {
+    "defaultMessage": "Add checklist",
+    "description": "TransitionDrawer add checklist"
+  },
   "wgZQj6": {
     "defaultMessage": "Override",
     "description": "Override for benefit plan"
@@ -3449,6 +4495,9 @@
   "wizZR5": {
     "defaultMessage": "Name",
     "description": "Name Column"
+  },
+  "wj+n6r": {
+    "defaultMessage": "Error in assingning wf"
   },
   "wj4WiC": {
     "defaultMessage": "Overtime from",
@@ -3466,6 +4515,10 @@
     "defaultMessage": "Check your recovery email inbox (and spam folder) or your text messages for the next step. If you do not receive an email or text message, this could mean that you signed up with different recovery credentials. Ask your supervisor or manager to reset these credentials on your behalf.",
     "description": "Verification code sent to your recovery email."
   },
+  "x9TC8z": {
+    "defaultMessage": "Category",
+    "description": "payItems list category"
+  },
   "xHu4H6": {
     "defaultMessage": "Break",
     "description": "day definition break"
@@ -3477,17 +4530,37 @@
   "xRVmeK": {
     "defaultMessage": "Calendar days in the last"
   },
+  "xRWF1Y": {
+    "defaultMessage": "Annual exemption type",
+    "description": "pay items forms process annual exemption type"
+  },
   "xWv3pT": {
     "defaultMessage": "Send verification code",
     "description": "Send Verification Code"
+  },
+  "xiwUzq": {
+    "defaultMessage": "Persist to End of Month",
+    "description": "pay items forms process isPersist"
+  },
+  "xx2Di0": {
+    "defaultMessage": "Applicant",
+    "description": "auto generated roles => APPLICANT"
   },
   "y8zzVx": {
     "defaultMessage": "Email",
     "description": "Email"
   },
+  "yFYVRR": {
+    "defaultMessage": "Assign workflow to employee",
+    "description": "Assign workflow to employee drawer title"
+  },
   "yFsIfg": {
     "defaultMessage": "Name",
     "description": "Tracking item name col"
+  },
+  "yIQlaD": {
+    "defaultMessage": "Configure step {name}",
+    "description": "Step title"
   },
   "yasqY7": {
     "defaultMessage": "Termination Id",
@@ -3501,6 +4574,9 @@
     "defaultMessage": "Success",
     "description": "Success"
   },
+  "yk4PT9": {
+    "defaultMessage": "Full name"
+  },
   "ynnBKt": {
     "defaultMessage": "Search...",
     "description": "Search..."
@@ -3508,6 +4584,10 @@
   "yoYyHD": {
     "defaultMessage": "Link code",
     "description": "asset Link code"
+  },
+  "z7z4eW": {
+    "defaultMessage": "Inactive Payroll Types",
+    "description": "PayItemForm Inactive Payroll Types"
   },
   "z8b41I": {
     "defaultMessage": "End",
@@ -3521,6 +4601,10 @@
     "defaultMessage": "Opt-out Critical Illness",
     "description": "Opt-out Critical Illness for benefit plan form"
   },
+  "zBKbow": {
+    "defaultMessage": "Task",
+    "description": "TransitionDrawer task"
+  },
   "zDJtgQ": {
     "defaultMessage": "Job Referral from {name}",
     "description": "Job Referral from {name}"
@@ -3529,9 +4613,17 @@
     "defaultMessage": "Time off",
     "description": "policy > label for time off tab"
   },
+  "zNNQWf": {
+    "defaultMessage": "Reference year-end day",
+    "description": "pay item reference year-end day label"
+  },
   "zRX6ns": {
     "defaultMessage": "Logo",
     "description": "Employer Logo"
+  },
+  "zU9MTg": {
+    "defaultMessage": "Today",
+    "description": "Today button"
   },
   "zUzx72": {
     "defaultMessage": "Step",

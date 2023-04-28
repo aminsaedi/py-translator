@@ -291,7 +291,7 @@
     "statuses": {
       "active": "Active",
       "onboard": "Onboarding employee",
-      "leave": "Employees on leave",
+      "leaveRequest": "Employees on leave Request",
       "contract": "Contract employee",
       "retiree": "Retiree",
       "terminated": "Terminated",
@@ -712,7 +712,7 @@
     "teams": "Teams",
     "attendancePolicies": "Attendance policies",
     "workPlan": "Work plan",
-    "latestLeave": "Latest submitted Leave requests ",
+    "latestLeaveRequest": "Latest submitted Leave Request requests ",
     "latestDoc": "Latest document dates",
     "supervisor": "Supervisor",
     "leftPanel": {
@@ -776,11 +776,11 @@
         "email": "Email address",
         "empty": "No open position found"
       },
-      "myLeave": {
-        "title": "My Leave request",
+      "myLeaveRequest": {
+        "title": "My Leave Request request",
         "start": "Start",
         "end": "End",
-        "goto": "Go to My leave"
+        "goto": "Go to My leave Request"
       },
       "mySchedule": {
         "title": "My schedule",
@@ -802,7 +802,7 @@
         "birthDate": "Birth Date Of "
       },
       "myCalendar": {
-        "leave": "Leave",
+        "leaveRequest": "Leave Request",
         "title": "My calendar",
         "PR": "Performance review",
         "HOLIDAY": "Holiday",
@@ -818,11 +818,11 @@
       "timeBank": {
         "title": "Time banks"
       },
-      "leave": {
+      "leaveRequest": {
         "date": "Date",
-        "title": "Leave requests",
+        "title": "Leave Request requests",
         "status": "Status",
-        "goto": "Go to Leave requests",
+        "goto": "Go to Leave Request requests",
         "type": "Type",
         "balance": "Balance",
         "payItemName": "Pay item",
@@ -976,7 +976,7 @@
         "status": "Status"
       },
       "allTitles": {
-        "My_LEAVE_LEAVE": "My leave",
+        "My_LEAVE_LEAVE": "My leave Request",
         "MY_MANAGERS": "My manager",
         "NOTIFICATION_CENTER": "Notification center",
         "RECENT_DOCUMENTS": "Recent documents",
@@ -985,7 +985,7 @@
         "WEATHER_2": "Weather 2",
         "MY_ATTENDANCE": "My attendance",
         "MY_TIME_SHEETS": "My timesheets",
-        "MY_LEAVE": "My leave",
+        "MY_LEAVE": "My leave Request",
         "MY_EXPENSE": "My expense",
         "MY_PAY": "My pay",
         "MY_CALENDAR": "My calendar",
@@ -1003,7 +1003,7 @@
         "Schedule": "Schedule",
         "Punches": "Punches",
         "TimeSheets": "Timesheets",
-        "Leaves": "Leave requests",
+        "LeaveRequests": "Leave Request requests",
         "Expense": "Expense",
         "Calendar": "Calendar",
         "WhoIsIn": "Who is in",
@@ -1019,8 +1019,8 @@
         "Absence": "Absence",
         "PendingDocuments": "Pending documents"
       },
-      "leaves": {
-        "title": "Leave",
+      "leaveRequests": {
+        "title": "Leave Request",
         "authorized": "Authorized",
         "unauthorized": "Unauthorized",
         "thisWeek": "This week",
@@ -1203,7 +1203,7 @@
       "canAccess": {
         "canAccessReimbursement": "Expense reimbursment access",
         "canAccessTimeEntry": "Time entry access",
-        "canAccessLeave": "Block access to Leave entry",
+        "canAccessLeaveRequest": "Block access to Leave Request entry",
         "canAccessMyAvailability": "Block access to My Availability",
         "canAccessDocuments": "Block access to Documents",
         "canChangeBankAccount": "Block Bank Account Access",
@@ -1217,8 +1217,8 @@
       "newSchedule": "New schedule",
       "shiftEnd": "Shift end",
       "shiftStart": "Shift start",
-      "leaveApproval": "Leave approval",
-      "leaveSubmittal": "Leave submittal",
+      "leaveRequestApproval": "Leave Request approval",
+      "leaveRequestSubmittal": "Leave Request submittal",
       "timeSheetApproval": "Timesheet approval",
       "timeSheetSubmittal": "Timesheet submittal",
       "expenseReimbursementApproval": "Expense reimbursement approval",
@@ -1255,8 +1255,8 @@
       "isTimeSheetApproval": "Timesheet approval",
       "isTimeSheetRejection": "Timesheet rejection",
       "isTimeSheetMessage": "Timesheet message",
-      "isLeaveApproval": "Leave approval",
-      "isLeaveRejection": "Leave rejection",
+      "isLeaveRequestApproval": "Leave Request approval",
+      "isLeaveRequestRejection": "Leave Request rejection",
       "isNewDocument": "New document",
       "asOfDate": "As of Date : "
     },
@@ -1501,7 +1501,7 @@
     "time": "Time",
     "doubletime": "Double time",
     "othertime": "Other time",
-    "timeoff": "Leave",
+    "timeoff": "Leave Request",
     "vacation": "Vacation",
     "statutoryholiday": "Statutory holiday",
     "break": "Break",
@@ -1781,14 +1781,14 @@
         "isBlockEmployeeExpenseReimbursement": "Block Employee Expense Reimbursments",
         "isBlockExpenseAdjustmentSubmittedRequest": "Block Adjustments to Submitted Requests"
       },
-      "leave": {
-        "isBlockLeave": "Block Employee Leave request",
-        "isAutoAttendanceRecord": "Automatically Create Attendance Records for Approved Leave requests",
+      "leaveRequest": {
+        "isBlockLeaveRequest": "Block Employee Leave Request request",
+        "isAutoAttendanceRecord": "Automatically Create Attendance Records for Approved Leave Request requests",
         "isBlockAdjustmentSubmittedRequest": "Block Adjustments to Submitted Requests",
         "isAllowEmployeeOverBalance": "Block Negative Time Bank Balance",
         "isBlockTimeBankBalanceDisplay": "Block Employee Time Bank Balance Display",
-        "defaultDailyLeaveDuration": "Default Daily Leave Duration",
-        "defaultDailyLeaveDurationType": "Default Daily Leave Duration Type",
+        "defaultDailyLeaveRequestDuration": "Default Daily Leave Request Duration",
+        "defaultDailyLeaveRequestDurationType": "Default Daily Leave Request Duration Type",
         "defaultHolidayDuration": "Default holiday duration",
         "defaultHolidayDurationType": "Default Holiday Duration Type"
       }
@@ -1940,7 +1940,7 @@
     "step": "Steps",
     "sUITax": "State Unemployment Insurance (SUI) tax",
     "taxWithholdingCountry": "Tax withholding country",
-    "leaveWF": "Leave",
+    "leaveRequestWF": "Leave Request",
     "timeSheetPayrollSubmitWF": "Timesheet payroll submittal",
     "timeSheetWF": "Timesheet",
     "transitNumber": "Transit number",
@@ -2039,7 +2039,7 @@
     "createAndModifyPunches": "Create & Modify Punches",
     "temporaryOnboarding": "Temporary onboarding",
     "timeSheetApproval": "Timesheet approval",
-    "leaveApproval": "Leave Request Approval",
+    "leaveRequestApproval": "Leave Request Request Approval",
     "expenseReimbursementApproval": "Expense reimbursement approval",
     "employeeProfiles": "Employee profiles",
     "employeeTemplates": "Employee templates",
@@ -2051,9 +2051,9 @@
     "employeeExpenseReimbursement": "Employee expense reimbursements",
     "employeePayRates": "Employee pay rates",
     "performanceReviews": "Performance reviews",
-    "EmployeeLeaves": "Employee Leave Requests",
+    "EmployeeLeaveRequests": "Employee Leave Request Requests",
     "timeSheetSubmittal": "Timesheet submittal",
-    "leaveSubmittal": "Leave Request Submittal",
+    "leaveRequestSubmittal": "Leave Request Request Submittal",
     "expenseReimbursementSubmittal": "Expense reimbursement submittal",
     "issuePayChequeApprovalLevelEnum": "Issue paycheques approval",
     "issuePayDirectDepositApprovalLevelEnum": "Issue Pay Direct Deposits Approval",
@@ -2143,7 +2143,7 @@
         "expenseWF": "Expense workflow",
         "timeSheetPayrollSubmitWF": "Timesheet payroll submittal workflow",
         "timeSheetWF": "Timesheet workflow",
-        "leaveWF": "Leave workflow"
+        "leaveRequestWF": "Leave Request workflow"
       },
       "department": {
         "offBoardingWF": "Employee offboarding workflow",
@@ -2433,7 +2433,7 @@
     "team": "Team",
     "teams": "Teams",
     "teamTracker": "Team tracker",
-    "leaves": "Leave requests",
+    "leaveRequests": "Leave Request requests",
     "tracker": "Tracker",
     "trackingsegments": "Tracking segments",
     "training": "Training",
@@ -2653,8 +2653,8 @@
     "uploadedBy": "Uploaded by ",
     "on": "On "
   },
-  "leaves": {
-    "create": "Create Leave request",
+  "leaveRequests": {
+    "create": "Create Leave Request request",
     "employeeName": "Employee name",
     "actions": "Actions",
     "status": "Status",
@@ -2678,7 +2678,7 @@
     "endTime": "Time to",
     "dateRange": "Date From and To",
     "cancel": "Cancel request",
-    "leave": "Leave request",
+    "leaveRequest": "Leave Request request",
     "all": "All teams",
     "filters": "Filters",
     "buttons": {
@@ -2808,7 +2808,7 @@
     "canAccessDocuments": "Can access documents",
     "canAccessMyAvailability": "Can Access My Availability",
     "canAccessTimeEntry": "Can Access Time Entry",
-    "canAccessLeave": "Can Access Leave",
+    "canAccessLeaveRequest": "Can Access Leave Request",
     "canAccessReimbursement": "Can access reimbursement",
     "canChangeBankAccount": "Can Change Bank Account",
     "canChangeProfile": "Block profile change",
@@ -2855,7 +2855,7 @@
     "HE": "Hebrew - HE",
     "FR": "French - FR",
     "OVERDUE": "Overdue",
-    "LEAVE": "Leave",
+    "LEAVE": "Leave Request",
     "YES": "Yes",
     "NO": "No",
     "HR": "Hourly",
@@ -3009,9 +3009,9 @@
     "CASUAL": "Casual",
     "CONTRACT": "Contract",
     "STUDENT": "Student",
-    "LOA": "Leave of absence",
-    "LTD": "Long term leave",
-    "STD": "Short term leave",
+    "LOA": "Leave Request of absence",
+    "LTD": "Long term leave Request",
+    "STD": "Short term leave Request",
     "TEMP_LAID_OFF": "",
     "ONBOARD": "Onboard",
     "TERMINATED": "Terminated",
@@ -3105,9 +3105,9 @@
     "NOTIFY_CONTACT2": "Notify contact 2",
     "RESET": "Reset",
     "PROFILES": "Profiles",
-    "TIMEOFFREQUESTS": "Leave requests",
+    "TIMEOFFREQUESTS": "Leave Request requests",
     "ONBOARDING": "Onboarding",
-    "TIMEOFF": "Leave",
+    "TIMEOFF": "Leave Request",
     "TIMESHEET": "Timesheet",
     "SUPPORT": "Support",
     "EMAIL": "Email",
@@ -3241,7 +3241,7 @@
     "ADD_FROM_SCHEDULE": "Add from schedule",
     "COPY_FROM_PREVIOUS_WEEK": "Copy From Previous Week",
     "SUBMIT": "Submit",
-    "REQUEST_LEAVE": "Request leave",
+    "REQUEST_LEAVE": "Request leave Request",
     "DRAG_AND_DROP": "Drag and drop",
     "WEEK": "Week",
     "MONTH": "Month",
@@ -3331,7 +3331,7 @@
     "notificationDetails": "Notification details",
     "description": "Description",
     "publishedDate": "Published date",
-    "TIMEOFF": "Leave",
+    "TIMEOFF": "Leave Request",
     "EVENT": "Event",
     "OVERDUE": "Overdue",
     "NONE": "None",
@@ -3364,11 +3364,11 @@
     "calendarSettings": "Calendar settings",
     "showWeather": "Show weather",
     "showHoliday": "Show holiday calendar",
-    "showLeave": "Show Leave requests",
+    "showLeaveRequest": "Show Leave Request requests",
     "availabilityVisible": "Show availability",
-    "leave": "Leave",
+    "leaveRequest": "Leave Request",
     "showOriginalBlock": "Always show original time block (if modified)",
-    "leaveSummary": "Leave summary",
+    "leaveRequestSummary": "Leave Request summary",
     "today": "Today",
     "thisWeek": "This week",
     "showSeniority": "Show employee seniority"

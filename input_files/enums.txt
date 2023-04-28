@@ -1,792 +1,1144 @@
- enum CurrencyEnum {
-    USD
-    CAD
-    EUR
-    GBP
-    AUD
-    CNY
-    JPY
-    KRW
-    RUB
-    SGD
-    THB
-    VND
-  }
-
-  enum CountryEnum {
-    US
-    CA
-  }
-
-  enum EmployerContactTypeEnum {
-    HR
-    PAYROLL
-    TECHNICAL
-    SUPPORT
-    OTHER
-  }
-
-  enum EventFrequencyEnum {
-    YEARLY
-    MONTHLY
-    WEEKLY
-    DAILY
-  }
-
-  enum BusinessNumberAuthorityEnum {
-    FEDERAL
-    PROVINCIAL
-    LOCAL
-  }
-
-  enum BusinessAccountTypeEnum {
-    DEBIT
-    CREDIT
-  }
-
-  enum RemitFrequencyEnum {
-    QUARTERLY
-    MONTHLY
-    SEMI_MONTHLY
-    WEEKLY
-    NONE
-  }
-
-  enum ApprovalStatusEnum {
-    PENDING1
-    PENDING2
-    APPROVED
-    REJECTED
-  }
-
-  enum GroupSystemTypeEnum {
-    FULL_TIME
-    PART_TIME
-    CASUAL
-    CONTRACT
-    STUDENT
-    LOA
-    LTD
-    STD
-    TEMP_LAID_OFF
-    ONBOARD
-    TERMINATED
-    RETIREE
-    SALARY
-    HOURLY
-    OTHER
-    VOLUNTEER
-    NONE
-    MATERNITY
-    PARENTAL
-    PAID_LEAVE
-  }
-
-  enum EmpStatusEnum {
-    FULL_TIME
-    PART_TIME
-    CASUAL
-    CONTRACT
-    STUDENT
-    LOA
-    LTD
-    STD
-    TEMP_LAID_OFF
-    ONBOARD
-    TERMINATED
-    RETIREE
-    VOLUNTEER
-    PAID_LEAVE
-  }
-
-  enum EmpTypeEnum {
-    SALARY
-    HOURLY
-    OTHER
-  }
-
-  enum RecordTypeEnum {
-    EMPLOYEE
-    APPLICANT
-    CANDIDATE
-    EMPLOYEE_TEMPLATE
-    PAYEE
-    CUSTOMER
-  }
-
-  enum ReviewScoreTypeEnum {
-    PERCENTAGE
-    LIST
-  }
-
-  enum SystemGroupTypeEnum {
-    TEAM
-    DEPARTMENT
-    POLICY
-    WORKPLAN
-    PAYGROUP
-    LOCATION
-    UNION
-    EMP_TYPE
-    PAY_CALENDAR
-    HOLIDAY_CALENDAR
-    EMPLOYER
-    POSITION
-    EMP_STATUS
-    BENEFIT
-    SKILL
-    LICENSE
-    OTHER
-  }
-
-  enum AvailabilityStatusEnum {
-    AVAILABLE
-    OUT_OF_OFFICE
-    IN_A_MEETING
-    AWAY
-    BUSY
-    DO_NOT_DISTURB
-    BE_RIGHT_BACK
-    OFFLINE
-    WORKING_REMOTELY
-  }
-
-  enum EventSystemTypeEnum {
-    SAFETY
-    ACTION
-    HR_OTHER
-    OTHER
-  }
-
-  enum PayTypeEnum {
-    FEDERAL
-    PROVINCIAL
-    LOCAL
-    OTHER
-  }
-
-  enum DocumentTypeEnum {
-    EE_AVATAR
-    EE_PS
-    EE_R1
-    EE_T4
-    EE_T4A
-    EE_PICTURE
-    EE_PROFILE
-    EE_BADGE_PICTURE
-    EE_CHEQUE
-    EE_CV
-    EE_COVER_LETTER
-    EE_ASSET_ASSIGNMENT
-    EE_DIGITAL_ID
-    EE_TRAINING_ASSIGNMENT
-    EE_PERFORMANCE_REVIEW
-    EE_GROUP_ASSIGNMENT
-    EE_OTHER
-    EE_PRIVATE
-    EE_RECORDING
-    GROUP
-    REVIEW_TEMPLATE
-    ASSET
-    ASSET_IMAGE
-    PROJECT
-    TRAINING
-    EVENT
-    SAFETY
-    ACTION
-    HR_OTHER
-    RESCHEDULE
-    PUNCH
-    TIME_BLOCK
-    LOGO
-    ORG
-    EMPLOYER_LOGO
-    INVOICE
-  }
-
-  enum employeeDocumentTypeEnum {
-    EE_AVATAR
-    EE_PS
-    EE_R1
-    EE_T4
-    EE_T4A
-    EE_PICTURE
-    EE_PROFILE
-    EE_BADGE_PICTURE
-    EE_CHEQUE
-    EE_CV
-    EE_COVER_LETTER
-    EE_ASSET_ASSIGNMENT
-    EE_DIGITAL_ID
-    EE_TRAINING_ASSIGNMENT
-    EE_PERFORMANCE_REVIEW
-    EE_GROUP_ASSIGNMENT
-    EE_OTHER
-    EE_PRIVATE
-  }
-
-  enum DistributionMethod {
-    PRIVATE
-    PUBLIC
-    RESTRICTED
-  }
-
-  enum WFCheckListStatusEnum {
-    PENDING
-    COMPLETED
-    NA
-  }
-
-  enum WFTaskEnum {
-    ACTIVATE_PROFILE
-    DEACTIVATE_PROFILE
-    EMP_STATUS_FULL_TIME
-    EMP_STATUS_PART_TIME
-    EMP_STATUS_CASUAL
-    EMP_STATUS_CONTRACT
-    EMP_STATUS_STUDENT
-    EMP_STATUS_ONBOARD
-    EMP_STATUS_TERMINATED
-    EMP_APPLY_APPLICANT
-    EMP_APPLY_CANDIDATE
-    NOTIFY_EMP
-    NOTIFY_SUPERVISOR
-    NOTIFY_HR_MANAGER
-    NOTIFY_PAY_MANAGER
-    NOTIFY_CONTACT1
-    NOTIFY_CONTACT2
-    REVIEW_DRAFT
-    REVIEW_INVITE
-    REVIEW_CONFIRMED
-    REVIEW_EVALUATED
-    REVIEW_SIGNED
-    RESET
-  }
-
-  enum NotificationTypeEnum {
-    NONE
-    EMAIL
-    SMS
-    PUSH
-    EVENT
-    TIME_OFF
-    TIME_SHEET
-    OVERDUE
-    MANUAL
-    DOCUMENT
-    SIGN
-    WORKFLOW
-  }
-
-  enum NotificationTemplateTypeEnum {
-    INVITATION
-    HIRE
-    EMPLOYEE_WELCOME
-    EMAIL_TO_EMPLOYEE
-  }
-
-  enum LevelEducationEnum {
-    PRIMARY
-    SECONDARY
-    COLLEGE
-    TRADE_SCHOOL
-    BACHELOR
-    MASTER
-    PHD
-  }
-
-  enum GenderEnum {
-    MALE
-    FEMALE
-    UNKNOWN
-  }
-
-  enum MaritalStatusEnum {
-    MARRIED
-    SINGLE
-    SINGLE_PARENT
-    UNKNOWN
-  }
-
-  enum IdTypeEnum {
-    SIN
-    SSN
-    ID
-  }
-
-  enum PaymentMethodEnum {
-    DIRECT_DEPOSIT
-    PAY_CHEQUE
-    OTHER
-  }
-
-  enum EventCalendarStatusEnum {
-    PENDING
-    APPROVED
-    CANCELLED
-    RESCHEDULED
-    ON_HOLD
-  }
-
-  enum TrainingStatusEnum {
-    PENDING
-    IN_PROGRESS
-    COMPLETED
-  }
-
-  enum SplitMethodEnum {
-    PERCENTAGE
-    FIXED_AMOUNT
-    BALANCE
-  }
-
-  enum WFStateSystemTypeEnum {
-    START
-    IN_PROGRESS
-    CANCELLED
-    REJECTED
-    ON_HOLD
-    FOLLOW_UP
-    COMPLETED
-  }
-
-  enum WFTypeSystemTypeEnum {
-    ONBOARDING
-    OFFBOARDING
-    TIMESHEET
-    TIME_OFF
-    EXPENSE_REIMBURSEMENT
-    PERFORMANCE_REVIEW
-    PAY_RAISE
-    BENEFIT_PLAN_ENROLLMENT
-    POSITION_APPROVAL
-    SUCCESSION_PLAN
-  }
-
-  enum TaxFormulaEnum {
-    PERIODIC
-    NON_PERIODIC
-    EXEMPT
-    STATUS_INDIAN
-  }
-
-  enum TaxMethodEnum {
-    FIXED_RATE
-    ESTIMATED_RATE
-  }
-
-  enum FederalTaxFormEnum {
-    T4
-    T4A
-  }
-
-  enum UserRoleEnum {
-    USER
-    SYSTEM_ADMIN
-    THIRD_PARTY
-  }
-
-  enum ProfileRoleTypeEnum {
-    SYS_ADMIN
-    ORG_GROUP_ADMIN
-    ORG_ADMIN
-    SUPERVISOR
-    HR_MANAGER
-    PAY_MANAGER
-    EMPLOYEE
-    APPLICANT
-    CANDIDATE
-    PAYEE
-    CUSTOMER
-    EMPLOYEE_TEMPLATE
-    OTHER
-    POSITION_LEAD
-  }
-
-  enum ProfileRoleChangeEnum {
-    EMPLOYEE
-    APPLICANT
-    CANDIDATE
-  }
-
-  enum AccessLevelEnum {
-    CRUD
-    CRU
-    RU
-    R
-    H
-  }
-
-  enum ApprovalLevelEnum {
-    N
-    L1
-    L2
-    A
-  }
-
-  enum OnboardOffboardEnum {
-    On
-    Off
-    I
-    OnOff
-  }
-
-  enum OnboardEnum {
-    Y
-    N
-    I
-  }
-
-  enum DigitalIdTypeEnum {
-    FINGERPRINT
-    FACE_RECOGNITION
-    FINGER_GEOMETRY
-    IRIS
-    OTHER
-  }
-
-  enum TimeOffRequestStatusEnum {
-    DRAFT
-    PENDING1
-    PENDING2
-    APPROVED
-    REJECTED
-    CANCELLED
-    COMPLETED
-    POSTED
-  }
-
-  enum PayFrequencyEnum {
-    WEEKLY
-    BIWEEKLY
-    SEMI_MONTHLY
-    MONTHLY
-    FOUR_WEEKS
-  }
-
-  enum BenefitTypeEnum {
-    GROUP_INSURANCE
-    PENSION_RETIREMENT
-    FAMILY_ASSISTANCE
-    WELLNESS
-    TRAVEL_TRANSPORT
-    OTHER
-  }
-
-  enum BenefitStatusEnum {
-    SINGLE
-    FAMILY
-    SINGLE_PARENT
-    OTHER
-  }
-
-  enum BillingRateEnum {
-    FIXED_WORK
-    FIX_EARNED
-    COST_PLUS_FEE
-    COST_PLUS_PERCENTAGE
-    TIME_BANK
-  }
-
-  enum ProjectStatusEnum {
-    IN_PROGRESS
-    ON_HOLD
-    CANCELLED
-    COMPLETED
-  }
-
-  enum GLTypeEnum {
-    LIABILITY
-    EXPENSE
-    ASSET
-  }
-
-  enum ContactChannelTypeEnum {
-    FAX
-    WEBSITE
-    FACEBOOK
-    LINKEDIN
-    INSTAGRAM
-    TWITTER
-    OTHER
-  }
-
-  enum BillingCycleEnum {
-    WEEKLY
-    SEMI_MONTHLY
-    MONTHLY
-    QUARTERLY
-    ANNUALLY
-  }
-
-  enum BillingMethodEnum {
-    PRE_AUTHORIZED
-    DEBITS
-    INVOICE
-  }
-
-  enum TimeBlockTypeEnum {
-    WORK
-    BREAK
-    ACCESS
-  }
-
-  enum RequirePunchEnum {
-    IN_OUT
-    IN
-    OUT
-    AUTO
-    ANY
-    NONE
-  }
-
-  enum TimeSheetStatusEnum {
-    DRAFT
-    PENDING1
-    PENDING2
-    APPROVED
-    REJECTED1
-    REJECTED2
-    POSTED
-  }
-
-  enum AddressSelectTypeEnum {
-    ADDRESS
-    COORDINATES
-  }
-
-  enum DateSensitiveEnum {
-    Y
-    N
-    A
-  }
-
-  enum PaySlipDeliveryEnum {
-    PRINT
-    EMAIL
-    NONE
-  }
-
-  enum PaymentTerm {
-    UPON_RECEIPT
-    D10
-    D30
-    D45
-    D60
-  }
-
-  enum TrackingSegmentTypeEnum {
-    FREEFORM
-    GROUPTYPE
-    LOGICAL
-    INTEGER
-    NUMERIC
-    LIST
-    PROJECT
-    CUSTOMER
-    GL_ACCOUNT
-    PAY_GRADE
-  }
-
-  enum DisplayChoiceEnum {
-    CODE
-    NAME
-    NAME_CODE
-  }
-
-  enum EmailTypeEnum {
-    WORK
-    PERSONAL
-    USERNAME
-  }
-
-  enum PhoneTypeEnum {
-    WORK_PHONE
-    WORK_CELL
-    CELL
-    HOME
-    OTHER
-  }
-
-  enum EmailPhoneTypeEnum {
-    WORK
-    PERSONAL
-    USERNAME
-    OTHER
-    WORK_PHONE
-    WORK_CELL
-    CELL
-    HOME
-    RECOVERY
-  }
-
-  enum DocumentStatusEnum {
-    IN_PROGRESS
-    PUBLISHED
-    ARCHIVED
-  }
-
-  enum PayItemCategoryEnum {
-    EARNINGS
-    WITHHOLDINGS
-    EMPLOYER_CONTRIBUTIONS
-    REIMBURSEMENTS
-    ACCRUALS
-    BILLING_ITEMS
-    PAYING_ITEMS
-    MEMOS
-  }
-
-  enum PayItemEntryTypeEnum {
-    TIME
-    EXPENSE
-    OTHER_AMOUNT
-    PAYROLL
-  }
-
-  enum PayItemEntryMethodEnum {
-    MANUAL
-    START_A_NEW_PAY
-    PROCESS_PAY
-  }
-
-  enum PayItemTypeEnum {
-    HOURLY
-    PIECEWORK
-    OTHER
-    STATUTORY
-    PERPETUAL_ACCRUAL
-    ANNUAL_ACCRUAL_PAY_DATE
-    ANNUAL_ACCRUAL_PERIOD_END_DATE
-  }
-
-  enum OldPayItemTypeEnum {
-    WORK
-    ABSENCE
-    EXPENSE
-    PIECE_WORK
-    REGULAR_TIME
-    OVERTIME
-    BREAK
-    STATUTORY_HOLIDAY
-    VACATION
-    TIME_OFF
-    OTHER_TIME
-    OTHER
-    DOUBLE_TIME
-    TIME
-  }
-
-  enum PunchTypeEnum {
-    START
-    END
-  }
-
-  enum PunchStatusEnum {
-    PENDING
-    ON_HOLD
-    PROCESSED
-    MISSING_OUT
-    MISSING_IN
-    ATTENDANCE_CONFLICT
-    CANCELLED
-    UNKNOWN_EMPLOYEE
-  }
-
-  enum PunchExceptionEnum {
-    UNSCHEDULED_EVENT
-    EARLY_ARRIVAL
-    LATE_ARRIVAL
-    EARLY_DEPARTURE
-    LATE_DEPARTURE
-    NONE
-  }
-
-  enum AttendanceStyleEnum {
-    HOURLY
-    PRESENCE
-  }
-
-
-  enum RoundTypeEnum {
-    NEAREST
-    PREVIOUS
-    NEXT
-  }
-
-
-  enum DailyTimeOffDurationEnum {
-    FIX
-    SCHEDULE
-  }
-
-  enum HolidayDurationEnum {
-    FIX
-    SCHEDULE
-    SCRIPT
-    RATE
-  }
-
-  enum RSVPStatusEnum {
-    YES
-    NO
-    PENDING
-  }
-
-  enum temperatureUnitEnum {
-    C
-    F
-  }
-
-  enum ReviewStatusEnum {
-    DRAFT
-    INVITE
-    CONFIRMED
-    EVALUATED
-    SIGNED
-  }
-
-  enum WFLevelEnum {
-    NONE
-    LEVEL1
-    LEVEL2
-    ALL
-  }
-
-  enum WeekDayEnum {
-    MON
-    TUE
-    WED
-    THU
-    FRI
-    SAT
-    SUN
-  }
-
-  enum probationTypeEnum {
-    CALENDAR
-    DAYS
-    WEEKS
-    MONTHS
-  }
-
-  enum probationTypeEnum {
-    CALENDAR
-    DAYS
-    WEEKS
-    MONTHS
-  }
-
-  enum probationFromEnum {
-    PRIMARY_SENIORITY
-    SECONDARY_SENIORITY
-    UNION_INITIATION
-    OTHER
-  }
-
-  enum probationToEnum {
-    PAY_DATE
-    WORK_PERIOD_END
-    WORK_PERIOD_START
-    WORK_DATE
-  }
+enum CurrencyEnum {
+  USD
+  CAD
+  EUR
+  GBP
+  AUD
+  CNY
+  JPY
+  KRW
+  RUB
+  SGD
+  THB
+  VND
+}
+
+enum CountryEnum {
+  US
+  CA
+}
+
+enum EmployerContactTypeEnum {
+  HR
+  PAYROLL
+  TECHNICAL
+  SUPPORT
+  OTHER
+}
+
+enum EventFrequencyEnum {
+  YEARLY
+  MONTHLY
+  WEEKLY
+  DAILY
+}
+
+enum BusinessNumberAuthorityEnum {
+  FEDERAL
+  PROVINCIAL
+  LOCAL
+}
+
+enum BusinessAccountTypeEnum {
+  DEBIT
+  CREDIT
+}
+
+enum RemitFrequencyEnum {
+  QUARTERLY
+  MONTHLY
+  SEMI_MONTHLY
+  WEEKLY
+  NONE
+}
+
+enum ApprovalStatusEnum {
+  PENDING1
+  PENDING2
+  APPROVED
+  REJECTED
+}
+
+enum GroupSystemTypeEnum {
+  FULL_TIME
+  PART_TIME
+  CASUAL
+  CONTRACT
+  STUDENT
+  LOA
+  LTD
+  STD
+  TEMP_LAID_OFF
+  ONBOARD
+  TERMINATED
+  RETIREE
+  SALARY
+  HOURLY
+  OTHER
+  VOLUNTEER
+  NONE
+  MATERNITY
+  PARENTAL
+  PAID_LEAVE
+}
+
+enum EmpStatusEnum {
+  FULL_TIME
+  PART_TIME
+  CASUAL
+  CONTRACT
+  STUDENT
+  LOA
+  LTD
+  STD
+  TEMP_LAID_OFF
+  ONBOARD
+  TERMINATED
+  RETIREE
+  VOLUNTEER
+  PAID_LEAVE
+}
+
+enum EmpTypeEnum {
+  SALARY
+  HOURLY
+  OTHER
+}
+
+enum RecordTypeEnum {
+  EMPLOYEE
+  APPLICANT
+  CANDIDATE
+  EMPLOYEE_TEMPLATE
+  PAYEE
+  CUSTOMER
+}
+
+enum ReviewScoreTypeEnum {
+  PERCENTAGE
+  LIST
+}
+
+enum SystemGroupTypeEnum {
+  TEAM
+  DEPARTMENT
+  POLICY
+  WORKPLAN
+  PAYGROUP
+  LOCATION
+  UNION
+  EMP_TYPE
+  PAY_CALENDAR
+  HOLIDAY_CALENDAR
+  EMPLOYER
+  POSITION
+  EMP_STATUS
+  BENEFIT
+  SKILL
+  LICENSE
+  OTHER
+}
+
+enum AvailabilityStatusEnum {
+  AVAILABLE
+  OUT_OF_OFFICE
+  IN_A_MEETING
+  AWAY
+  BUSY
+  DO_NOT_DISTURB
+  BE_RIGHT_BACK
+  OFFLINE
+  WORKING_REMOTELY
+}
+
+enum EventSystemTypeEnum {
+  SAFETY
+  ACTION
+  HR_OTHER
+  OTHER
+}
+
+enum PayTypeEnum {
+  FEDERAL
+  PROVINCIAL
+  LOCAL
+  OTHER
+}
+
+enum DocumentTypeEnum {
+  EE_AVATAR
+  EE_PS
+  EE_R1
+  EE_T4
+  EE_T4A
+  EE_PICTURE
+  EE_PROFILE
+  EE_BADGE_PICTURE
+  EE_CHEQUE
+  EE_CV
+  EE_COVER_LETTER
+  EE_ASSET_ASSIGNMENT
+  EE_DIGITAL_ID
+  EE_TRAINING_ASSIGNMENT
+  EE_PERFORMANCE_REVIEW
+  EE_GROUP_ASSIGNMENT
+  EE_OTHER
+  EE_PRIVATE
+  EE_RECORDING
+  GROUP
+  REVIEW_TEMPLATE
+  ASSET
+  ASSET_IMAGE
+  PROJECT
+  TRAINING
+  EVENT
+  SAFETY
+  ACTION
+  HR_OTHER
+  RESCHEDULE
+  PUNCH
+  TIME_BLOCK
+  LOGO
+  SMALL_LOGO
+  FAVICON
+  BACKGROUND
+  BILLING_TERMS
+  ORG
+  EMPLOYER_LOGO
+  INVOICE
+}
+
+enum EmployeeDocumentTypeEnum {
+  EE_AVATAR
+  EE_PS
+  EE_R1
+  EE_T4
+  EE_T4A
+  EE_PICTURE
+  EE_PROFILE
+  EE_BADGE_PICTURE
+  EE_CHEQUE
+  EE_CV
+  EE_COVER_LETTER
+  EE_ASSET_ASSIGNMENT
+  EE_DIGITAL_ID
+  EE_TRAINING_ASSIGNMENT
+  EE_PERFORMANCE_REVIEW
+  EE_GROUP_ASSIGNMENT
+  EE_OTHER
+  EE_PRIVATE
+}
+
+enum DistributionMethod {
+  PRIVATE
+  PUBLIC
+  RESTRICTED
+}
+
+enum WFCheckListStatusEnum {
+  PENDING
+  COMPLETED
+  NA
+}
+
+enum WFTaskEnum {
+  ACTIVATE_PROFILE
+  DEACTIVATE_PROFILE
+  EMP_STATUS_FULL_TIME
+  EMP_STATUS_PART_TIME
+  EMP_STATUS_CASUAL
+  EMP_STATUS_CONTRACT
+  EMP_STATUS_STUDENT
+  EMP_STATUS_ONBOARD
+  EMP_STATUS_TERMINATED
+  EMP_APPLY_APPLICANT
+  EMP_APPLY_CANDIDATE
+  NOTIFY_EMP
+  NOTIFY_SUPERVISOR
+  NOTIFY_HR_MANAGER
+  NOTIFY_PAY_MANAGER
+  NOTIFY_BILL_MANAGER
+  NOTIFY_CONTACT1
+  NOTIFY_CONTACT2
+  REVIEW_DRAFT
+  REVIEW_INVITE
+  REVIEW_CONFIRMED
+  REVIEW_EVALUATED
+  REVIEW_SIGNED
+  RESET
+}
+
+enum NotificationTypeEnum {
+  NONE
+  EMAIL
+  SMS
+  PUSH
+  EVENT
+  LEAVE
+  TIME_SHEET
+  OVERDUE
+  MANUAL
+  DOCUMENT
+  SIGN
+  WORKFLOW
+}
+
+enum NotificationTemplateTypeEnum {
+  INVITATION
+  HIRE
+  EMPLOYEE_WELCOME
+  EMAIL_TO_EMPLOYEE
+}
+
+enum LevelEducationEnum {
+  PRIMARY
+  SECONDARY
+  COLLEGE
+  TRADE_SCHOOL
+  BACHELOR
+  MASTER
+  PHD
+}
+
+enum GenderEnum {
+  MALE
+  FEMALE
+  UNKNOWN
+}
+
+enum MaritalStatusEnum {
+  MARRIED
+  SINGLE
+  SINGLE_PARENT
+  UNKNOWN
+}
+
+enum IdTypeEnum {
+  SIN
+  SSN
+  ID
+}
+
+enum PaymentMethodEnum {
+  DIRECT_DEPOSIT
+  PAY_CHEQUE
+  OTHER
+}
+
+enum EventCalendarStatusEnum {
+  PENDING
+  APPROVED
+  CANCELLED
+  RESCHEDULED
+  ON_HOLD
+}
+
+enum TrainingStatusEnum {
+  PENDING
+  IN_PROGRESS
+  COMPLETED
+}
+
+enum SplitMethodEnum {
+  PERCENTAGE
+  FIXED_AMOUNT
+  BALANCE
+}
+
+enum WFStateSystemTypeEnum {
+  START
+  CANCELLED
+  REJECTED
+  ON_HOLD
+  COMPLETED
+  ANY
+}
+
+enum WFTypeSystemTypeEnum {
+  ONBOARDING
+  OFFBOARDING
+  TIMESHEET
+  LEAVE
+  EXPENSE_REIMBURSEMENT
+  PERFORMANCE_REVIEW
+  PAY_RAISE
+  BENEFIT_PLAN_ENROLLMENT
+  POSITION_APPROVAL
+  SUCCESSION_PLAN
+}
+
+enum TaxFormulaEnum {
+  PERIODIC
+  NON_PERIODIC
+  EXEMPT
+  STATUS_INDIAN
+}
+
+enum TaxMethodEnum {
+  FIXED_RATE
+  ESTIMATED_RATE
+}
+
+enum FederalTaxFormEnum {
+  T4
+  T4A
+}
+
+enum UserRoleEnum {
+  USER
+  SYSTEM_ADMIN
+  THIRD_PARTY
+}
+
+enum ProfileRoleTypeEnum {
+  SYS_ADMIN
+  ORG_GROUP_ADMIN
+  ORG_ADMIN
+  SUPERVISOR
+  HR_MANAGER
+  PAY_MANAGER
+  BILL_MANAGER
+  EMPLOYEE
+  APPLICANT
+  CANDIDATE
+  PAYEE
+  CUSTOMER
+  EMPLOYEE_TEMPLATE
+  OTHER
+  POSITION_LEAD
+}
+
+enum ProfileRoleChangeEnum {
+  EMPLOYEE
+  APPLICANT
+  CANDIDATE
+}
+
+enum AccessLevelEnum {
+  CRUD
+  CRU
+  RU
+  R
+  H
+}
+
+enum ApprovalLevelEnum {
+  N
+  L1
+  L2
+  A
+}
+
+enum OnboardOffboardEnum {
+  On
+  Off
+  I
+  OnOff
+}
+
+enum OnboardEnum {
+  Y
+  N
+  I
+}
+
+enum DigitalIdTypeEnum {
+  FINGERPRINT
+  FACE_RECOGNITION
+  FINGER_GEOMETRY
+  IRIS
+  OTHER
+}
+
+enum LeaveStatusEnum {
+  DRAFT
+  PENDING1
+  PENDING2
+  APPROVED
+  REJECTED
+  CANCELLED
+  COMPLETED
+  POSTED
+}
+
+enum PayFrequencyEnum {
+  WEEKLY
+  BIWEEKLY
+  SEMI_MONTHLY
+  MONTHLY
+  FOUR_WEEKS
+  QUARTERLY
+}
+
+enum AssignFiscalPeriodEnum {
+  PAY_DATE
+  PERIOD_ENDING_DATE
+}
+
+enum BenefitTypeEnum {
+  GROUP_INSURANCE
+  PENSION_RETIREMENT
+  FAMILY_ASSISTANCE
+  WELLNESS
+  TRAVEL_TRANSPORT
+  OTHER
+}
+
+enum BenefitStatusEnum {
+  SINGLE
+  FAMILY
+  SINGLE_PARENT
+  OTHER
+}
+
+enum BillingRateEnum {
+  FIXED_WORK
+  FIX_EARNED
+  COST_PLUS_FEE
+  COST_PLUS_PERCENTAGE
+  TIME_BANK
+}
+
+enum ProjectStatusEnum {
+  IN_PROGRESS
+  ON_HOLD
+  CANCELLED
+  COMPLETED
+}
+
+enum GLTypeEnum {
+  LIABILITY
+  EXPENSE
+  ASSET
+}
+
+enum ContactChannelTypeEnum {
+  FAX
+  WEBSITE
+  FACEBOOK
+  LINKEDIN
+  INSTAGRAM
+  TWITTER
+  OTHER
+}
+
+enum BillingCycleEnum {
+  WEEKLY
+  SEMI_MONTHLY
+  MONTHLY
+  QUARTERLY
+  ANNUALLY
+}
+
+enum BillingMethodEnum {
+  CREDIT_CARD
+  PAYPAL
+  EFT
+  PAD
+  ACH
+  INVOICE
+}
+
+enum TimeBlockTypeEnum {
+  WORK
+  BREAK
+  ACCESS
+}
+
+enum RequirePunchEnum {
+  IN_OUT
+  IN
+  OUT
+  AUTO
+  ANY
+  NONE
+}
+
+enum TimeSheetStatusEnum {
+  DRAFT
+  PENDING1
+  PENDING2
+  APPROVED
+  REJECTED1
+  REJECTED2
+  POSTED
+}
+
+enum AddressSelectTypeEnum {
+  ADDRESS
+  COORDINATES
+}
+
+enum DateSensitiveEnum {
+  Y
+  N
+  A
+}
+
+enum PaySlipDeliveryEnum {
+  PRINT
+  EMAIL
+  NONE
+}
+
+enum PaymentTerm {
+  UPON_RECEIPT
+  D10
+  D30
+  D45
+  D60
+}
+
+enum TrackingSegmentTypeEnum {
+  FREEFORM
+  GROUPTYPE
+  LOGICAL
+  INTEGER
+  NUMERIC
+  LIST
+  PROJECT
+  CUSTOMER
+  GL_ACCOUNT
+  PAY_GRADE
+}
+
+enum DisplayChoiceEnum {
+  CODE
+  NAME
+  NAME_CODE
+}
+
+enum EmailTypeEnum {
+  WORK
+  PERSONAL
+  USERNAME
+}
+
+enum PhoneTypeEnum {
+  WORK_PHONE
+  WORK_CELL
+  CELL
+  HOME
+  OTHER
+}
+
+enum EmailPhoneTypeEnum {
+  WORK
+  PERSONAL
+  USERNAME
+  OTHER
+  WORK_PHONE
+  WORK_CELL
+  CELL
+  HOME
+  RECOVERY
+}
+
+enum DocumentStatusEnum {
+  IN_PROGRESS
+  PUBLISHED
+  ARCHIVED
+}
+
+enum PayItemCategoryEnum {
+  EARNINGS
+  WITHHOLDINGS
+  EMPLOYER_CONTRIBUTIONS
+  REIMBURSEMENTS
+  ACCRUALS
+  BILLING_ITEMS
+  PAYING_ITEMS
+  MEMOS
+}
+
+enum PayItemEntryTypeEnum {
+  TIME
+  EXPENSE
+  OTHER_AMOUNT
+  PAYROLL
+}
+
+enum PayItemEntryMethodEnum {
+  MANUAL
+  START_A_NEW_PAY
+  PROCESS_PAY
+}
+
+enum PayItemTypeEnum {
+  HOURLY
+  PIECEWORK
+  OTHER
+  STATUTORY
+  PERPETUAL_ACCRUAL
+  ANNUAL_ACCRUAL_PAY_DATE
+  ANNUAL_ACCRUAL_PERIOD_END_DATE
+}
+
+enum OldPayItemTypeEnum {
+  WORK
+  ABSENCE
+  EXPENSE
+  PIECE_WORK
+  REGULAR_TIME
+  OVERTIME
+  BREAK
+  STATUTORY_HOLIDAY
+  VACATION
+  LEAVE
+  OTHER_TIME
+  OTHER
+  DOUBLE_TIME
+  TIME
+}
+
+enum PunchTypeEnum {
+  START
+  END
+}
+
+enum PunchStatusEnum {
+  PENDING
+  ON_HOLD
+  PROCESSED
+  MISSING_OUT
+  MISSING_IN
+  ATTENDANCE_CONFLICT
+  CANCELLED
+  UNKNOWN_EMPLOYEE
+}
+
+enum PunchExceptionEnum {
+  UNSCHEDULED_EVENT
+  EARLY_ARRIVAL
+  LATE_ARRIVAL
+  EARLY_DEPARTURE
+  LATE_DEPARTURE
+  NONE
+}
+
+enum AttendanceStyleEnum {
+  HOURLY
+  PRESENCE
+}
+
+#enum EnabledPayItemsEnum {
+#  WORK
+#  ABSENCE
+#  BOTH
+#}
+
+enum RoundTypeEnum {
+  NEAREST
+  PREVIOUS
+  NEXT
+}
+
+#enum RoundingIntervalEnum {
+#  _1, _3, _5, _6, _10, _15
+#}
+
+enum DailyLeaveDurationEnum {
+  FIX
+  SCHEDULE
+}
+
+enum HolidayDurationEnum {
+  FIX
+  SCHEDULE
+  SCRIPT
+  RATE
+}
+
+enum RSVPStatusEnum {
+  YES
+  NO
+  PENDING
+}
+
+enum temperatureUnitEnum {
+  C
+  F
+}
+
+enum ReviewStatusEnum {
+  DRAFT
+  INVITE
+  CONFIRMED
+  EVALUATED
+  SIGNED
+}
+
+enum WFLevelEnum {
+  NONE
+  LEVEL1
+  LEVEL2
+  ALL
+}
+
+enum WeekDayEnum {
+  MON
+  TUE
+  WED
+  THU
+  FRI
+  SAT
+  SUN
+}
+
+enum ProbationTypeEnum {
+  CALENDAR
+  DAYS
+  WEEKS
+  MONTHS
+}
+
+enum SeniorityFromEnum {
+  PRIMARY_SENIORITY
+  SECONDARY_SENIORITY
+  UNION_INITIATION
+  BIRTHDAY
+  POSITION_START
+  MISC
+  OTHER
+}
+enum SeniorityToEnum {
+  PAY_DATE
+  WORK_PERIOD_END
+  WORK_PERIOD_START
+  WORK_DATE
+  NEXT_REFERENCE_YEAR_END
+  LAST_REFERENCE_YEAR_END
+}
+
+enum AgeEvaluationEnum {
+  BIRTHDAY
+  MONTH_BIRTHDAY
+  YEAR_BIRTHDAY
+}
+
+enum PayItemEntryConditionEnum {
+  ALWAYS
+  FIRST_PAY_PERIOD_OF_THE_MONTH
+  FIRST_WORK_PERIOD_END_OF_THE_MONTH
+  FIRST_WORK_PERIOD_START_OF_THE_MONTH
+  SECOND_PAY_PERIOD_OF_THE_MONTH
+  SECOND_WORK_PERIOD_END_OF_THE_MONTH
+  SECOND_WORK_PERIOD_START_OF_THE_MONTH
+  LAST_PAY_PERIOD_OF_THE_MONTH
+  LAST_WORK_PERIOD_END_OF_THE_MONTH
+  LAST_WORK_PERIOD_START_OF_THE_MONTH
+  FIRST_PAY_PERIOD_OF_THE_PAYROLL_YEAR
+  FIRST_WORK_PERIOD_END_OF_THE_PAYROLL_YEAR
+  FIRST_WORK_PERIOD_START_OF_THE_PAYROLL_YEAR
+  FIRST_PAY_PERIOD_OF_THE_REFERENCE_YEAR
+  FIRST_WORK_PERIOD_END_OF_THE_REFERENCE_YEAR
+  FIRST_WORK_PERIOD_START_OF_THE_REFERENCE_YEAR
+  FOLLOWING_PAY_DATES
+}
+
+enum PayItemEntryRestrictionEnum {
+  NONE
+  ONCE_PER_PAY_PERIOD
+  ONCE_A_MONTH
+  ONCE_A_PAYROLL_YEAR
+  ONCE_A_REFERENCE_YEAR
+  ONCE
+  ONCE_ON_HOLIDAYS
+  ONLY_PAY_ITEMS
+  NEVER_PAY_ITEMS
+}
+
+enum PayItemQuantitySourceEnum {
+  FIXED
+  MANUAL
+  EMPLOYEE_STANDARD_HOURS_PER_PAY
+  EMPLOYEE_STANDARD_HOURS_PER_DAY
+  EMPLOYEE_STANDARD_HOURS_PER_WEEK
+  HOURS_WORKED
+  HOURS_EARNED
+  SUM_ALL_PAY_ITEM_GROUP_QUANTITY
+  SUM_ALL_PAY_ITEM_GROUP_EARNED_QUANTITY
+  SUM_ALL_PAY_ITEM_GROUP_AMOUNT
+  COPY_ANOTHER_PAY_ITEM_QUANTITY
+  COPY_ANOTHER_PAY_ITEM_EARNED_QUANTITY
+  COPY_ANOTHER_PAY_ITEM_AMOUNT
+  RATE_TABLE
+  SYSTEM_RATE_TABLE
+  STANDARD_ANNUAL_EARNINGS
+  ESTIMATED_ANNUAL_EARNINGS
+  STANDARD_EARNINGS_PER_PAY
+  SUM_TRACKING_SEGMENT_QUANTITY
+  SUM_TRACKING_SEGMENT_EARNED_QUANTITY
+  SUM_TRACKING_SEGMENT_AMOUNT
+  NET_PAY
+  NUMBER_OF_WORK_DAYS
+  CUSTOM_QUANTITY
+  PAYEE_TOTAL_NUMBER_OF_EMPLOYEES
+  PAYEE_TOTAL_NUMBER_OF_ACTIVE_EMPLOYEES
+  PAYEE_NUMBER_OF_PAY_RECORDS
+  PAYEE_NUMBER_OF_CHEQUES
+  PAYEE_NUMBER_OF_DEPOSITS
+  PAYEE_NUMBER_OF_ROES
+  PAYEE_NUMBER_OF_HIRES
+  PAYEE_NUMBER_OF_TAX_FORMS
+  PAYEE_NUMBER_OF_TRANSACTIONS_FOR_A_PAY_ITEM
+  PAYEE_NUMBER_OF_TRANSACTIONS_FOR_A_PAY_ITEM_GROUP
+  PAYEE_TOTAL_NET_DEPOSITS
+  PAYEE_TOTAL_CHEQUES
+}
+
+enum PayItemQuantityScopeEnum {
+  CURRENT_PAY
+  CURRENT_PAY_MONTH
+  CURRENT_PAY_YEAR
+  CURRENT_WORK_MONTH
+  CURRENT_WORK_YEAR
+  PRIOR_DAYS
+  PRIOR_WEEKS
+  PRIOR_PAYS
+  PRIOR_COMPLETE_WEEKS
+  PRIOR_YEAR
+  PAYEE_CURRENT_PAY_ALL_EMPLOYEES
+  PAYEE_CURRENT_PAY_ALL_EMPLOYEES_NOT_BILLED
+  PAYEE_CURRENT_PAY_MONTH_ALL_EMPLOYEES
+  PAYEE_CURRENT_PAY_YEAR_ALL_EMPLOYEES
+  PAYEE_PRIOR_YEAR_ALL_EMPLOYEES
+}
+
+enum PayItemRuleTableEnum {
+  FIXED_AMOUNT
+  RATE_TABLE
+  SYSTEM_RATE_TABLE
+}
+
+enum PayrollTypeEnum {
+  REGULAR_PAY
+  VACATION_PAY
+  BONUS_PAY
+  RETROACTIVE_PAY
+  COMMISSION_PAY
+  WSIB_PAY
+  SPECIAL_PAY
+  ADJUSTMENT_PAY
+  PARALLEL_PAY
+  OPENING_BALANCE
+  EXPENSE_REIMBURSEMENT
+}
+
+enum PayItemCeilingRuleEnum {
+  NONE
+  FIXED_QUANTITY
+  RATE_TABLE
+  YEAR_TO_DATE_BALANCE
+  YEAR_TO_DATE_BALANCE_MULTIPLIER
+}
+
+enum PayItemRoundingRuleEnum {
+  DECIMALS0
+  DECIMALS1
+  DECIMALS2
+  DECIMALS3
+  DECIMALS4
+  DECIMALS5
+  Up1
+  Up10
+  Up100
+  Up500
+  Up1000
+  Down1
+  Down10
+  Down100
+  Down500
+  Down1000
+}
+
+enum PayItemQuantityModifierRuleEnum {
+  AS_IS
+  ADD
+  MULTIPLY_BY
+  MULTIPLY_BY_RATE_TABLE
+  MULTIPLY_BY_PAY_PERIODS
+  DIVIDE_BY
+  DIVIDE_BY_PAY_PERIODS
+  CUSTOM
+}
+
+enum RateSourceEnum {
+  FIXED
+  MANUAL
+  EMPLOYEE_HOURLY_RATE
+  EMPLOYEE_HOURLY_RATE_OR_SALARY_EQUIVALENT
+  EMPLOYEE_SALARY_RATE
+  RATE_TABLE
+  SYSTEM_RATE_TABLE
+  COPY_RATE_FROM_ANOTHER_PAY_ITEM
+  COPY_RATE_FROM_ANOTHER_EMPLOYEE_PAY_ITEM
+  EMPLOYEE_SECONDARY_PAY_RATE
+  CUSTOM_RATE
+  RATE_CUSTOM_SCRIPT
+}
+
+enum PayItemAmountRuleEnum {
+  QUANTITY_X_RATE
+  ONE_X_RATE
+  QUANTITY_DIVIDE_RATE
+  CUSTOM
+}
+
+enum PayItemCarryOverEnum {
+  BALANCE
+  FIXED
+  NO_CARRY_OVER_KEEP_ACTIVE
+  NO_CARRY_OVER_INACTIVATE
+  MULTIPLY_BALANCE
+  ADD_TO_BALANCE
+}
+
+enum ColumnRateTypeEnum {
+  TRACKING_SEGMENT
+  GROUP_TYPE
+  CUSTOMER
+  COUNTRY_RESIDENCE
+  COUNTRY_TAXATION
+  PROVINCE_RESIDENCE
+  PROVINCE_TAXATION
+  EFFECTIVE_PAY_DATE
+  EFFECTIVE_WORK_DATE
+  BUSINESS_NUMBER
+  EMPLOYEE_CODE
+  THRESHOLDS
+  PAY_GRADE
+  BENEFIT_STATUS
+  BENEFIT_DEPENDENTS
+  BENEFIT_OPO_DENTAL
+  BENEFIT_OPO_MEDICAL
+  BENEFIT_OPO_ADD
+  BENEFIT_OPO_CRITICAL
+  BENEFIT_SMOKER
+  BENEFIT_EVIDENCE
+  UNION_STATUS
+  UNION_TRADE_CODE
+  UNION_SECTOR
+  UNION_CATEGORY
+  UNION_REGION
+  UNION_WAGE_SCHEDULE
+}
+
+enum SystemRateTableEnum {
+  CA_BASIC_CLAIM
+  CA_EI_MAX_EARN
+  CA_EI_MAX_PREM
+  CA_EI__RATE
+  CA_CPP_MAX_EARN
+  CA_CPP_MAX_PREM
+  CA_CPP__RATE
+  CA_CPP_EXEMPT
+  CA_QPP_MAX_EARN
+  CA_QPP_MAX_PREM
+  CA_QPP__RATE
+  CA_QPP_EXEMPT
+  CA_PIP_MAX_EARN
+  CA_PIP_MAX_PREM
+  CA_PIP_RATE
+  CA_PIP_ER
+  CA_WCB_MAX_ASSES
+  CA_CNT_MAX_EARN
+  CA_FED_INDEX_FACTOR
+  CA_PROV_
+  INDEX_FACTOR
+  CA_FED_THRESHOLDS
+  CA_PROV_THRESHOLDS
+  CA_FED_LCP_RATE
+  CA_PROV_LCP_RATE
+  CA_FED_LCP_AMT
+  CA_PROV_LCP_AMT
+  CA_PROV_V1_RATES
+  CA_PROV_S_RATE
+  CA_FED_CEA_RATE
+  CA_PROV_CEA_RATE
+}
+
+enum RateTableUnitTypeEnum {
+  YEAR
+  MONTH
+  DAY
+  WORK_DAY
+  HOUR
+}
+
+enum OrganizationStatusTypeEnum {
+  ACTIVE
+  INACTIVE
+  DEMO
+  DELETED
+}
+
+enum SystemVersionEnum {
+  DEMO
+  RESTRICTED
+  CORPORATE
+  ENTERPRISE
+}
+
+enum SystemModuleEnum {
+  CORE
+  TIME_ENTRY
+  REAL_TIME
+  HR
+  PAYROLL_PREPARATION
+  PAYROLL_PROCESSING
+}
+
+enum ShowEmployeeDirectoryPictureEnum {
+  ALWAYS_PICTURE
+  PICTURE_AVATAR
+  AVATAR
+  NONE
+}
+
+enum MaxDocumentSizeEnum {
+  M10
+  M20
+  M50
+  M100
+}
+
+enum MaxDocumentStorageCapacityEnum {
+  G1
+  G5
+  G10
+  G30
+  G50
+  G100
+  G500
+  G1000
+}
+
+enum NoteTypeEnum {
+  TECHNICAL
+  PAY
+  HR
+  BILLING
+  CUSTOMER_SUPPORT
+  OTHER
+}
+
+enum ExtendedAccessEnum {
+  NONE
+  MONTHS3
+  MONTHS6
+  MONTHS12
+}
+
+enum PasswordPolicyEnum {
+  NONE
+  LOW
+  MEDIUM
+  HIGH
+}
+
+enum DisplayServiceProviderEnum {
+  NONE
+  NAME
+  NAME_AND_TAGLINE
+}

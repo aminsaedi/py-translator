@@ -59,7 +59,6 @@ def translate_enum_block(enums_list, target_lang):
             if value not in translated_enums:
                 translated_enums[value] = translation
 
-    print(translated_enums)
     return translated_enums
 
 
@@ -91,8 +90,6 @@ def read_from_file(file_name):
 
 
 enums_list = read_raw_file()
-
-print(enums_list[0])
 
 print("Enter the target language code (e.g. 'fr' for French):")
 target_lang = input()

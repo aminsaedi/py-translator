@@ -2,9 +2,11 @@ import pandas as pd
 import collections
 import requests
 import json
+import os
 
 BASE_URL = 'https://webapp-backend-dev.herokuapp.com'
 # BASE_URL = 'http://webapp/api'
+BASE_URL = os.environ.get('BASE_URL', BASE_URL)
 
 
 def get_access_token():
@@ -13,7 +15,7 @@ def get_access_token():
 
     # authenticate headers
     headers = {
-        'Authorization': 'Basic d2ViX2FwcDpzMnA2bzZ4OWZk',
+        'Authorization': f'Basic {os.environ.get("AUTHORIZATION")}',
         'Origin': 'https://webapp.orangedigitalcloud.com',
         'Referer': 'https://webapp.orangedigitalcloud.com/'
     }
@@ -21,8 +23,8 @@ def get_access_token():
     # authenticate data
     data = {
         'grant_type': 'password',
-        'username': 'ahudson@abcfilm.com',
-        'password': 'abcdef',
+        'username': os.environ.get('USERNAME'),
+        'password': os.environ.get('PASSWORD'),
         'auth': 'basic'
     }
 

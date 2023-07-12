@@ -4,6 +4,8 @@ import re
 import os
 from pprint import pprint
 
+from excel_extractor import get_enums_flat_list
+
 
 def get_source_lang(full_lang_code):
     """
@@ -28,7 +30,7 @@ def normalizer(text):
     return output_str
 
 
-def translate_enum_block(enums_list, target_lang):
+def translate_enum_block(target_lang):
     # Create a dictionary to store the translated enums
     translated_enums = {}
 
@@ -39,38 +41,22 @@ def translate_enum_block(enums_list, target_lang):
     except FileNotFoundError:
         pass
 
-    # Loop through each enum block and translate the values
-    for enum_block in enums_list:
-        # Extract the enum name and values
-        enum_lines = enum_block.strip().split('\n')
-        raw_enum_values = [line.strip()
-                           for line in enum_lines[1:-1] if line.strip()]
+    enums_list = get_enums_flat_list()
 
-        enum_values = [line.strip().replace('_', ' ')
-                       for line in enum_lines[1:-1] if line.strip()]
+    without_underscores = [re.sub(r'_', ' ', enum) for enum in enums_list]
 
-        if target_lang != 'en-US':
-            translations = GoogleTranslator(
-                source="en", target=get_source_lang(target_lang)).translate_batch(enum_values)
-        else:
-            # use normalizer to capitalize the first letter of each word
-            translations = [normalizer(value) for value in enum_values]
+    if target_lang != 'en-US':
+        translations = GoogleTranslator(
+            source="en", target=get_source_lang(target_lang)).translate_batch(without_underscores)
+    else:
+        # use normalizer to capitalize the first letter of each word
+        translations = [normalizer(value) for value in without_underscores]
 
-        for value, translation in zip(raw_enum_values, translations):
-            if value not in translated_enums:
-                translated_enums[value] = translation
+    for value, translation in zip(enums_list, translations):
+        if value not in translated_enums:
+            translated_enums[value] = translation
 
     return translated_enums
-
-
-def read_raw_file():
-    with open('./input_files/enums.txt', 'r') as file:
-        enums_str = file.read()
-
-        # Split the input file into separate enum blocks
-        enums_list = re.findall(r'enum\s+\w+\s*{.*?}', enums_str, re.DOTALL)
-
-        return enums_list
 
 
 def read_from_file(file_name):
@@ -90,14 +76,10 @@ def read_from_file(file_name):
     return old_data
 
 
-enums_list = read_raw_file()
-
-pprint(enums_list)
-
 print("Enter the target language code (e.g. 'fr-CA' for French):")
 target_lang = input()
 
-result = translate_enum_block(enums_list, target_lang)
+result = translate_enum_block(target_lang)
 old_data = read_from_file(target_lang)
 
 

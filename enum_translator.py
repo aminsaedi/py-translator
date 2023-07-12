@@ -2,6 +2,7 @@ import json
 from deep_translator import GoogleTranslator
 import re
 import os
+from pprint import pprint
 
 
 def get_source_lang(full_lang_code):
@@ -91,21 +92,17 @@ def read_from_file(file_name):
 
 enums_list = read_raw_file()
 
-print("Enter the target language code (e.g. 'fr' for French):")
+pprint(enums_list)
+
+print("Enter the target language code (e.g. 'fr-CA' for French):")
 target_lang = input()
 
 result = translate_enum_block(enums_list, target_lang)
-
-
 old_data = read_from_file(target_lang)
-
-with open('./input_files/legacy_messages.json') as f:
-    legacy_messages = json.load(f)
-legacy_messages = legacy_messages['fullEnums']
 
 
 # merge the old and new data
-result = {**old_data, **legacy_messages, **result}
+result = {**old_data,  **result}
 
 if not os.path.exists('./dist/enums'):
     os.makedirs('./dist/enums')

@@ -12,5 +12,5 @@ MarkupSafe==2.1.2
 pycodestyle==2.10.0
 requests==2.32.0
 soupsieve==2.4
-urllib3==1.26.18
+urllib3==1.26.19
 Werkzeug==3.0.3
